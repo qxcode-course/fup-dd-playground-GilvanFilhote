@@ -14,3 +14,18 @@
 2026-03-16 04:24:33, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:8
 2026-03-16 04:24:48, EXEC, v:1, k:fup@media, mode:FULL, rate:0
 2026-03-16 04:25:06, EXEC, v:1, k:fup@media, mode:FULL, rate:100, size:8
+2026-03-16 04:26:35, MOVE, v:1, k:fup@media, mode:BACK
+2026-03-16 04:34:11, SELF, v:1, k:fup@tres, self:1, rate:100, study:5, friend:Hanna, problem:1, debug:1
+2026-03-16 04:34:19, MOVE, v:1, k:fup@sobrou, mode:DOWN
+2026-03-16 04:34:23, MOVE, v:1, k:fup@sobrou, mode:PICK
+2026-03-16 04:34:35, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:5
+2026-03-16 04:34:57, MOVE, v:1, k:fup@sobrou, mode:BACK
+2026-03-16 04:35:02, MOVE, v:1, k:fup@sobrou, mode:PICK
+2026-03-16 05:12:50, EXEC, v:1, k:fup@sobrou, mode:FULL, size:15, fail:COMP
+2026-03-16 05:16:11, EXEC, v:1, k:fup@sobrou, mode:FULL, size:15, fail:COMP
+2026-03-16 05:17:11, EXEC, v:1, k:fup@sobrou, mode:FULL, size:15, fail:COMP
+2026-03-16 05:17:14, EXEC, v:1, k:fup@sobrou, mode:FULL, fail:COMP
+2026-03-16 05:17:37, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:15
+2026-03-16 05:18:28, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:15
+2026-03-16 05:18:41, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:15
+2026-03-16 05:18:51, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:100, size:15

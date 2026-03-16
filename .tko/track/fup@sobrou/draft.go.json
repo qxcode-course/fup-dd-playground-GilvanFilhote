@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-16_04-34-35",
+            "content": "@@ -41,299 +41,28 @@\n     \n-var a, b, c int%0A    fmt.Scanf(&a, &b, &c)%0A    var v1, v2, v3 float32%0A    fmt.Scanf(&v1, &v2, &v3)%0A    var quantidade float32%0A    fmt.Scanf(&quantidade)%0A    var dinheiro float32%0A    dinheiro = (a*v1)+(b*v2)+(c*v3)%0A    var troco float32%0A    troco=quantidade-dinheiro%0A    smt.Printf(%22%25f%22, troco\n+fmt.Println(%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-16_05-12-50",
+            "content": "@@ -49,23 +49,19 @@\n a, b, c \n-float32\n+int\n %0A    fmt\n@@ -286,17 +286,8 @@\n oco=\n-dinheiro-\n quan\n@@ -292,16 +292,25 @@\n antidade\n+-dinheiro\n %0A    smt\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_05-16-11",
+            "content": "@@ -310,17 +310,17 @@\n ade%0A    \n-f\n+s\n mt.Print\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_05-17-11",
+            "content": "@@ -69,16 +69,17 @@\n fmt.Scan\n+f\n (&a, &b,\n@@ -122,16 +122,17 @@\n fmt.Scan\n+f\n (&v1, &v\n@@ -178,16 +178,17 @@\n fmt.Scan\n+f\n (&quanti\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_05-17-37",
+            "content": "@@ -283,16 +283,25 @@\n   troco=\n+dinheiro-\n quantida\n@@ -306,17 +306,8 @@\n dade\n--dinheiro\n %0A   \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_05-18-28",
+            "content": "@@ -324,10 +324,8 @@\n f(%22%25\n-.2\n f%22, \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_05-18-41",
+            "content": "@@ -327,10 +327,8 @@\n %25.2f\n-%5Cn\n %22, t\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_05-18-51",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, c float32\n    fmt.Scan(&a, &b, &c)\n    var v1, v2, v3 float32\n    fmt.Scan(&v1, &v2, &v3)\n    var quantidade float32\n    fmt.Scan(&quantidade)\n    var dinheiro float32\n    dinheiro = (a*v1)+(b*v2)+(c*v3)\n    var troco float32\n    troco=quantidade-dinheiro\n    fmt.Printf(\"%.2f\\n\", troco)\n}\n",
+            "lines": "15"
+        }
+    ]
+}
