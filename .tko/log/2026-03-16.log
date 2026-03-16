@@ -8,3 +8,4 @@
 2026-03-16 04:07:00, EXEC, v:1, k:fup@resto, mode:FULL, rate:0, size:10
 2026-03-16 04:09:58, EXEC, v:1, k:fup@resto, mode:FULL, rate:0, size:10
 2026-03-16 04:10:20, EXEC, v:1, k:fup@resto, mode:FULL, rate:100, size:10
+2026-03-16 04:15:02, MOVE, v:1, k:fup@resto, mode:BACK
