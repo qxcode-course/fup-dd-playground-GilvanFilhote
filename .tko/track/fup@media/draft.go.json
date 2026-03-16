@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-16_04-24-33",
+            "content": "@@ -114,10 +114,8 @@\n %25.1f\n-%5Cn\n %22, c\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-16_04-25-06",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n   var a, b float32 \n   fmt.Scan(&a, &b)\n    c:= (a+b)/2\n    fmt.Printf(\"%.1f\\n\", c)\n}\n",
+            "lines": "8"
+        }
+    ]
+}
