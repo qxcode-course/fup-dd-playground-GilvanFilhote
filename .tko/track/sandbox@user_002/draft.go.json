@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_17-13-19",
+            "content": "@@ -54,53 +54,15 @@\n ln(%22\n-Babadooooooooo%22)%0A    fmt.Println(%22Forte%22)%0A    \n+qxcode%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-16-31",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,9 +37,12 @@\n ) %7B%0A\n-%09\n+    \n fmt.\n@@ -54,11 +54,53 @@\n ln(%22\n-oi%22)\n+Babadooooooooo%22)%0A    fmt.Println(%22Forte%22)%0A    \n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-40-48",
+            "content": "@@ -40,23 +40,24 @@\n  %7B%0A%09\n-var num1, num2, \n+fmt.Println(%22oi%22)\n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-43-14",
+            "content": "@@ -57,72 +57,6 @@\n 2, %0A\n-    fmt.Scan(&num1)%0A    fmt.Scan(&num2)%0A    fmt.Print(num1, num2)%0A\n %7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-45-32",
+            "content": "@@ -56,15 +56,8 @@\n m2, \n-float64\n %0A   \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-46-17",
+            "content": "@@ -50,16 +50,17 @@\n m1, num2\n+,\n  float64\n@@ -117,25 +117,9 @@\n rint\n-ln(%22ola, mundo%22, \n+(\n num1\n@@ -128,9 +128,8 @@\n num2)%0A%7D%0A\n-%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-55-30",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar num1, num2 float64\n    fmt.Scan(&num1)\n    fmt.Scan(&num2)\n    fmt.Println(\"ola, mundo\", num1, num2)\n}\n\n",
+            "lines": "11"
+        }
+    ]
+}

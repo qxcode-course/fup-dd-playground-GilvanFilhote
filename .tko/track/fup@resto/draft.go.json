@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-16_04-07-00",
+            "content": "@@ -153,19 +153,31 @@\n rint\n-f\n (%22%25\n-d %25d\n+quociente %25resto\n %22, \n+&\n quoc\n@@ -179,21 +179,22 @@\n &quociente, \n+&\n resto)%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-16_04-09-58",
+            "content": "@@ -161,10 +161,8 @@\n d %25d\n-%5Cn\n %22, q\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-16_04-10-20",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, d int\n    fmt.Scan(&n, &d)\n    var quociente, resto int\n    quociente = n/d\n    resto = n%d\n    fmt.Printf(\"%d %d\\n\", quociente, resto)\n}\n",
+            "lines": "10"
+        }
+    ]
+}

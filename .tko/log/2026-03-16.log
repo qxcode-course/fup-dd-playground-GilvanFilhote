@@ -1,0 +1,10 @@
+2026-03-16 03:36:53, MOVE, v:1, k:fup@tres, mode:PICK
+2026-03-16 03:37:06, EXEC, v:1, k:fup@tres, mode:FULL, rate:100
+2026-03-16 03:37:06, EXEC, v:1, k:fup@tres, mode:FULL, rate:100
+2026-03-16 03:37:22, EXEC, v:1, k:fup@tres, mode:FULL, rate:100
+2026-03-16 03:37:23, MOVE, v:1, k:fup@tres, mode:BACK
+2026-03-16 03:37:28, MOVE, v:1, k:fup@resto, mode:DOWN
+2026-03-16 03:37:30, MOVE, v:1, k:fup@resto, mode:PICK
+2026-03-16 04:07:00, EXEC, v:1, k:fup@resto, mode:FULL, rate:0, size:10
+2026-03-16 04:09:58, EXEC, v:1, k:fup@resto, mode:FULL, rate:0, size:10
+2026-03-16 04:10:20, EXEC, v:1, k:fup@resto, mode:FULL, rate:100, size:10
