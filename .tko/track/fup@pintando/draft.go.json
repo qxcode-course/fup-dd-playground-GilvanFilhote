@@ -1,0 +1,79 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-17_19-23-50",
+            "content": "@@ -23,15 +23,8 @@\n mt%22%0A\n-%22math%22%0A\n func\n@@ -41,151 +41,28 @@\n     \n-var at, bt, ct, a, p float64%0Afmt.Scam(&at, &bt, &ct, &a, &p )%0Ap = (at + bt + ct) / 2%0Aa = p*(p-at)(p-bt)(p-ct)%0Amath.sqrt(a)%0Afmt.Printf(%25.6f%5Cn, a\n+fmt.Println(%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-17_19-35-58",
+            "content": "@@ -80,17 +80,17 @@\n %0Afmt.Sca\n-n\n+m\n (&at, &b\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-17_19-36-08",
+            "content": "@@ -103,16 +103,17 @@\n , &a, &p\n+ \n )%0Ap = (a\n@@ -182,16 +182,14 @@\n ntf(\n-%22\n %25.6f%5Cn\n-%22\n , a)\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-17_19-36-39",
+            "content": "@@ -158,17 +158,17 @@\n t)%0Amath.\n-S\n+s\n qrt(a)%0Af\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-17_19-37-04",
+            "content": "@@ -64,27 +64,16 @@\n ct, a, p\n-, resultado\n  float64\n@@ -157,20 +157,8 @@\n ct)%0A\n-resultado = \n math\n@@ -191,18 +191,9 @@\n n%22, \n-resultado)%0A\n+a)\n %0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-17_19-38-01",
+            "content": "@@ -18,17 +18,17 @@\n rt %22fmt%22\n- \n+%0A\n %22math%22%0Af\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-17_19-38-18",
+            "content": "@@ -19,17 +19,16 @@\n t %22fmt%22 \n-%0A\n %22math%22%0Af\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-17_19-38-27",
+            "content": "@@ -24,16 +24,8 @@\n t%22 %0A\n-        \n %22mat\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-17_19-38-34",
+            "content": "@@ -13,17 +13,16 @@\n %0Aimport \n-(\n %22fmt%22 %0A \n@@ -35,18 +35,16 @@\n  %22math%22%0A\n-)%0A\n func mai\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-17_19-39-10",
+            "content": "@@ -96,20 +96,16 @@\n float64%0A\n-    \n fmt.Scan\n@@ -128,20 +128,16 @@\n &a, &p)%0A\n-    \n p = (at \n@@ -151,20 +151,16 @@\n ct) / 2%0A\n-    \n a = p*(p\n@@ -176,20 +176,16 @@\n )(p-ct)%0A\n-    \n resultad\n@@ -201,20 +201,16 @@\n Sqrt(a)%0A\n-    \n fmt.Prin\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-17_19-40-11",
+            "content": "@@ -168,16 +168,17 @@\n    a = p\n+*\n (p-at)(p\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-17_19-40-49",
+            "content": "@@ -122,16 +122,24 @@\n &bt, &ct\n+, &a, &p\n )%0A    p \n@@ -172,9 +172,8 @@\n  = p\n-*\n (p-a\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-17_19-42-20",
+            "content": "@@ -171,16 +171,14 @@\n -at)\n-*\n (p-bt)\n-*\n (p-c\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-17_19-42-55",
+            "content": "@@ -229,17 +229,17 @@\n intf(%22%25.\n-2\n+6\n f%5Cn%22, re\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-17_19-43-51",
+            "content": "package main\nimport (\"fmt\" \n        \"math\"\n)\nfunc main() {\n    var at, bt, ct, a, p, resultado float64\n    fmt.Scan(&at, &bt, &ct)\n    p = (at + bt + ct) / 2\n    a = p*(p-at)*(p-bt)*(p-ct)\n    resultado = math.Sqrt(a)\n    fmt.Printf(\"%.2f\\n\", resultado)\n\n}\n",
+            "lines": "13"
+        }
+    ]
+}
