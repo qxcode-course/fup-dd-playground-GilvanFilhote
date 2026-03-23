@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-23_17-51-34",
+            "content": "@@ -69,15 +69,11 @@\n ral \n-float64\n+int\n %0A   \n@@ -133,16 +133,22 @@\n t.Print(\n+%22%25d%22, \n maioral)\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-54-38",
+            "content": "@@ -140,10 +140,8 @@\n rint\n-ln\n (mai\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-55-00",
+            "content": "package main\nimport (\"fmt\"\n\"math\"\n)\nfunc main() {\n    var a, b, maioral float64\n    fmt.Scan(&a, &b)\n    maioral = math.Max(a, b)\n    fmt.Println(maioral)\n    \n}\n",
+            "lines": "11"
+        }
+    ]
+}
