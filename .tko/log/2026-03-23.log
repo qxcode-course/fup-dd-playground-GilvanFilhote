@@ -73,3 +73,12 @@
 2026-03-23 17:51:34, EXEC, v:1, k:fup@max, mode:FULL, size:11, fail:COMP
 2026-03-23 17:54:38, EXEC, v:1, k:fup@max, mode:FULL, rate:0, size:11
 2026-03-23 17:55:00, EXEC, v:1, k:fup@max, mode:FULL, rate:100, size:11
+2026-03-23 17:55:42, MOVE, v:1, k:fup@max, mode:BACK
+2026-03-23 17:56:20, MOVE, v:1, k:fup@ou, mode:DOWN
+2026-03-23 17:56:22, MOVE, v:1, k:fup@ou, mode:PICK
+2026-03-23 18:00:17, EXEC, v:1, k:fup@ou, mode:FULL, size:11, fail:COMP
+2026-03-23 18:00:28, EXEC, v:1, k:fup@ou, mode:FULL, size:11, fail:COMP
+2026-03-23 18:01:04, EXEC, v:1, k:fup@ou, mode:FULL, size:11, fail:COMP
+2026-03-23 18:01:36, EXEC, v:1, k:fup@ou, mode:FULL, size:11, fail:COMP
+2026-03-23 18:02:13, EXEC, v:1, k:fup@ou, mode:FULL, size:11, fail:COMP
+2026-03-23 18:02:22, EXEC, v:1, k:fup@ou, mode:FULL, rate:100, size:11
