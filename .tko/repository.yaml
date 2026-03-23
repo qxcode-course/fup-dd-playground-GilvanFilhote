@@ -15,8 +15,8 @@ sources:
 expanded:
 - sandbox@student_sandbox_alias:00_rascunhos
 - fup@missão-operações
-- sandbox@student_sandbox_alias
 - fup@missão-seleção-1
+- sandbox@student_sandbox_alias
 - fup@problemas-operações
 - fup@repositorio-de-problemas
 - fup@campanha-principal
@@ -31,6 +31,7 @@ tasks:
   fup@bala: '{self:1, rate:100, study:20, friend:Monitor, mas nao sei o nome}'
   fup@abs: '{self:1, rate:100, study:15, friend:Mikaele Silva, debug:1}'
   fup@max: '{rate:100}'
+  fup@ou: '{rate:100}'
 flags:
   painel: 0
   quests: 2
@@ -39,4 +40,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@ou
+selected: fup@positivo

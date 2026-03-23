@@ -82,3 +82,7 @@
 2026-03-23 18:01:36, EXEC, v:1, k:fup@ou, mode:FULL, size:11, fail:COMP
 2026-03-23 18:02:13, EXEC, v:1, k:fup@ou, mode:FULL, size:11, fail:COMP
 2026-03-23 18:02:22, EXEC, v:1, k:fup@ou, mode:FULL, rate:100, size:11
+2026-03-23 18:02:55, MOVE, v:1, k:fup@ou, mode:BACK
+2026-03-23 18:02:59, MOVE, v:1, k:fup@positivo, mode:DOWN
+2026-03-23 18:03:01, MOVE, v:1, k:fup@positivo, mode:PICK
+2026-03-23 18:06:15, EXEC, v:1, k:fup@positivo, mode:FULL, rate:100, size:12
