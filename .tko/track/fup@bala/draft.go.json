@@ -1,0 +1,79 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-23_16-51-35",
+            "content": "@@ -41,375 +41,28 @@\n     \n-var x1, x2, y1, y2 float64%0A    fmt.Scan(&x1, &y1, &x2, y2)%0A    var distancia_x, distancia_y, distancia_real float64%0A    distancia_x =: (x2-x1)%0A    distancia_y =: (y2-y1)%0A    distancia_x:= math.Pow(distancia_x, 2)%0A    distancia_y:= math.Pow(distancia_y, 2)%0A    distancia=: distancia_y+distancia_x%0A    distancia=: math.Sqrt(distancia)%0A    fmt.Printf(%22.2f%25%5Cn%22, distancia\n+fmt.Println(%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-23_17-06-03",
+            "content": "@@ -390,10 +390,10 @@\n tf(%22\n-2\n .\n+2\n f%25%5Cn\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-23_17-06-38",
+            "content": "@@ -390,12 +390,12 @@\n tf(%22\n-%25\n 2.f\n+%25\n %5Cn%22,\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-23_17-06-50",
+            "content": "@@ -169,18 +169,18 @@\n ancia_x \n-:\n =\n+:\n  (x2-x1)\n@@ -196,18 +196,18 @@\n ancia_y \n-:\n =\n+:\n  (y2-y1)\n@@ -306,18 +306,18 @@\n istancia\n-:\n =\n+:\n  distanc\n@@ -346,18 +346,18 @@\n istancia\n-:\n =\n+:\n  math.Sq\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-23_17-07-34",
+            "content": "@@ -306,21 +306,16 @@\n istancia\n-_real\n := dista\n@@ -346,21 +346,16 @@\n istancia\n-_real\n := math.\n@@ -368,21 +368,16 @@\n istancia\n-_real\n )%0A    fm\n@@ -404,17 +404,12 @@\n istancia\n-_real\n )%0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-23_17-08-53",
+            "content": "@@ -23,15 +23,8 @@\n mt%22%0A\n-%22math%22%0A\n func\n@@ -169,16 +169,17 @@\n ancia_x \n+:\n = (x2-x1\n@@ -196,16 +196,17 @@\n ancia_y \n+:\n = (y2-y1\n@@ -222,16 +222,17 @@\n tancia_x\n+:\n = math.P\n@@ -265,16 +265,17 @@\n tancia_y\n+:\n = math.P\n@@ -311,16 +311,17 @@\n cia_real\n+:\n = distan\n@@ -356,16 +356,17 @@\n cia_real\n+:\n = math.S\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-23_17-10-13",
+            "content": "@@ -19,23 +19,16 @@\n t %22fmt%22%0A\n-import \n %22math%22%0Af\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-23_17-10-26",
+            "content": "@@ -106,17 +106,16 @@\n 1, &x2, \n-&\n y2)%0A    \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-23_17-10-51",
+            "content": "@@ -439,39 +439,6 @@\n al)%0A\n-    mt.Printf(%22%25f%22, distancia_x)%0A\n %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-23_17-13-08",
+            "content": "@@ -431,33 +431,32 @@\n ancia_real)%0A    \n-f\n mt.Printf(%22%25f%22, \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-23_17-13-17",
+            "content": "@@ -352,49 +352,8 @@\n a_x%0A\n-    fmt.Printf(%22%252.f%5Cn%22, distancia_real)%0A\n     \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-23_17-14-35",
+            "content": "@@ -365,16 +365,18 @@\n rintf(%22%25\n+2.\n f%5Cn%22, di\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-23_17-16-05",
+            "content": "@@ -369,10 +369,8 @@\n f(%22%25\n-.2\n f%5Cn%22\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-23_17-16-20",
+            "content": "@@ -348,16 +348,57 @@\n ancia_x%0A\n+    fmt.Printf(%22%25.2f%5Cn%22, distancia_real)%0A\n     dist\n@@ -444,34 +444,34 @@\n    fmt.Printf(%22%25\n-.\n 2\n+.\n f%5Cn%22, distancia_\n@@ -476,10 +476,44 @@\n a_real)%0A\n+    fmt.Printf(%22%25f%22, distancia_x)%0A\n %7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-23_17-16-39",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\nfunc main() {\n    var x1, x2, y1, y2 float64\n    fmt.Scan(&x1, &y1, &x2, &y2)\n    var distancia_x, distancia_y, distancia_real float64\n    distancia_x = (x2-x1)\n    distancia_y = (y2-y1)\n    distancia_x= math.Pow(distancia_x, 2)\n    distancia_y= math.Pow(distancia_y, 2)\n    distancia_real= distancia_y+distancia_x\n    distancia_real= math.Sqrt(distancia_real)\n    fmt.Printf(\"%.2f\\n\", distancia_real)\n}\n",
+            "lines": "15"
+        }
+    ]
+}
