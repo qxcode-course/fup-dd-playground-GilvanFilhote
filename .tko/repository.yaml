@@ -13,10 +13,13 @@ sources:
   quests: null
   tasks: null
 expanded:
+- sandbox@student_sandbox_alias:00_rascunhos
 - fup@missão-operações
 - sandbox@student_sandbox_alias
+- fup@missão-seleção-1
+- fup@problemas-operações
+- fup@repositorio-de-problemas
 - fup@campanha-principal
-- sandbox@student_sandbox_alias:00_rascunhos
 tasks:
   fup@tres: '{self:1, rate:100, study:5, friend:Hanna, problem:1, debug:1}'
   fup@resto: '{self:1, rate:100, study:20, debug:1}'
@@ -25,6 +28,7 @@ tasks:
   fup@segundos: '{self:1, rate:100, study:10, friend:Mikaele Silva, debug:1}'
   fup@celsius: '{self:1, rate:100, study:10}'
   fup@pintando: '{self:1, rate:100, study:25, problem:1, debug:1}'
+  fup@bala: '{self:1, rate:100, study:20, friend:Monitor, mas nao sei o nome}'
 flags:
   painel: 0
   quests: 2
@@ -33,4 +37,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@bala
+selected: fup@abs

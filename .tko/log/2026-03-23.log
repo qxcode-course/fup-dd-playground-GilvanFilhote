@@ -35,3 +35,34 @@
 2026-03-23 17:16:20, EXEC, v:1, k:fup@bala, mode:FULL, rate:0, size:17
 2026-03-23 17:16:39, EXEC, v:1, k:fup@bala, mode:FULL, rate:100, size:15
 2026-03-23 17:16:50, EXEC, v:1, k:fup@bala, mode:FULL, rate:100
+2026-03-23 17:18:01, MOVE, v:1, k:fup@bala, mode:BACK
+2026-03-23 17:21:01, SELF, v:1, k:fup@bala, self:1, rate:100, study:20, friend:Monitor, mas nao sei o nome
+2026-03-23 17:21:27, MOVE, v:1, k:fup@abs, mode:DOWN
+2026-03-23 17:21:29, MOVE, v:1, k:fup@abs, mode:PICK
+2026-03-23 17:23:21, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:6
+2026-03-23 17:27:31, EXEC, v:1, k:fup@abs, mode:FULL, size:8, fail:COMP
+2026-03-23 17:27:57, EXEC, v:1, k:fup@abs, mode:FULL, size:8, fail:COMP
+2026-03-23 17:29:08, EXEC, v:1, k:fup@abs, mode:FULL, size:10, fail:COMP
+2026-03-23 17:29:17, EXEC, v:1, k:fup@abs, mode:FULL, size:10, fail:COMP
+2026-03-23 17:30:01, EXEC, v:1, k:fup@abs, mode:FULL, size:10, fail:COMP
+2026-03-23 17:30:31, EXEC, v:1, k:fup@abs, mode:FULL, size:11, fail:COMP
+2026-03-23 17:30:37, EXEC, v:1, k:fup@abs, mode:FULL, size:11, fail:COMP
+2026-03-23 17:30:45, EXEC, v:1, k:fup@abs, mode:FULL, size:11, fail:COMP
+2026-03-23 17:31:35, EXEC, v:1, k:fup@abs, mode:FULL, size:12, fail:COMP
+2026-03-23 17:31:36, EXEC, v:1, k:fup@abs, mode:FULL, fail:COMP
+2026-03-23 17:32:17, EXEC, v:1, k:fup@abs, mode:FULL, size:12, fail:COMP
+2026-03-23 17:32:34, EXEC, v:1, k:fup@abs, mode:FULL, size:12, fail:COMP
+2026-03-23 17:32:35, EXEC, v:1, k:fup@abs, mode:FULL, fail:COMP
+2026-03-23 17:32:48, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:12
+2026-03-23 17:32:56, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:12
+2026-03-23 17:33:29, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:12
+2026-03-23 17:33:42, EXEC, v:1, k:fup@abs, mode:FULL, size:12, fail:COMP
+2026-03-23 17:33:47, EXEC, v:1, k:fup@abs, mode:FULL, size:12, fail:COMP
+2026-03-23 17:33:55, EXEC, v:1, k:fup@abs, mode:FULL, size:12, fail:COMP
+2026-03-23 17:34:22, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:12
+2026-03-23 17:35:53, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:12
+2026-03-23 17:36:05, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:12
+2026-03-23 17:36:22, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:11
+2026-03-23 17:36:40, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:11
+2026-03-23 17:37:43, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:12
+2026-03-23 17:38:07, EXEC, v:1, k:fup@abs, mode:FULL, rate:100, size:12
