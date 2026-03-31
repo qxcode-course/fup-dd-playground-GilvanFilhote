@@ -1,0 +1,104 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-24_17-50-33",
+            "content": "@@ -164,18 +164,20 @@\n o = \n-float64(a%25\n+math.Mod(a, \n b)%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-24_17-50-55",
+            "content": "@@ -18,16 +18,30 @@\n rt %22fmt%22\n+%0Aimport %22math%22\n %0A%0Afunc m\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-24_17-51-17",
+            "content": "@@ -179,11 +179,11 @@\n tf(%22\n-%25.0\n+0.%25\n f%5Cn \n@@ -191,11 +191,11 @@\n f%5Cn \n-%25.2\n+2.%25\n f%5Cn%22\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-51-46",
+            "content": "@@ -181,22 +181,22 @@\n (%22%25.0f%5Cn\n+ \n %25\n-.0\n f%5Cn\n+ \n %25.2f%5Cn%22,\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-52-25",
+            "content": "@@ -190,17 +190,16 @@\n .0f%5Cn%25.2\n-l\n f%5Cn%22, re\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-53-45",
+            "content": "@@ -188,16 +188,19 @@\n n%25.0f%5Cn%25\n+.2l\n f%5Cn%22, re\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-53-52",
+            "content": "@@ -81,18 +81,18 @@\n do float\n-32\n+64\n %0A    fmt\n@@ -125,18 +125,18 @@\n o= float\n-32\n+64\n  (a/b)%0A \n@@ -155,10 +155,10 @@\n loat\n-32\n+64\n (a%25b\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-54-51",
+            "content": "@@ -182,16 +182,18 @@\n %22%25.0f%5Cn%25\n+.0\n f%5Cn%25f%5Cn%22\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-55-09",
+            "content": "@@ -186,16 +186,12 @@\n f%5Cn%25\n-.0\n f%5Cn%25\n-.3\n f%5Cn%22\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-55-54",
+            "content": "@@ -189,17 +189,17 @@\n %25.0f%5Cn%25.\n-2\n+3\n f%5Cn%22, re\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-56-02",
+            "content": "@@ -193,9 +193,9 @@\n %5Cn%25.\n-1\n+2\n f%5Cn%22\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-56-25",
+            "content": "@@ -189,17 +189,17 @@\n %25.0f%5Cn%25.\n-2\n+1\n f%5Cn%22, re\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-58-58",
+            "content": "@@ -187,16 +187,22 @@\n %5Cn%25.0f%5Cn\n+%25.2f%5Cn\n %22, resul\n@@ -212,12 +212,23 @@\n o, resto\n+, resultado\n )%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-59-21",
+            "content": "@@ -212,42 +212,6 @@\n to)%0A\n-    fmt.Printf(%22%25.2f%5Cn%22, resultado)%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_18-00-37",
+            "content": "@@ -225,16 +225,18 @@\n rintf(%22%25\n+.2\n f%5Cn%22, re\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-24_18-00-46",
+            "content": "@@ -228,10 +228,8 @@\n tf(%22\n-2.\n %25f%5Cn\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-24_18-01-23",
+            "content": "@@ -228,11 +228,11 @@\n tf(%22\n-%25\n 2.\n+%25\n f%5Cn%22\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-24_18-01-38",
+            "content": "@@ -185,16 +185,18 @@\n 0f%5Cn%25.0f\n+%5Cn\n %22, resul\n@@ -224,18 +224,16 @@\n Printf(%22\n-%5Cn\n %252.f%5Cn%22,\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-24_18-02-06",
+            "content": "@@ -222,16 +222,18 @@\n Printf(%22\n+%5Cn\n %252.f%5Cn%22,\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-24_18-02-13",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var a, b int\n    var resto, resultado float32\n    fmt.Scan(&a, &b)\n    resultado= float32 (a/b)\n    resto = float32(a%b)\n    fmt.Printf(\"%.0f\\n%.0f\", resultado, resto)\n    fmt.Printf(\"%2.f\\n\", resultado)\n}\n",
+            "lines": "12"
+        }
+    ]
+}
