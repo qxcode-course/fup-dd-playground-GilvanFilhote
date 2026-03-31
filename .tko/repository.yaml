@@ -29,12 +29,12 @@ tasks:
   fup@abs: '{self:1, rate:100, study:15, friend:Mikaele Silva, debug:1}'
   fup@max: '{rate:100}'
   fup@ou: '{rate:100}'
+  fup@positivo: '{rate:100}'
   fup@quebrada: '{}'
   fup@operacoes: '{}'
   fup@data: '{}'
   fup@opala: '{}'
   fup@tv: '{}'
-  fup@positivo: '{}'
   fup@multiplo: '{}'
   fup@calc: '{}'
   fup@guarda: '{}'
@@ -249,4 +249,4 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@positivo
+selected: fup@multiplo

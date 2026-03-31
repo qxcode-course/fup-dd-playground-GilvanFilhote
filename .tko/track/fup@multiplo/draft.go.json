@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_18-00-03",
+            "content": "@@ -75,17 +75,16 @@\n  if x%257=\n-=\n 0%7B%0A    f\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-31_18-00-12",
+            "content": "@@ -107,16 +107,20 @@\n %22)%0A    %7D\n+%0A   \n  else %7B%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-31_18-00-37",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var x int\n    fmt.Scan(&x)\n    if x%7==0{\n    fmt.Println(\"SIM\")\n    } else {\n    fmt.Println(\"NAO\")\n    }\n}\n",
+            "lines": "11"
+        }
+    ]
+}

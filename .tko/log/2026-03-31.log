@@ -30,3 +30,11 @@
 2026-03-31 17:48:04, MOVE, v:1, k:fup@quebrada, mode:BACK
 2026-03-31 17:48:57, MOVE, v:1, k:fup@positivo, mode:PICK
 2026-03-31 17:50:30, EXEC, v:1, k:fup@positivo, mode:FULL, rate:100
+2026-03-31 17:51:24, MOVE, v:1, k:fup@positivo, mode:BACK
+2026-03-31 17:51:37, MOVE, v:1, k:fup@max, mode:PICK
+2026-03-31 17:51:48, MOVE, v:1, k:fup@max, mode:BACK
+2026-03-31 17:52:07, MOVE, v:1, k:fup@multiplo, mode:DOWN
+2026-03-31 17:52:11, MOVE, v:1, k:fup@multiplo, mode:PICK
+2026-03-31 18:00:03, EXEC, v:1, k:fup@multiplo, mode:FULL, size:12, fail:COMP
+2026-03-31 18:00:12, EXEC, v:1, k:fup@multiplo, mode:FULL, size:12, fail:COMP
+2026-03-31 18:00:37, EXEC, v:1, k:fup@multiplo, mode:FULL, rate:100, size:11
