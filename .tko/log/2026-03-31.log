@@ -38,3 +38,4 @@
 2026-03-31 18:00:03, EXEC, v:1, k:fup@multiplo, mode:FULL, size:12, fail:COMP
 2026-03-31 18:00:12, EXEC, v:1, k:fup@multiplo, mode:FULL, size:12, fail:COMP
 2026-03-31 18:00:37, EXEC, v:1, k:fup@multiplo, mode:FULL, rate:100, size:11
+2026-03-31 18:03:00, MOVE, v:1, k:fup@multiplo, mode:BACK

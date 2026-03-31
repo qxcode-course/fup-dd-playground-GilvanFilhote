@@ -30,12 +30,12 @@ tasks:
   fup@max: '{rate:100}'
   fup@ou: '{rate:100}'
   fup@positivo: '{rate:100}'
+  fup@multiplo: '{rate:100}'
   fup@quebrada: '{}'
   fup@operacoes: '{}'
   fup@data: '{}'
   fup@opala: '{}'
   fup@tv: '{}'
-  fup@multiplo: '{}'
   fup@calc: '{}'
   fup@guarda: '{}'
   fup@quantos: '{}'
@@ -249,4 +249,4 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@multiplo
+selected: fup@calc
