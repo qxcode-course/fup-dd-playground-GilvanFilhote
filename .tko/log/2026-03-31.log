@@ -39,3 +39,13 @@
 2026-03-31 18:00:12, EXEC, v:1, k:fup@multiplo, mode:FULL, size:12, fail:COMP
 2026-03-31 18:00:37, EXEC, v:1, k:fup@multiplo, mode:FULL, rate:100, size:11
 2026-03-31 18:03:00, MOVE, v:1, k:fup@multiplo, mode:BACK
+2026-03-31 18:13:29, MOVE, v:1, k:fup@multiplo, mode:PICK
+2026-03-31 18:13:33, EXEC, v:1, k:fup@multiplo, mode:FULL, rate:100
+2026-03-31 18:13:41, MOVE, v:1, k:fup@multiplo, mode:BACK
+2026-03-31 18:13:45, MOVE, v:1, k:fup@calc, mode:DOWN
+2026-03-31 18:13:46, MOVE, v:1, k:fup@calc, mode:PICK
+2026-03-31 18:29:47, EXEC, v:1, k:fup@calc, mode:FULL, size:25, fail:COMP
+2026-03-31 18:30:07, EXEC, v:1, k:fup@calc, mode:FULL, size:25, fail:COMP
+2026-03-31 18:31:36, EXEC, v:1, k:fup@calc, mode:FULL, size:25, fail:COMP
+2026-03-31 18:32:15, EXEC, v:1, k:fup@calc, mode:FULL, rate:0, size:22
+2026-03-31 18:32:49, EXEC, v:1, k:fup@calc, mode:FULL, rate:100, size:22

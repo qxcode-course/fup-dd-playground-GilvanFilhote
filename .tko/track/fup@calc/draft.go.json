@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_18-29-47",
+            "content": "@@ -130,16 +130,17 @@\n if op==+\n+ \n %7B%0A    re\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-03-31_18-30-07",
+            "content": "@@ -133,13 +133,9 @@\n op==\n- %22+%22 \n++\n %7B%0A  \n@@ -213,11 +213,9 @@\n op==\n-%22-%22\n+-\n  %7B%0A \n@@ -304,11 +304,9 @@\n op==\n-%22*%22\n+*\n  %7B%0A \n@@ -386,11 +386,9 @@\n op==\n-%22/%22\n+/\n  %7B%0A \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-03-31_18-31-36",
+            "content": "@@ -188,32 +188,36 @@\n resultado)%0A    %7D\n+%0A   \n  else if op==%22-%22\n@@ -215,24 +215,24 @@\n f op==%22-%22 %7B%0A\n-\n         resu\n@@ -285,24 +285,28 @@\n tado)%0A%0A    %7D\n+%0A   \n  else if op=\n@@ -368,21 +368,25 @@\n ultado)%0A\n-\n     %7D\n+%0A   \n  else if\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-03-31_18-32-15",
+            "content": "@@ -169,34 +169,32 @@\n   fmt.Printf(%22%25d\n-%5Cn\n %22, resultado)%0A  \n@@ -183,32 +183,32 @@\n %25d%22, resultado)%0A\n+\n     %7D else if op\n@@ -257,34 +257,32 @@\n   fmt.Printf(%22%25d\n-%5Cn\n %22, resultado)%0A%0A \n@@ -338,34 +338,32 @@\n   fmt.Printf(%22%25d\n-%5Cn\n %22, resultado)%0A  \n@@ -408,24 +408,24 @@\n o = (a / b)%0A\n+\n         fmt.\n@@ -438,10 +438,8 @@\n (%22%25d\n-%5Cn\n %22, r\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-31_18-32-49",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, resultado int\n    var op string\n    fmt.Scan(&a, &b)\n    fmt.Scan(&op)\n    if op== \"+\" {\n    resultado = a + b \n    fmt.Printf(\"%d\\n\", resultado)\n    } else if op==\"-\" {\n        resultado = (a - b)\n        fmt.Printf(\"%d\\n\", resultado)\n\n    } else if op==\"*\" {\n    resultado = (a * b)\n    fmt.Printf(\"%d\\n\", resultado)\n    } else if op==\"/\" {\n        resultado = (a / b)\n        fmt.Printf(\"%d\\n\", resultado)\n    }\n}\n",
+            "lines": "22"
+        }
+    ]
+}
