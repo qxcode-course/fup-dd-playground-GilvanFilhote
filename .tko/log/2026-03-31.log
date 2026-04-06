@@ -49,3 +49,11 @@
 2026-03-31 18:31:36, EXEC, v:1, k:fup@calc, mode:FULL, size:25, fail:COMP
 2026-03-31 18:32:15, EXEC, v:1, k:fup@calc, mode:FULL, rate:0, size:22
 2026-03-31 18:32:49, EXEC, v:1, k:fup@calc, mode:FULL, rate:100, size:22
+2026-03-31 18:48:58, MOVE, v:1, k:fup@calc, mode:BACK
+2026-03-31 18:49:11, MOVE, v:1, k:fup@guarda, mode:DOWN
+2026-03-31 18:49:19, MOVE, v:1, k:fup@guarda, mode:PICK
+2026-03-31 18:49:22, EXEC, v:1, k:fup@guarda, mode:FREE, size:5
+2026-03-31 18:59:41, EXEC, v:1, k:fup@guarda, mode:FULL, size:15, fail:COMP
+2026-03-31 19:00:52, EXEC, v:1, k:fup@guarda, mode:FULL, rate:71, size:15
+2026-03-31 19:04:51, EXEC, v:1, k:fup@guarda, mode:FULL, rate:85, size:17
+2026-03-31 19:05:36, EXEC, v:1, k:fup@guarda, mode:FULL, rate:100, size:17
