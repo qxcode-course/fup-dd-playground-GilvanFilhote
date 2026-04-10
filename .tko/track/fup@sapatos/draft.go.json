@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-10_17-15-50",
+            "content": "@@ -126,41 +126,8 @@\n + %7B%0A\n-            if i%252==0 %7C%7C i%253==0%7B%0A\n     \n@@ -156,28 +156,8 @@\n     \n-        %7D%0A        %7D%0A\n     \n@@ -189,16 +189,26 @@\n ma_2e3)%0A\n+        %7D%0A\n     %7D el\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-10_17-17-22",
+            "content": "@@ -148,10 +148,10 @@\n ==0 \n-&&\n+%7C%7C\n  i%253\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-10_17-18-52",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, soma_2e3 int\n    fmt.Scan(&a, &b)\n    if a<b{\n        for i:=a; i<b; i++ {\n            if i%2==0 && i%3==0{\n            soma_2e3 += i\n            }\n        }\n        fmt.Printf(\"%d\\n\", soma_2e3)\n    } else if a==b{\n         fmt.Printf(\"%d\\n\", a)\n    } else {\n         fmt.Printf(\"invalido\\n\")\n    }\n}\n",
+            "lines": "18"
+        }
+    ]
+}

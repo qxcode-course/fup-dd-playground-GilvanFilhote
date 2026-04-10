@@ -96,3 +96,15 @@
 2026-04-10 02:07:46, EXEC, v:1, k:fup@pares, mode:FULL, rate:71, size:16
 2026-04-10 02:09:05, EXEC, v:1, k:fup@pares, mode:FULL, rate:71, size:18
 2026-04-10 02:09:22, EXEC, v:1, k:fup@pares, mode:FULL, rate:100, size:18
+2026-04-10 02:09:21, MOVE, v:1, k:fup@pares, mode:EDIT
+2026-04-10 02:09:22, MOVE, v:1, k:fup@pares, mode:EDIT
+2026-04-10 17:10:52, MOVE, v:1, k:fup@sapatos, mode:DOWN
+2026-04-10 17:10:55, MOVE, v:1, k:fup@sapatos, mode:PICK
+2026-04-10 17:10:52, MOVE, v:1, k:fup@sapatos, mode:EDIT
+2026-04-10 17:10:52, MOVE, v:1, k:fup@sapatos, mode:EDIT
+2026-04-10 17:14:04, MOVE, v:1, k:fup@sapatos, mode:EDIT
+2026-04-10 17:15:50, EXEC, v:1, k:fup@sapatos, mode:FULL, rate:57, size:16
+2026-04-10 17:17:22, EXEC, v:1, k:fup@sapatos, mode:FULL, rate:57, size:18
+2026-04-10 17:18:52, EXEC, v:1, k:fup@sapatos, mode:FULL, rate:100, size:18
+2026-04-10 17:18:51, MOVE, v:1, k:fup@sapatos, mode:EDIT
+2026-04-10 17:18:52, MOVE, v:1, k:fup@sapatos, mode:EDIT
