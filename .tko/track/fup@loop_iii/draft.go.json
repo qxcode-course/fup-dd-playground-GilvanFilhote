@@ -1,0 +1,99 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-10_01-07-23",
+            "content": "@@ -174,11 +174,13 @@\n (%22%5D%22, )%0A\n-%7D%0A\n+    \n %0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-10_01-07-31",
+            "content": "@@ -116,9 +116,9 @@\n 1; i\n-!\n+=\n =a; \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-08-03",
+            "content": "@@ -116,10 +116,10 @@\n 1; i\n-=\n !\n+=\n a; i\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-08-26",
+            "content": "@@ -111,13 +111,16 @@\n := b\n+-1\n ; i\n-%3Cb\n+=!a\n ; i-\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-09-41",
+            "content": "@@ -114,11 +114,10 @@\n b; i\n-=!a\n+%3Cb\n ; i-\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-10-06",
+            "content": "@@ -114,10 +114,10 @@\n b; i\n-!\n =\n+!\n a; i\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-10-18",
+            "content": "@@ -114,9 +114,9 @@\n b; i\n-%3E\n+!\n =a; \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-10-38",
+            "content": "@@ -137,11 +137,16 @@\n rint\n-ln(\n+f(%22%25d%22, \n i)%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-11-50",
+            "content": "@@ -90,16 +90,18 @@\n ntf(%22%5B %22\n+, \n )%0A    fo\n@@ -137,16 +137,11 @@\n rint\n-f(%22%25d%22, \n+ln(\n i)%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-15-08",
+            "content": "@@ -169,10 +169,8 @@\n f(%22%5D\n-%5Cn\n %22, )\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-17-50",
+            "content": "@@ -118,10 +118,10 @@\n a; i\n-++\n+--\n %7B%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-18-02",
+            "content": "@@ -131,16 +131,17 @@\n mt.Print\n+f\n (%22%25d%22, i\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-18-41",
+            "content": "@@ -118,10 +118,11 @@\n a; i\n---\n+++%7B\n %0A   \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-18-48",
+            "content": "@@ -116,17 +116,16 @@\n %3E=a; i--\n-%7B\n %0A    fmt\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-18-56",
+            "content": "@@ -131,17 +131,16 @@\n mt.Print\n-f\n (%22%25d%22, i\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-19-22",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -71,17 +71,16 @@\n &a, &b)%0A\n-%0A\n     fmt.\n@@ -95,41 +95,8 @@\n %5B %22)\n- // Removida a v%C3%ADrgula extra%0A    \n %0A   \n@@ -105,37 +105,29 @@\n or i\n- \n := b; i\n- \n %3E=\n- \n a; i--\n- \n %7B%0A    \n-   \n- \n fmt.\n@@ -135,83 +135,25 @@\n rint\n-(i, %22 %22) // Usando Print em vez de Println para n%C3%A3o pular linha\n+f(%22%25d%22, i)\n %0A    %7D%0A\n-    %0A\n     \n@@ -169,37 +169,14 @@\n f(%22%5D\n-%22) // Removida a v%C3%ADrgula extra\n+%5Cn%22, )\n %0A%7D%0A\n+%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-19-30",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -73,16 +73,17 @@\n &a, &b)%0A\n+%0A\n     fmt.\n@@ -94,16 +94,49 @@\n tf(%22%5B %22)\n+ // Removida a v%C3%ADrgula extra%0A    \n %0A    for\n@@ -141,24 +141,33 @@\n or i\n+ \n := \n-a; i%3Eb\n+b; i %3E= a\n ; i--\n+ \n %7B%0A\n+    \n     \n@@ -179,25 +179,83 @@\n rint\n-f(%22%25d%22, i)\n+(i, %22 %22) // Usando Print em vez de Println para n%C3%A3o pular linha\n %0A    %7D%0A\n+    %0A\n     \n@@ -271,14 +271,37 @@\n f(%22%5D\n-%5Cn%22, )\n+%22) // Removida a v%C3%ADrgula extra\n %0A%7D%0A\n-%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-10_01-21-45",
+            "content": "@@ -135,17 +135,16 @@\n intf(%22%25d\n- \n %22, i)%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-10_01-21-52",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b int\n    fmt.Scan(&a, &b)\n    fmt.Printf(\"[ \")\n    for i:= a; i>b; i--{\n    fmt.Printf(\"%d \", i)\n    }\n    fmt.Printf(\"]\\n\", )\n}\n\n",
+            "lines": "12"
+        }
+    ]
+}

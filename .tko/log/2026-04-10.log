@@ -11,3 +11,36 @@
 2026-04-10 00:47:55, EXEC, v:1, k:fup@loop_ii, mode:FULL, rate:0, size:11
 2026-04-10 00:48:11, EXEC, v:1, k:fup@loop_ii, mode:FULL, rate:0, size:11
 2026-04-10 00:48:21, EXEC, v:1, k:fup@loop_ii, mode:FULL, rate:100, size:11
+2026-04-10 00:49:28, MOVE, v:1, k:fup@loop_ii, mode:BACK
+2026-04-10 00:49:35, MOVE, v:1, k:fup@loop_iii, mode:DOWN
+2026-04-10 00:49:38, MOVE, v:1, k:fup@loop_iii, mode:PICK
+2026-04-10 00:48:20, MOVE, v:1, k:fup@loop_ii, mode:EDIT
+2026-04-10 00:48:21, MOVE, v:1, k:fup@loop_ii, mode:EDIT
+2026-04-10 00:49:35, MOVE, v:1, k:fup@loop_iii, mode:EDIT
+2026-04-10 00:49:59, MOVE, v:1, k:fup@loop_iii, mode:EDIT
+2026-04-10 00:51:53, MOVE, v:1, k:fup@loop_iii, mode:EDIT
+2026-04-10 01:07:23, EXEC, v:1, k:fup@loop_iii, mode:FULL, size:11, fail:COMP
+2026-04-10 01:07:31, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:08:03, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:08:26, EXEC, v:1, k:fup@loop_iii, mode:FULL, size:12, fail:COMP
+2026-04-10 01:09:41, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:10:06, EXEC, v:1, k:fup@loop_iii, mode:FULL, size:12, fail:COMP
+2026-04-10 01:10:05, MOVE, v:1, k:fup@loop_iii, mode:EDIT
+2026-04-10 01:09:41, MOVE, v:1, k:fup@loop_iii, mode:EDIT
+2026-04-10 01:10:18, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:10:38, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:11:50, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:15:08, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:15:07, MOVE, v:1, k:fup@loop_iii, mode:EDIT
+2026-04-10 01:15:08, MOVE, v:1, k:fup@loop_iii, mode:EDIT
+2026-04-10 01:17:10, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0
+2026-04-10 01:17:50, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:18:02, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:18:41, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:18:48, EXEC, v:1, k:fup@loop_iii, mode:FULL, size:12, fail:COMP
+2026-04-10 01:18:56, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:19:22, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:19:30, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:16
+2026-04-10 01:19:43, MOVE, v:1, k:fup@loop_iii, mode:PICK
+2026-04-10 01:21:45, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:0, size:12
+2026-04-10 01:21:52, EXEC, v:1, k:fup@loop_iii, mode:FULL, rate:100, size:12
