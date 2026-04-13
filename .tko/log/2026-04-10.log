@@ -108,3 +108,21 @@
 2026-04-10 17:18:52, EXEC, v:1, k:fup@sapatos, mode:FULL, rate:100, size:18
 2026-04-10 17:18:51, MOVE, v:1, k:fup@sapatos, mode:EDIT
 2026-04-10 17:18:52, MOVE, v:1, k:fup@sapatos, mode:EDIT
+2026-04-10 17:20:09, MOVE, v:1, k:fup@sapatos, mode:BACK
+2026-04-10 17:20:15, MOVE, v:1, k:fup@filhos, mode:DOWN
+2026-04-10 17:20:20, MOVE, v:1, k:fup@filhos, mode:PICK
+2026-04-10 17:22:44, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-04-10 17:28:58, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-04-10 17:29:11, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:12
+2026-04-10 17:29:44, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:12
+2026-04-10 17:30:38, EXEC, v:1, k:fup@filhos, mode:FULL, size:11, fail:COMP
+2026-04-10 17:31:33, EXEC, v:1, k:fup@filhos, mode:FULL, size:11, fail:COMP
+2026-04-10 17:31:36, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:11
+2026-04-10 17:32:06, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0
+2026-04-10 17:32:08, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0
+2026-04-10 17:32:10, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0
+2026-04-10 17:32:36, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:11
+2026-04-10 17:32:37, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0
+2026-04-10 17:32:33, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-04-10 17:32:37, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-04-10 17:41:31, MOVE, v:1, k:fup@filhos, mode:EDIT
