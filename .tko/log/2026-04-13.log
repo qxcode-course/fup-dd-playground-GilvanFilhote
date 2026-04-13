@@ -202,3 +202,4 @@
 2026-04-13 18:29:16, MOVE, v:1, k:eval1@ceu, mode:EDIT
 2026-04-13 18:29:36, MOVE, v:1, k:eval1@ceu, mode:PICK
 2026-04-13 18:29:52, EXEC, v:1, k:eval1@ceu, mode:FULL, rate:80, size:21
+2026-04-13 18:31:07, MOVE, v:1, k:eval1@ceu, mode:BACK
