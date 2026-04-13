@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-39-43",
+            "content": "@@ -114,15 +114,12 @@\n rint\n-f\n (%22%25d\n-%5Cn\n %22, f\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-40-06",
+            "content": "@@ -101,140 +101,8 @@\n +b)%0A\n-    if a%3Eb && a%3Efilho %7B%0A        fmt.Printf(%22%25d%5Cn%22, a)%0A    %7D else if b%3Ea && b%3Efilho %7B%0A        fmt.Printf(%22%25d%5Cn%22, b)%0A    %7D else %7B%0A    \n     \n@@ -129,10 +129,8 @@\n ilho)%0A%7D%0A\n-%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-42-16",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var m, a, b int\n    fmt.Scan(&m, &a, &b)\n    filho:=m-(a+b)\n    if a>b && a>filho {\n        fmt.Printf(\"%d\\n\", a)\n    } else if b>a && b>filho {\n        fmt.Printf(\"%d\\n\", b)\n    } else {\n        fmt.Printf(\"%d\\n\", filho)\n}\n}\n",
+            "lines": "14"
+        }
+    ]
+}

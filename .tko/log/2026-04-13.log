@@ -101,3 +101,12 @@
 2026-04-13 17:35:11, MOVE, v:1, k:eval1@mumia, mode:BACK
 2026-04-13 17:35:28, MOVE, v:1, k:eval1@monica, mode:DOWN
 2026-04-13 17:35:31, MOVE, v:1, k:eval1@monica, mode:PICK
+2026-04-13 17:34:04, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:34:04, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:35:28, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 17:35:28, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 17:39:43, EXEC, v:1, k:eval1@monica, mode:FULL, rate:0, size:8
+2026-04-13 17:40:06, EXEC, v:1, k:eval1@monica, mode:FULL, rate:62, size:8
+2026-04-13 17:40:56, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 17:40:06, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 17:42:16, EXEC, v:1, k:eval1@monica, mode:FULL, rate:100, size:14
