@@ -98,3 +98,6 @@
 2026-04-13 17:33:12, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0, size:19
 2026-04-13 17:33:47, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0, size:19
 2026-04-13 17:34:04, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:100, size:19
+2026-04-13 17:35:11, MOVE, v:1, k:eval1@mumia, mode:BACK
+2026-04-13 17:35:28, MOVE, v:1, k:eval1@monica, mode:DOWN
+2026-04-13 17:35:31, MOVE, v:1, k:eval1@monica, mode:PICK
