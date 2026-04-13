@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-31-51",
+            "content": "@@ -299,17 +299,16 @@\n else if \n-%7B\n %0A    fmt\n@@ -343,18 +343,16 @@\n  %7D else \n-  \n %7B%0A    fm\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-13_17-32-29",
+            "content": "@@ -303,21 +303,8 @@\n  if \n-idade %3C 1000 \n %7B%0A  \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-13_17-32-48",
+            "content": "@@ -395,10 +395,8 @@\n a%5Cn%22)%0A%7D%0A\n-%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-13_17-32-56",
+            "content": "@@ -145,25 +145,25 @@\n mt.Printf(%22%25\n-c\n+s\n  eh crianca%5C\n@@ -206,25 +206,25 @@\n mt.Printf(%22%25\n-c\n+s\n  eh jovem%5Cn%22\n@@ -265,25 +265,25 @@\n mt.Printf(%22%25\n-c\n+s\n  eh adulto%5Cn\n@@ -327,25 +327,25 @@\n mt.Printf(%22%25\n-c\n+s\n  eh idoso%5Cn%22\n@@ -378,17 +378,17 @@\n rintf(%22%25\n-c\n+s\n  eh mumi\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-13_17-33-12",
+            "content": "@@ -164,22 +164,16 @@\n ianca%5Cn%22\n-, nome\n )%0A    %7D \n@@ -223,22 +223,16 @@\n jovem%5Cn%22\n-, nome\n )%0A    %7D \n@@ -279,30 +279,24 @@\n eh adulto%5Cn%22\n-, nome\n )%0A    %7D else\n@@ -344,22 +344,16 @@\n idoso%5Cn%22\n-, nome\n )%0A    %7D \n@@ -395,14 +395,8 @@\n a%5Cn%22\n-, nome\n )%0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-13_17-33-47",
+            "content": "@@ -145,25 +145,25 @@\n mt.Printf(%22%25\n-s\n+c\n  eh crianca%5C\n@@ -212,25 +212,25 @@\n mt.Printf(%22%25\n-s\n+c\n  eh jovem%5Cn%22\n@@ -277,25 +277,25 @@\n mt.Printf(%22%25\n-s\n+c\n  eh adulto%5Cn\n@@ -345,25 +345,25 @@\n mt.Printf(%22%25\n-s\n+c\n  eh idoso%5Cn%22\n@@ -402,17 +402,17 @@\n rintf(%22%25\n-s\n+c\n  eh mumi\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-13_17-34-04",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nome string\n    var idade int\n    fmt.Scan(&nome)\n    fmt.Scan(&idade)\n    if idade < 12 {\n    fmt.Printf(\"%s eh crianca\\n\", nome)\n    } else if idade < 18 {\n    fmt.Printf(\"%s eh jovem\\n\", nome)\n    } else if idade < 65 {\n    fmt.Printf(\"%s eh adulto\\n\", nome)\n    } else if idade < 1000 {\n    fmt.Printf(\"%s eh idoso\\n\", nome)\n    } else   {\n    fmt.Printf(\"%s eh mumia\\n\", nome)\n}\n}\n",
+            "lines": "19"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-13-50",
+            "content": "@@ -17,23 +17,14 @@\n ort \n-%7B\n %22fmt%22%0A\n-%22math%22%7D%0A\n func\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-15-34",
+            "content": "@@ -17,14 +17,22 @@\n ort \n+%7B\n %22fmt%22%0A\n+%22math%22%7D\n %0Afun\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-17-37",
+            "content": "@@ -22,14 +22,8 @@\n fmt%22\n-%0A%22abc%22\n %0A%0Afu\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-17-58",
+            "content": "@@ -18,16 +18,22 @@\n rt %22fmt%22\n+%0A%22abc%22\n %0A%0Afunc m\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-13_17-18-06",
+            "content": "@@ -178,16 +178,17 @@\n ponto1x)\n+%5E\n 2 + (pon\n@@ -202,16 +202,17 @@\n ponto1y)\n+%5E\n 2%7D%0A    f\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-19-04",
+            "content": "@@ -154,16 +154,21 @@\n ancia:= \n+sqrt%7B\n (ponto2x\n@@ -178,16 +178,17 @@\n ponto1x)\n+2\n  + (pont\n@@ -201,16 +201,18 @@\n ponto1y)\n+2%7D\n %0A    fmt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-19-38",
+            "content": "@@ -1,179 +1,104 @@\n-package main%0Aimport %7B%0A    %22fmt%22%0A%22path%22%0A%7D%0Afunc main() %7B%0A    var ponto1x, ponto1y, ponto2x, ponto2y float64%0A    fmt.Scan(&ponto1x, &ponto1y, &ponto2x, &ponto2y)%0A    distanci\n+@@ -17,23 +17,14 @@%0A ort %0A-%257B%0A %2522fmt%2522%250A%0A-%2522math%2522%250A%257D%0A %250Afun%0A@@ -158,18 +158,17 @@%0A \n a:= \n+%0A-\n math\n@@ -107,73 +107,22 @@\n qtr(\n-- ponto1x) + \n+%0A+\n (ponto2\n-y\n+x %0A\n  - po\n-nto1y)%0A    fmt.Printf(%22%25.2f%22, distancia)%0A%7D\n %0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-22-28",
+            "content": "@@ -26,17 +26,17 @@\n  %22fmt%22%0A%22\n-m\n+p\n ath%22%0A%7D%0Af\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-22-35",
+            "content": "@@ -25,16 +25,22 @@\n   %22fmt%22%0A\n+%22math%22\n %0A%7D%0Afunc \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-22-42",
+            "content": "@@ -17,17 +17,22 @@\n ort \n-%5B\n+%7B%0A    \n %22fmt%22%0A%0A\n-%5D\n+%7D\n %0Afun\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-22-59",
+            "content": "@@ -17,15 +17,18 @@\n ort \n+%5B\n %22fmt%22%0A%0A\n+%5D%0A\n func\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-13_17-23-08",
+            "content": "@@ -159,16 +159,17 @@\n := math.\n+s\n qtr(- po\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-23-21",
+            "content": "@@ -159,17 +159,16 @@\n := math.\n-S\n qtr(- po\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-23-33",
+            "content": "@@ -23,21 +23,8 @@\n mt%22%0A\n-import %22math%22\n %0Afun\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-24-02",
+            "content": "@@ -172,17 +172,17 @@\n := math.\n-s\n+S\n qtr(- po\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-24-08",
+            "content": "@@ -178,20 +178,11 @@\n h.sq\n-rt%7B(ponto2x \n+tr(\n - po\n@@ -187,18 +187,16 @@\n ponto1x)\n-%5E2\n  + (pont\n@@ -202,17 +202,19 @@\n to2y\n--\n+ - \n ponto1y)\n %5E2%7D%0A\n@@ -213,11 +213,8 @@\n o1y)\n-%5E2%7D\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-25-29",
+            "content": "@@ -172,17 +172,17 @@\n := math.\n-S\n+s\n qrt%7B(pon\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-25-39",
+            "content": "@@ -99,10 +99,10 @@\n loat\n-32\n+64\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-25-56",
+            "content": "@@ -99,10 +99,10 @@\n loat\n-64\n+32\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-26-05",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\nfunc main() {\n    var ponto1x, ponto1y, ponto2x, ponto2y float64\n    fmt.Scan(&ponto1x, &ponto1y, &ponto2x, &ponto2y)\n    distancia:= math.Sqrt{(ponto2x - ponto1x)^2 + (ponto2y-ponto1y)^2}\n    fmt.Printf(\"%.2f\", distancia)\n}\n",
+            "lines": "9"
+        }
+    ]
+}
