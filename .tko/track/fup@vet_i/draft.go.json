@@ -1,0 +1,109 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-14_17-35-03",
+            "content": "@@ -100,17 +100,16 @@\n r%5B%5Dint =\n- \n make (%5B%5D\n@@ -147,10 +147,10 @@\n ores\n-:\n =\n+:\n  ran\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-36-10",
+            "content": "@@ -167,20 +167,16 @@\n         \n-fmt.\n printf(%22\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-36-18",
+            "content": "@@ -175,9 +175,9 @@\n fmt.\n-P\n+p\n rint\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-36-26",
+            "content": "@@ -134,26 +134,17 @@\n     for \n-quantidade\n+_\n , valore\n@@ -197,20 +197,8 @@\n ores\n-%5Bquantidade%5D\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-36-49",
+            "content": "@@ -202,16 +202,28 @@\n  valores\n+%5Bquantidade%5D\n )%0A    %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-37-55",
+            "content": "@@ -138,9 +138,18 @@\n for \n-_\n+quantidade\n , va\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-38-03",
+            "content": "@@ -180,17 +180,17 @@\n rintf(%22%25\n-v\n+d\n %5Cn%22, val\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-39-09",
+            "content": "@@ -105,16 +105,17 @@\n t = make\n+ \n (%5B%5Dint, \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-39-33",
+            "content": "@@ -179,17 +179,17 @@\n rintf(%22%25\n-d\n+v\n %5Cn%22, val\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-39-39",
+            "content": "@@ -132,16 +132,19 @@\n %0A    for\n+ _,\n  valores\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-40-42",
+            "content": "@@ -136,14 +136,8 @@\n  for\n- posi,\n  val\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-41-13",
+            "content": "@@ -136,16 +136,17 @@\n  for pos\n+i\n , valore\n@@ -199,13 +199,8 @@\n ores\n-%5Bpos%5D\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-41-34",
+            "content": "@@ -181,17 +181,17 @@\n rintf(%22%25\n-v\n+d\n %5Cn%22, val\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-41-57",
+            "content": "@@ -181,17 +181,17 @@\n rintf(%22%25\n-d\n+v\n %5Cn%22, val\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-42-09",
+            "content": "@@ -179,16 +179,24 @@\n .Printf(\n+%22%25d%5Cn%22, \n valores%5B\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-43-16",
+            "content": "@@ -181,10 +181,22 @@\n rint\n+f\n (v\n+alores%5Bpos%5D\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-43-46",
+            "content": "@@ -98,16 +98,17 @@\n arr%5B%5Dint\n+ \n = make(%5B\n@@ -181,33 +181,10 @@\n rint\n-f(%22%25d %25d%5Cn%22, pos, valores\n+(v\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-45-39",
+            "content": "@@ -136,92 +136,11 @@\n for \n-quantidade:= range arr %7B%0A        fmt.Scan(%22&arr%5Bquantidade%5D)%0A        %7D%0A        for _\n+pos\n , va\n@@ -167,20 +167,16 @@\n         \n-    \n fmt.Prin\n@@ -185,12 +185,20 @@\n (%22%25d\n+ %25d\n %5Cn%22,\n+ pos,\n  val\n@@ -211,18 +211,9 @@\n     \n-    %7D%0A%0A   \n+%7D\n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-48-49",
+            "content": "@@ -174,16 +174,17 @@\n mt.Scan(\n+%22\n &arr%5Bqua\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-14_17-48-59",
+            "content": "@@ -128,62 +128,8 @@\n de)%0A\n-    if quantidade == 0%7B%0A        fmt.Print(%22%5Cn%22)%0A    %7D%0A\n     \n@@ -196,18 +196,26 @@\n e%5D)%0A    \n-%7D%0A\n+    %7D%0A    \n     for \n@@ -243,24 +243,28 @@\n r %7B%0A        \n+    \n fmt.Printf(%22\n@@ -279,16 +279,20 @@\n alores)%0A\n+    \n     %7D%0A%0A \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-14_17-51-17",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var quantidade int\n    fmt.Scan(&quantidade)\n    var arr[]int= make([]int, quantidade)\n    if quantidade == 0{\n        fmt.Print(\"\\n\")\n    }\n    for quantidade:= range arr {\n        fmt.Scan(&arr[quantidade])\n    }\n    for _, valores:= range arr {\n        fmt.Printf(\"%d\\n\", valores)\n    }\n\n   \n   \n}\n",
+            "lines": "19"
+        }
+    ]
+}

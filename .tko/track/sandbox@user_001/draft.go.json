@@ -27,8 +27,48 @@
         },
         {
             "label": "2026-03-10_18-00-05",
-            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar num1, num2 float64\n    fmt.Scan(&num1)\n    fmt.Scan(&num2)\n    fmt.Println(num1, num2)\n}\n\n",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -39,153 +39,99 @@\n ) %7B%0A\n-    arr:= %5B%5Dint %7B9, 8, 6, 4 , 2, 1 %7D%0A    fmt.Print(%22%5B%22)%0A    for _, valor:= range arr%7B%0A \n+%09var num1, num2 float64%0A    fmt.Scan(&num1)%0A\n     \n-   \n fmt.\n-Printf (%22%25d%22, valor)%0A    %7D%0A     fmt.Print(%22%5D%5Cn%22\n+Scan(&num2)%0A    fmt.Println(num1, num2\n )%0A%7D%0A\n+%0A\n",
             "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-16-54",
+            "content": "@@ -142,17 +142,16 @@\n ntf (%22%25d\n- \n %22, valor\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_17-17-00",
+            "content": "@@ -97,20 +97,17 @@\n     for \n-posi\n+_\n , valor:\n@@ -144,39 +144,12 @@\n f (%22\n-posic%C3%A3o: %25d e valor: %25d %22, posi\n+%25d %22\n , va\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_17-17-46",
+            "content": "@@ -166,18 +166,16 @@\n alor: %25d\n-%5Cn\n  %22, posi\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_17-17-53",
+            "content": "@@ -86,18 +86,16 @@\n Print(%22%5B\n-%5Cn\n %22)%0A    f\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_17-18-02",
+            "content": "@@ -136,80 +136,35 @@\n     \n-if posi!=0 %7B%0A            fmt.Print(%22, %22)%0A        %7D%0A        fmt.Printf (%22\n+fmt.Printf (%22posic%C3%A3o: %25d e \n valo\n@@ -173,16 +173,22 @@\n  %25d%5Cn %22,\n+ posi,\n  valor)%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_17-24-24",
+            "content": "@@ -213,16 +213,19 @@\n alor: %25d\n+%5Cn \n %22, valor\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_17-24-38",
+            "content": "@@ -86,16 +86,18 @@\n Print(%22%5B\n+%5Cn\n %22)%0A    f\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_17-24-45",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    arr:= []int {9, 8, 6, 4 , 2, 1 }\n    fmt.Print(\"[\")\n    for posi, valor:= range arr{\n        if posi!=0 {\n            fmt.Print(\", \")\n        }\n        fmt.Printf (\"valor: %d\", valor)\n    }\n     fmt.Print(\"]\\n\")\n}\n",
+            "lines": "13"
         }
     ]
 }

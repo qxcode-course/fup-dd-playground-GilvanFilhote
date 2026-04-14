@@ -23,14 +23,15 @@ sources:
   tasks: null
 expanded:
 - fup@for2
-- eval1@teste-1
+- sandbox@sandbox
 - fup@if2
 - fup@for1
+- fup@list
 flags:
-  inbox: inbox
+  inbox: all
   panel: help
   show_panel: 'false'
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: eval1@ceu
+selected: fup@vet_i
