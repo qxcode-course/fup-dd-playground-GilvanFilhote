@@ -97,8 +97,23 @@
         },
         {
             "label": "2026-03-24_18-02-13",
-            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var a, b int\n    var resto, resultado float32\n    fmt.Scan(&a, &b)\n    resultado= float32 (a/b)\n    resto = float32(a%b)\n    fmt.Printf(\"%.0f\\n%.0f\", resultado, resto)\n    fmt.Printf(\"%2.f\\n\", resultado)\n}\n",
+            "content": "@@ -185,18 +185,16 @@\n 0f%5Cn%25.0f\n-%5Cn\n %22, resul\n",
             "lines": "12"
+        },
+        {
+            "label": "2026-04-18_22-01-04",
+            "content": "@@ -177,24 +177,30 @@\n intf(%22%25.0f%5Cn\n+%25.0f%5Cn\n %22, resultado\n@@ -203,33 +203,8 @@\n tado\n-)%0A    fmt.Printf(%22%25.0f%5Cn%22\n , re\n@@ -229,10 +229,10 @@\n f(%22%25\n-.\n 2\n+.\n f%5Cn%22\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-18_22-02-07",
+            "content": "@@ -118,17 +118,16 @@\n esultado\n- \n = float3\n@@ -134,21 +134,9 @@\n 2 (a\n-) / float32 (\n+/\n b)%0A \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-18_22-06-23",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var a, b int\n    var resto, resultado float32\n    fmt.Scan(&a, &b)\n    resultado = float32 (a) / float32 (b)\n    resto = float32(a%b)\n    fmt.Printf(\"%.0f\\n\", resultado)\n    fmt.Printf(\"%.0f\\n\", resto)\n    fmt.Printf(\"%.2f\\n\", resultado)\n}\n",
+            "lines": "13"
         }
     ]
 }

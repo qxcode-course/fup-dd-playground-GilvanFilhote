@@ -2,3 +2,15 @@
 2026-04-18 21:57:02, MOVE, v:1, k:fup@quantos, mode:EDIT
 2026-04-18 21:59:15, EXEC, v:1, k:fup@quantos, mode:FULL, rate:100, size:14
 2026-04-18 21:59:29, EXEC, v:1, k:fup@quantos, mode:FULL, rate:100, size:14
+2026-04-18 21:59:59, MOVE, v:1, k:fup@quantos, mode:BACK
+2026-04-18 22:00:20, MOVE, v:1, k:fup@quebrada, mode:PICK
+2026-04-18 22:00:38, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-18 22:01:04, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:12
+2026-04-18 21:59:28, MOVE, v:1, k:fup@quantos, mode:EDIT
+2026-04-18 21:59:29, MOVE, v:1, k:fup@quantos, mode:EDIT
+2026-04-18 22:01:04, MOVE, v:1, k:fup@quebrada, mode:EDIT
+2026-04-18 22:02:06, MOVE, v:1, k:fup@quebrada, mode:EDIT
+2026-04-18 22:02:07, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:25, size:13
+2026-04-18 22:06:23, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:100, size:13
+2026-04-18 22:06:23, MOVE, v:1, k:fup@quebrada, mode:EDIT
+2026-04-18 22:06:20, MOVE, v:1, k:fup@quebrada, mode:EDIT
