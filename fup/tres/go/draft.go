@@ -1,9 +1,9 @@
 package main
 import "fmt"
 func main() {
-    var a, b float
-    fmt.Scan(&a)
-    b = (1.8*a)+32
-    fmt.Printf("%.6f", b)
+    var a, b, c int
+    fmt.Scan(&a, &b, &c)
+    soma:= a+b+c
+    fmt.Printf("%d\n", soma)
     
 }

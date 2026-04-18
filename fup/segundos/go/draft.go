@@ -1,12 +1,12 @@
 package main
 import "fmt"
-import "math"
 func main() {
-    var tempo, hora, minuto, segundo float64
+    var tempo int
+    var restodehoras, hora, minuto, segundo int
     fmt.Scan(&tempo)
-    hora = int(tempo/3600)
-    restodehoras := math.Mod (tempo, 3600)
-    minuto= int (restodehoras/60)
-    segundo= math.Mod(tempo, 60)
-    fmt.Printf("%d:%d:%.2d", hora, minuto, segundo)
+    hora = tempo/3600
+    restodehoras = tempo%3600
+    minuto = restodehoras/60
+    segundo= restodehoras%60
+    fmt.Printf("%d:%d:%d\n", hora, minuto, segundo)
 }

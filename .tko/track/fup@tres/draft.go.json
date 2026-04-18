@@ -7,8 +7,63 @@
         },
         {
             "label": "2026-03-10_18-11-41",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, c int\n    fmt.Scan(&a, &b, &c)\n    fmt.Println(a + b + c)\n    \n}\n",
+            "content": "@@ -49,13 +49,14 @@\n a, b\n- floa\n+, c in\n t%0A  \n@@ -72,28 +72,17 @@\n n(&a\n-)%0A    b = (1.8*a)+32\n+, &b, &c)\n %0A   \n@@ -95,19 +95,20 @@\n rint\n-f(%22%25.6f%22, b\n+ln(a + b + c\n )%0A  \n",
             "lines": "8"
+        },
+        {
+            "label": "2026-04-18_22-41-00",
+            "content": "@@ -51,18 +51,16 @@\n  b float\n-32\n %0A    fmt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-18_22-41-27",
+            "content": "@@ -49,32 +49,52 @@\n a, b\n-, c int%0A    soma:= a+b+c\n+ float32%0A    fmt.Scan(&a)%0A    b = (1.8*a)+32\n %0A   \n@@ -117,12 +117,9 @@\n f%22, \n-soma\n+b\n )%0A  \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-18_22-42-53",
+            "content": "@@ -91,9 +91,11 @@\n f(%22%25\n-d\n+.6f\n %22, s\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-18_22-43-05",
+            "content": "@@ -87,17 +87,17 @@\n rintf(%22%25\n-f\n+d\n %22, soma)\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-18_22-43-21",
+            "content": "@@ -91,9 +91,9 @@\n f(%22%25\n-d\n+f\n %22, s\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-18_22-43-27",
+            "content": "@@ -53,15 +53,11 @@\n , c \n-float32\n+int\n %0A   \n@@ -87,17 +87,17 @@\n rintf(%22%25\n-f\n+d\n %22, soma)\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-18_22-44-20",
+            "content": "@@ -53,38 +53,15 @@\n , c \n-int%0A    fmt.Printf(&a, &b, &c)\n+float32\n %0A   \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-18_22-45-00",
+            "content": "@@ -65,12 +65,14 @@\n fmt.\n-Scan\n+Printf\n (&a,\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-18_22-45-28",
+            "content": "@@ -116,9 +116,9 @@\n f(%22%25\n-d\n+f\n %22, s\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-18_22-45-37",
+            "content": "@@ -117,10 +117,8 @@\n (%22%25d\n-%5Cn\n %22, s\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-18_22-45-44",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, c int\n    fmt.Scan(&a, &b, &c)\n    soma:= a+b+c\n    fmt.Printf(\"%d\\n\", soma)\n    \n}\n",
+            "lines": "9"
         }
     ]
 }
