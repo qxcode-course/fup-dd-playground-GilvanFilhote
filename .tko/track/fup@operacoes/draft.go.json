@@ -1,0 +1,89 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-18_22-18-45",
+            "content": "@@ -211,25 +211,25 @@\n t.Println(%22%25\n-f\n+d\n %22, soma)%0A   \n@@ -243,17 +243,17 @@\n intln(%22%25\n-f\n+d\n %22, sub)%0A\n@@ -270,17 +270,17 @@\n intln(%22%25\n-f\n+d\n %22, mult)\n@@ -298,17 +298,17 @@\n intln(%22%25\n-f\n+d\n %22, div)%0A\n@@ -325,17 +325,17 @@\n intln(%22%25\n-f\n+d\n %22, resto\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-19-02",
+            "content": "@@ -211,25 +211,24 @@\n t.Println(%22%25\n-l\n f%22, soma)%0A  \n@@ -239,25 +239,24 @@\n t.Println(%22%25\n-l\n f%22, sub)%0A   \n@@ -266,25 +266,24 @@\n t.Println(%22%25\n-l\n f%22, mult)%0A  \n@@ -294,25 +294,24 @@\n t.Println(%22%25\n-l\n f%22, div)%0A   \n@@ -325,17 +325,16 @@\n intln(%22%25\n-l\n f%22, rest\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-19-28",
+            "content": "@@ -165,37 +165,19 @@\n v:= \n-float32(\n num1\n-)\n  / \n-float32(\n num2\n-)\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-20-30",
+            "content": "@@ -319,16 +319,17 @@\n intln(%22%25\n+l\n f%22, div)\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-20-39",
+            "content": "@@ -224,29 +224,31 @@\n    fmt.Print\n-f(%22%25d\n+ln(%22%25lf\n %22, soma)%0A   \n@@ -257,21 +257,23 @@\n mt.Print\n-f(%22%25d\n+ln(%22%25lf\n %22, sub)%0A\n@@ -289,13 +289,15 @@\n rint\n-f(%22%25d\n+ln(%22%25lf\n %22, m\n@@ -310,25 +310,26 @@\n    fmt.Print\n-f\n+ln\n (%22%25f%22, div)%0A\n@@ -345,12 +345,14 @@\n rint\n-f\n+ln\n (%22%25\n+l\n f%22, \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-22-34",
+            "content": "@@ -229,26 +229,24 @@\n t.Printf(%22%25d\n-%5Cn\n %22, soma)%0A   \n@@ -260,18 +260,16 @@\n intf(%22%25d\n-%5Cn\n %22, sub)%0A\n@@ -286,18 +286,16 @@\n intf(%22%25d\n-%5Cn\n %22, mult)\n@@ -313,18 +313,16 @@\n intf(%22%25f\n-%5Cn\n %22, div)%0A\n@@ -343,10 +343,8 @@\n (%22%25f\n-%5Cn\n %22, r\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-22-51",
+            "content": "@@ -322,10 +322,8 @@\n f(%22%25\n-.2\n f%5Cn%22\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-23-00",
+            "content": "@@ -203,24 +203,16 @@\n resto:= \n-float32(\n num1 %25 n\n@@ -210,25 +210,24 @@\n  num1 %25 num2\n-)\n %0A    fmt.Pri\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-23-35",
+            "content": "@@ -361,10 +361,8 @@\n f(%22%25\n-.1\n f%5Cn%22\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-23-43",
+            "content": "@@ -125,9 +125,9 @@\n um1 \n--\n++\n  num\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-24-01",
+            "content": "@@ -362,9 +362,10 @@\n (%22%25.\n-0\n+1f\n %5Cn%22,\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-24-24",
+            "content": "@@ -0,0 +1,380 @@\n+package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var num1, num2 int%0A    fmt.Scan(&num1, &num2)%0A    soma:= num1 + num2%0A    sub:= num1 - num2%0A    mult:= num1 * num2%0A    div:= float32(num1) / float32(num2)%0A    resto:= float32(num1 %25 num2)%0A    fmt.Printf(%22%25d%5Cn%22, soma)%0A    fmt.Printf(%22%25d%5Cn%22, sub)%0A    fmt.Printf(%22%25d%5Cn%22, mult)%0A    fmt.Printf(%22%25.2f%5Cn%22, div)%0A    fmt.Printf(%22%25.0%5Cn%22, resto)%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-24-30",
+            "content": "@@ -1,381 +0,0 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var num1, num2 int%0A    fmt.Scan(&num1, &num2)%0A    soma:= num1 + num2%0A    sub:= num1 - num2%0A    mult:= num1 * num2%0A    div:= float32(num1) / float32(num2)%0A    resto:= float32(num1 %25 num2)%0A    fmt.Printf(%22%25d%5Cn%22, soma)%0A    fmt.Printf(%22%25d%5Cn%22, sub)%0A    fmt.Printf(%22%25d%5Cn%22, mult)%0A    fmt.Printf(%22%25.2f%5Cn%22, div)%0A    fmt.Printf(%22%25.0d%5Cn%22, resto)%0A%7D%0A\n",
+            "lines": "0"
+        },
+        {
+            "label": "2026-04-18_22-24-44",
+            "content": "@@ -357,17 +357,19 @@\n rintf(%22%25\n-f\n+.0d\n %5Cn%22, res\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-24-55",
+            "content": "@@ -361,10 +361,8 @@\n f(%22%25\n-.1\n f%5Cn%22\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-25-04",
+            "content": "@@ -362,9 +362,9 @@\n (%22%25.\n-0\n+1\n f%5Cn%22\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-18_22-26-45",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num1, num2 int\n    fmt.Scan(&num1, &num2)\n    soma:= num1 + num2\n    sub:= num1 - num2\n    mult:= num1 * num2\n    div:= float32(num1) / float32(num2)\n    resto:= float32(num1 % num2)\n    fmt.Printf(\"%d\\n\", soma)\n    fmt.Printf(\"%d\\n\", sub)\n    fmt.Printf(\"%d\\n\", mult)\n    fmt.Printf(\"%.2f\\n\", div)\n    fmt.Printf(\"%.0f\\n\", resto)\n}\n",
+            "lines": "16"
+        }
+    ]
+}
