@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-18_21-59-15",
+            "content": "@@ -269,24 +269,38 @@\n  num1!=num3 \n+&& num2!=num3 \n %7B%0A        fm\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-18_21-59-29",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num1, num2, num3 int\n    fmt.Scan(&num1, &num2, &num3)\n    if num1==num2 && num1==num3{\n        fmt.Println(\"3\")\n    } else if num1==num2 || num1==num3 || num2==num3 {\n        fmt.Println(\"2\")\n    } else if num1!=num2 && num1!=num3 {\n        fmt.Println(\"0\")\n    }\n    \n}\n",
+            "lines": "14"
+        }
+    ]
+}

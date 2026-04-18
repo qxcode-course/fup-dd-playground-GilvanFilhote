@@ -63,3 +63,5 @@
 2026-04-14 18:15:13, EXEC, v:1, k:fup@vet_ii, mode:FULL, rate:0, size:15
 2026-04-14 18:15:25, EXEC, v:1, k:fup@vet_ii, mode:FULL, rate:0, size:15
 2026-04-14 18:15:48, EXEC, v:1, k:fup@vet_ii, mode:FULL, rate:25, size:15
+2026-04-14 18:15:59, MOVE, v:1, k:fup@vet_ii, mode:EDIT
+2026-04-14 18:15:48, MOVE, v:1, k:fup@vet_ii, mode:EDIT

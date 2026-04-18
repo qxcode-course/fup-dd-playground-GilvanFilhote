@@ -22,8 +22,8 @@ sources:
   quests: null
   tasks: null
 expanded:
+- fup@if1
 - fup@for2
-- sandbox@sandbox
 - fup@if2
 - fup@for1
 - fup@list
@@ -34,4 +34,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@vet_ii
+selected: fup@quantos
+selected_index: 10
