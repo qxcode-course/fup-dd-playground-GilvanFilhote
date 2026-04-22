@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_03-17-46",
+            "content": "@@ -151,12 +151,11 @@\n nt(%22\n-Fals\n+Tru\n e%5Cn%22\n@@ -179,33 +179,34 @@\n      fmt.Print(%22\n-Tru\n+Fals\n e%5Cn%22)%0A    %7D%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-22_03-18-23",
+            "content": "@@ -94,17 +94,17 @@\n    if v1\n-%3E\n+%3C\n (v2+v3)%7C\n@@ -106,17 +106,17 @@\n +v3)%7C%7Cv2\n-%3E\n+%3C\n (v1+v3)%7C\n@@ -122,9 +122,9 @@\n %7C%7Cv3\n-%3E\n+%3C\n (v2+\n@@ -151,11 +151,12 @@\n nt(%22\n-Tru\n+Fals\n e%5Cn%22\n@@ -180,34 +180,33 @@\n      fmt.Print(%22\n-Fals\n+Tru\n e%5Cn%22)%0A    %7D%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-22_03-21-26",
+            "content": "@@ -95,17 +95,16 @@\n   if v1%3E\n-=\n (v2+v3)%7C\n@@ -107,17 +107,16 @@\n v3)%7C%7Cv2%3E\n-=\n (v1+v3)%7C\n@@ -123,9 +123,8 @@\n %7Cv3%3E\n-=\n (v2+\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-22_03-22-59",
+            "content": "@@ -94,17 +94,17 @@\n    if v1\n-%3C\n+%3E\n =(v2+v3)\n@@ -107,17 +107,17 @@\n +v3)%7C%7Cv2\n-%3C\n+%3E\n =(v1+v3)\n@@ -124,9 +124,9 @@\n %7C%7Cv3\n-%3C\n+%3E\n =(v2\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-22_03-23-26",
+            "content": "@@ -94,17 +94,17 @@\n    if v1\n-%3E\n+%3C\n =(v2+v3)\n@@ -107,17 +107,17 @@\n +v3)%7C%7Cv2\n-%3E\n+%3C\n =(v1+v3)\n@@ -124,9 +124,9 @@\n %7C%7Cv3\n-%3E\n+%3C\n =(v2\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-22_03-26-29",
+            "content": "@@ -154,12 +154,11 @@\n nt(%22\n-Fals\n+Tru\n e%5Cn%22\n@@ -182,33 +182,34 @@\n      fmt.Print(%22\n-Tru\n+Fals\n e%5Cn%22)%0A    %7D%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-22_03-26-55",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var v1, v2, v3 int \n    fmt.Scan(&v1, &v2, &v3)\n    if v1>=(v2+v3)||v2>=(v1+v3)||v3>=(v2+v1){\n        fmt.Print(\"False\\n\")\n    } else{\n        fmt.Print(\"True\\n\")\n    }\n}\n",
+            "lines": "11"
+        }
+    ]
+}
