@@ -205,3 +205,4 @@
 2026-04-22 19:39:26, EXEC, v:1, k:fup@monica, mode:FULL, rate:20, size:19
 2026-04-22 19:40:24, EXEC, v:1, k:fup@monica, mode:FULL, rate:37, size:20
 2026-04-22 19:41:06, EXEC, v:1, k:fup@monica, mode:FULL, rate:100, size:22
+2026-04-22 19:41:57, MOVE, v:1, k:fup@monica, mode:BACK
