@@ -1,17 +1,19 @@
 package main
 import "fmt"
 func main() {
-    var B, T int
-    fmt.Scan(&B, &T)
-    area_trapezio_felix:=(B+T)*70/2
-    b:=160-B
-    t:=160-T
-    area_trapezio_marzia:=(b+t)*70/2
-    if area_trapezio_felix>area_trapezio_marzia {
+    var b, atm int
+    var t, atf int 
+    fmt.Scan(&b, &t)
+    atm = (b + t) * 70/2
+    B := 160 - b 
+    T := 160 - t
+    atf = (B + T ) * 70/2
+    if atm > atf {
         fmt.Println(1)
-    } else if area_trapezio_felix<area_trapezio_marzia {
+    } else if atf > atm {
         fmt.Println(2)
     } else {
         fmt.Println(0)
     }
+    
 }

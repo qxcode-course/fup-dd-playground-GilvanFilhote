@@ -12,8 +12,23 @@
         },
         {
             "label": "2026-04-22_19-14-05",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var B, T int\n    fmt.Scan(&B, &T)\n    area_trapezio_felix:=(B+T)*70/2\n    b:=160-B\n    t:=160-T\n    area_trapezio_marzia:=(b+t)*70/2\n    if area_trapezio_felix>area_trapezio_marzia {\n        fmt.Println(1)\n    } else if area_trapezio_felix<area_trapezio_marzia {\n        fmt.Println(2)\n    } else {\n        fmt.Println(0)\n    }\n}\n",
+            "content": "@@ -45,38 +45,16 @@\n var \n-b, atm int%0A    var t, atf\n+B, T\n  int\n- \n %0A   \n@@ -68,115 +68,161 @@\n an(&\n-b, &t\n+B, &T\n )%0A    a\n-tm = (b + t) * 70/2%0A    B = 160 - b %0A    T = 160 - t%0A    atf = (B + T ) * 70/2%0A    if atm %3E atf\n+rea_trapezio_felix:=(B+T)*70/2%0A    b:=160-B%0A    t:=160-T%0A    area_trapezio_marzia:=(b+t)*70/2%0A    if area_trapezio_felix%3Earea_trapezio_marzia\n  %7B%0A \n@@ -240,17 +240,17 @@\n Println(\n-2\n+1\n )%0A    %7D \n@@ -262,16 +262,47 @@\n if a\n-tf %3E atm\n+rea_trapezio_felix%3Carea_trapezio_marzia\n  %7B%0A \n@@ -312,33 +312,33 @@\n     fmt.Println(\n-1\n+2\n )%0A    %7D else %7B%0A \n@@ -369,11 +369,6 @@\n   %7D%0A\n-    %0A\n %7D%0A\n",
             "lines": "17"
+        },
+        {
+            "label": "2026-04-22_19-24-39",
+            "content": "@@ -124,17 +124,16 @@\n 2%0A    B \n-:\n = 160 - \n@@ -145,9 +145,8 @@\n   T \n-:\n = 16\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_19-24-54",
+            "content": "@@ -218,17 +218,17 @@\n Println(\n-1\n+2\n )%0A    %7D \n@@ -259,33 +259,33 @@\n     fmt.Println(\n-2\n+1\n )%0A    %7D else %7B%0A \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_19-25-30",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var b, atm int\n    var t, atf int \n    fmt.Scan(&b, &t)\n    atm = (b + t) * 70/2\n    B := 160 - b \n    T := 160 - t\n    atf = (B + T ) * 70/2\n    if atm > atf {\n        fmt.Println(1)\n    } else if atf > atm {\n        fmt.Println(2)\n    } else {\n        fmt.Println(0)\n    }\n    \n}\n",
+            "lines": "19"
         }
     ]
 }

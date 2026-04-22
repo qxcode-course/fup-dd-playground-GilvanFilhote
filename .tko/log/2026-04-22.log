@@ -179,3 +179,9 @@
 2026-04-22 19:12:34, MOVE, v:1, k:fup@cortada, mode:EDIT
 2026-04-22 19:13:30, EXEC, v:1, k:fup@cortada, mode:FULL, rate:54, size:17
 2026-04-22 19:14:05, EXEC, v:1, k:fup@cortada, mode:FULL, rate:100, size:17
+2026-04-22 19:17:33, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-22 19:14:04, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-22 19:22:27, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-22 19:24:39, EXEC, v:1, k:fup@cortada, mode:FULL, size:19, fail:COMP
+2026-04-22 19:24:54, EXEC, v:1, k:fup@cortada, mode:FULL, rate:15, size:19
+2026-04-22 19:25:30, EXEC, v:1, k:fup@cortada, mode:FULL, rate:100, size:19
