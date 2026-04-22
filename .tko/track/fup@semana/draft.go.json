@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_02-50-25",
+            "content": "@@ -190,37 +190,35 @@\n     fmt.Println(\n-%22\n SIM\n-%22\n )%0A    %7D else if \n@@ -293,13 +293,11 @@\n tln(\n-%22\n SIM\n-%22\n )%0A  \n@@ -331,13 +331,11 @@\n tln(\n-%22\n NAO\n-%22\n )%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-22_02-50-54",
+            "content": "@@ -95,34 +95,34 @@\n     if (dia %3E=2 \n-&&\n+%7C%7C\n  dia%3C=6) && (hor\n@@ -228,18 +228,18 @@\n dia %3E=2 \n-&&\n+%7C%7C\n  dia%3C=6)\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-22_02-51-45",
+            "content": "@@ -307,62 +307,8 @@\n    %7D\n- else if dia==1 %7B%0A        fmt.Println(%22NAO%22)%0A    %7D%0A   \n  els\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-22_02-53-13",
+            "content": "@@ -353,16 +353,21 @@\n %22)%0A    %7D\n+%0A    \n else %7B%0A \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-22_02-53-21",
+            "content": "@@ -228,11 +228,21 @@\n dia \n-==7\n+%3E=2 && dia%3C=6\n ) &&\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-22_02-54-36",
+            "content": "@@ -226,17 +226,16 @@\n  (dia ==\n- \n 7) && (h\n@@ -244,18 +244,18 @@\n ario%3E=8 \n-%7C%7C\n+&&\n  horario\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-22_02-55-13",
+            "content": "@@ -237,34 +237,34 @@\n  && (horario%3E=8 \n-&&\n+%7C%7C\n  horario%3C=11)%7B%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-22_02-55-26",
+            "content": "@@ -117,17 +117,16 @@\n %3C=6) && \n-(\n (horario\n@@ -176,17 +176,16 @@\n rio%3C=17)\n-)\n %7B%0A      \n@@ -300,16 +300,65 @@\n  %7D else \n+if dia==1 %7B%0A        fmt.Println(%22NAO%22)%0A    %7Delse \n %7B%0A      \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-22_03-01-06",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var dia, horario int\n    fmt.Scan(&dia, &horario)\n    if (dia >=2 && dia<=6) && ((horario>=8 && horario<=11) ||( horario>=14 && horario<=17)){\n        fmt.Println(\"SIM\")\n    } else if (dia == 7) && (horario>=8 && horario<=11){\n        fmt.Println(\"SIM\")\n    } else {\n        fmt.Println(\"NAO\")\n    }\n}\n",
+            "lines": "13"
+        }
+    ]
+}
