@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_01-44-10",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\nfunc main() {\n    var operacao string\n    var nota float64\n    fmt.Scan(&operacao, &nota)\n    if operacao == \"r\" {\n        fmt.Println(int(math.Round(nota)))\n        } else if operacao == \"c\"  {\n            fmt.Println(int(math.Ceil(nota)))\n        } else{ \n            fmt.Println(int(math.Floor(nota))) // para floor\n}\n}\n",
+            "lines": "15"
+        }
+    ]
+}
