@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_01-05-52",
+            "content": "@@ -213,33 +213,33 @@\n     fmt.Println(\n-1\n+0\n )%0A        %7D%0A    \n@@ -303,17 +303,17 @@\n Println(\n-1\n+0\n )%0A      \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-22_01-06-16",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var p, d1, d2, soma int\n    fmt.Scan(&p, &d1, &d2)\n    soma=d1+d2\n    if p == 0 {\n        if soma%2==0{\n            fmt.Println(0)\n        } else if soma%2!=0{\n            fmt.Println(1)\n        }\n    } else if p == 1 {\n        if soma%2==0{\n            fmt.Println(1)\n        } else if soma%2!=0{\n            fmt.Println(0)\n        }\n    }\n}\n",
+            "lines": "20"
+        }
+    ]
+}
