@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_01-50-34",
+            "content": "@@ -37,28 +37,8 @@\n ) %7B%0A\n-    var nome string%0A\n     \n@@ -68,15 +68,8 @@\n can(\n-&nome, \n &ida\n@@ -109,25 +109,20 @@\n rint\n-f(%22%25s eh \n+ln(%22\n crian%C3%A7a%22\n , no\n@@ -117,22 +117,16 @@\n crian%C3%A7a%22\n-, nome\n )%0A    %7D \n@@ -163,29 +163,18 @@\n rint\n-f(%22%25s eh jovem%22, nome\n+ln(%22jovem%22\n )%0A  \n@@ -215,30 +215,19 @@\n rint\n-f(%22%25s eh \n+ln(%22\n adulto%22\n-, nome\n )%0A  \n@@ -268,29 +268,18 @@\n rint\n-f(%22%25s eh idoso%22, nome\n+ln(%22idoso%22\n )%0A  \n@@ -305,29 +305,18 @@\n rint\n-f(%22%25s eh mumia%22, nome\n+ln(%22mumia%22\n )%0A  \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_01-52-56",
+            "content": "@@ -146,17 +146,17 @@\n eh crian\n-c\n+%C3%A7\n a%22, nome\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-22_01-53-12",
+            "content": "@@ -148,18 +148,16 @@\n  crianca\n-%5Cn\n %22, nome)\n@@ -211,18 +211,16 @@\n eh jovem\n-%5Cn\n %22, nome)\n@@ -275,18 +275,16 @@\n h adulto\n-%5Cn\n %22, nome)\n@@ -338,18 +338,16 @@\n eh idoso\n-%5Cn\n %22, nome)\n@@ -390,10 +390,8 @@\n umia\n-%5Cn\n %22, n\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-22_01-53-55",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nome string\n    var idade int\n    fmt.Scan(&nome, &idade)\n    if idade < 12 {\n    fmt.Printf(\"%s eh crianca\\n\", nome)\n    } else if idade < 18 {\n    fmt.Printf(\"%s eh jovem\\n\", nome)\n    } else if idade < 65 {\n    fmt.Printf(\"%s eh adulto\\n\", nome)\n    } else if idade<1000 {\n    fmt.Printf(\"%s eh idoso\\n\", nome)\n    }else {\n    fmt.Printf(\"%s eh mumia\\n\", nome)\n    }\n}\n",
+            "lines": "18"
+        }
+    ]
+}
