@@ -1,0 +1,114 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_03-54-34",
+            "content": "@@ -138,17 +138,16 @@\n     x1= \n-(\n -b + mat\n@@ -178,16 +178,14 @@\n a*c)\n-)\n+ \n / \n-(\n 2*a\n-)\n %0A   \n@@ -189,17 +189,16 @@\n     x2= \n-(\n -b - mat\n@@ -229,17 +229,14 @@\n a*c)\n-)\n  / \n-(\n 2*a\n-)\n %0A   \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_03-57-50",
+            "content": "@@ -146,35 +146,44 @@\n (-b + math.Sqrt(\n-b*b\n+math.Pow(b,2\n ) -4*a*c))/ (2*a\n@@ -212,11 +212,20 @@\n qrt(\n-b*b\n+math.Pow(b,2\n ) -4\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-00-00",
+            "content": "@@ -166,16 +166,17 @@\n  -4*a*c)\n+)\n / (2*a)%0A\n@@ -211,16 +211,17 @@\n  -4*a*c)\n+)\n  / (2*a)\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-00-14",
+            "content": "@@ -146,33 +146,32 @@\n (-b + math.Sqrt(\n-(\n b*b) -4*a*c))/ (\n@@ -166,17 +166,16 @@\n  -4*a*c)\n-)\n / (2*a)%0A\n@@ -198,17 +198,16 @@\n th.Sqrt(\n-(\n b*b) -4*\n@@ -210,17 +210,16 @@\n  -4*a*c)\n-)\n  / (2*a)\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-04-26",
+            "content": "@@ -260,18 +260,17 @@\n tf(%22%25.2f\n-%5Cn\n+ \n %25.2f%5Cn%22,\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-04-40",
+            "content": "@@ -375,16 +375,28 @@\n ln(%22nao \n+ha raiz real\n %22)%0A    %7D\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-05-14",
+            "content": "@@ -371,16 +371,20 @@\n rintln(%22\n+nao \n %22)%0A    %7D\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-05-27",
+            "content": "@@ -375,14 +375,8 @@\n ln(%22\n-gggggg\n %22)%0A \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-06-47",
+            "content": "@@ -147,37 +147,35 @@\n -b + math.Sqrt((\n-delta\n+b*b\n ) -4*a*c))/ (2*a\n@@ -201,21 +201,19 @@\n h.Sqrt((\n-delta\n+b*b\n ) -4*a*c\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-08-24",
+            "content": "@@ -347,16 +347,52 @@\n )%0A    %7D \n+else %7B%0A        fmt.Println(%22gggggg%22)\n %0A    %7D%0A%7D\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_04-08-41",
+            "content": "@@ -352,11 +352,12 @@\n  %7D %0A    \n+%7D\n %0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-22_04-08-46",
+            "content": "@@ -133,15 +133,8 @@\n b,2)\n- -4*a*c\n %0A   \n@@ -161,16 +161,23 @@\n ((delta)\n+ -4*a*c\n ))/ (2*a\n@@ -209,16 +209,23 @@\n ((delta)\n+ -4*a*c\n )) / (2*\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-22_04-12-43",
+            "content": "@@ -344,61 +344,8 @@\n   %7D \n-else %7B%0A        fmt.Printf(%22nao ha raiz real%5Cn%22)%0A    %7D\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-22_04-13-33",
+            "content": "@@ -187,16 +187,17 @@\n    x2= (\n+-\n b - math\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-22_04-13-54",
+            "content": "@@ -187,17 +187,16 @@\n    x2= (\n--\n b - math\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-22_04-14-01",
+            "content": "@@ -141,29 +141,8 @@\n a*c%0A\n-    if delta%3E0 %7B%0A    \n     \n@@ -182,20 +182,16 @@\n *a)%0A    \n- \n-   \n x2= (-b \n@@ -216,24 +216,41 @@\n ))) / (2*a)%0A\n+    if delta%3E0 %7B%0A\n     fmt.Prin\n@@ -305,51 +305,8 @@\n 0 %7B%0A\n-        x1= -b + math.Sqrt((delta))/ (2*a)%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-22_04-15-42",
+            "content": "@@ -323,16 +323,37 @@\n   x1= -b\n+ + math.Sqrt((delta))\n / (2*a)%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_04-16-20",
+            "content": "@@ -182,23 +182,25 @@\n th.Sqrt(\n+(\n delta))\n+)\n / (2*a)%0A\n@@ -227,23 +227,25 @@\n th.Sqrt(\n+(\n delta))\n+)\n  / (2*a)\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_04-19-15",
+            "content": "@@ -120,11 +120,21 @@\n a:= \n-b*b\n+math.Pow(b,2)\n  -4*\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_04-20-46",
+            "content": "@@ -347,17 +347,17 @@\n 2f%5Cn%22, x\n-1\n+2\n )%0A    %7D \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_04-21-51",
+            "content": "@@ -320,12 +320,8 @@\n 2*a)\n- + 0\n %0A   \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_04-24-56",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\nfunc main() {\n    var a, b, c, x1, x2 float64\n    fmt.Scan(&a, &b, &c)\n    delta:= b*b -4*a*c\n    if delta>0 {\n        x1= (-b + math.Sqrt(delta))/ (2*a)\n        x2= (-b - math.Sqrt(delta)) / (2*a)\n    fmt.Printf(\"%.2f\\n%.2f\\n\", x1, x2)\n    } else if delta==0 {\n        x1= -b/ (2*a) + 0\n        fmt.Printf(\"%.2f\\n\", x1)\n    } else {\n        fmt.Printf(\"nao ha raiz real\\n\")\n    }\n    \n}\n",
+            "lines": "19"
+        }
+    ]
+}
