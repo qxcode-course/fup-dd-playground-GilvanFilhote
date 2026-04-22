@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_19-35-01",
+            "content": "@@ -286,10 +286,13 @@\n )%0A    %7D%0A\n-%7D\n+    \n %0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-22_19-35-08",
+            "content": "@@ -258,33 +258,34 @@\n        fmt.Print\n-f\n+ln\n (%22%25d%5Cn%22, C)%0A    \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-22_19-35-18",
+            "content": "@@ -118,9 +118,9 @@\n - (A\n-+\n+-\n B)%0A \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-22_19-35-32",
+            "content": "@@ -30,16 +30,17 @@\n c main()\n+ \n %7B%0A    va\n@@ -45,18 +45,37 @@\n var \n-A, B, C, M\n+M int%0A    var A int%0A    var B\n  int\n@@ -105,17 +105,17 @@\n B)%0A    C\n- \n+:\n = M - (A\n@@ -130,19 +130,17 @@\n if A\n- %3E \n+%3E\n B && A%3EC\n  %7B%0A \n@@ -135,17 +135,16 @@\n B && A%3EC\n- \n %7B%0A      \n@@ -160,36 +160,135 @@\n ntf(\n-A)%0A        %0A    %7D%0A%0A%0A%0A%0A%0A%0A%0A%7D%0A    \n+%22%25d%5Cn%22, A)%0A    %7D else if A%3CB && B%3EC%7B%0A        fmt.Printf(%22%25d%5Cn%22, B)%0A    %7D else if A%3CC && B%3CC%7B%0A        fmt.Printf(%22%25d%5Cn%22, C)%0A    %7D%0A%7D\n %0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-22_19-39-00",
+            "content": "@@ -143,16 +143,8 @@\n ntf(\n-%22%25d%5Cn%22, \n A)%0A \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_19-39-26",
+            "content": "@@ -158,69 +158,18 @@\n     \n-%7D else if B %3E A && B%3EC %7B%0A        fmt.Printf(%22%25d%5Cn%22, B)\n+    \n %0A    %7D\n- \n %0A%0A%0A%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-22_19-40-24",
+            "content": "@@ -219,68 +219,8 @@\n   %7D \n-else if C %3E B && C %3E A %7B%0A        fmt.Printf(%22%25d%5Cn%22, C)%0A    %7D\n %0A%0A%0A%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-22_19-41-06",
+            "content": "package main\nimport \"fmt\"\nfunc main(){\n    var A, B, C, M int\n    fmt.Scan(&M, &A, &B)\n    C = M - (A+B)\n    if A > B && A>C {\n        fmt.Printf(\"%d\\n\", A)\n    } else if B > A && B>C {\n        fmt.Printf(\"%d\\n\", B)\n    } else if C > B && C > A {\n        fmt.Printf(\"%d\\n\", C)\n    }\n\n\n\n\n\n\n\n}\n    \n",
+            "lines": "22"
+        }
+    ]
+}
