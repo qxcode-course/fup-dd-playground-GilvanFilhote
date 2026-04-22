@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_02-04-00",
+            "content": "@@ -311,11 +311,45 @@\n 3)%0A    %7D\n+%0A%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-22_02-04-10",
+            "content": "@@ -193,17 +193,17 @@\n %7C%7C (v3%3Ev\n-1\n+2\n  && v1%3Ev\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-22_02-10-02",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var v1, v2, v3 int\n    fmt.Scan(&v1, &v2, &v3)\n    if (v1>v2 && v2>v3) || (v3>v2 && v2>v1) {\n        fmt.Println(v2)\n    } else if (v2>v1 && v1>v3) || (v3>v1 && v1>v2){\n        fmt.Println(v1)\n    } else if (v1>v3 && v3>v2) || (v2>v3 && v3>v1){\n        fmt.Println(v3)\n    }\n}\n",
+            "lines": "13"
+        }
+    ]
+}
