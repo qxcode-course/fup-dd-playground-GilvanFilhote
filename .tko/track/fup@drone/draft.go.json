@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-24_17-30-27",
+            "content": "@@ -54,289 +54,37 @@\n  c, \n-h, l, area_janela int%0A    fmt.Scan(&a, &b, &c, &h, &l)%0A    area_janela=h*l%0A    if area_janela%3E a*b%7B%0A        fmt.Println(%22S%22)%0A    %7D else if area_janela%3E a*c%7B%0A        fmt.Println(%22S%22)%0A    %7D else if area_janela%3E b*c%7B%0A        fmt.Println(%22S%22)%0A    %7D else %7B%0A        fmt.Println(%22N%22)%0A    %7D\n+dimensao%0A    fmt.Scan(&a, &b&)\n %0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-04-24_17-39-40",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, c, h, l, area_janela int\n    fmt.Scan(&a, &b, &c, &h, &l)\n    area_janela=h*l\n    if area_janela> a*b{\n        fmt.Println(\"S\")\n    } else if area_janela> a*c{\n        fmt.Println(\"S\")\n    } else if area_janela> b*c{\n        fmt.Println(\"S\")\n    } else {\n        fmt.Println(\"N\")\n    }\n}\n",
+            "lines": "16"
+        }
+    ]
+}

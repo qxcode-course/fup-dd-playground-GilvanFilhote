@@ -22,10 +22,10 @@ sources:
   quests: null
   tasks: null
 expanded:
+- fup@for2
+- fup@list
 - fup@for1
 - fup@if2
-- fup@list
-- fup@for2
 flags:
   inbox: all
   panel: help

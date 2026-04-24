@@ -1,0 +1,5 @@
+2026-04-24 17:30:24, MOVE, v:1, k:fup@drone, mode:PICK
+2026-04-24 17:30:27, EXEC, v:1, k:fup@drone, mode:FULL, size:6, fail:COMP
+2026-04-24 17:31:56, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-24 17:36:58, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-24 17:39:40, EXEC, v:1, k:fup@drone, mode:FULL, rate:100, size:16
