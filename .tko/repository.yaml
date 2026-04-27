@@ -23,15 +23,15 @@ sources:
   tasks: null
 expanded:
 - fup@for2
+- fup@if2
 - fup@list
 - fup@for1
-- fup@if2
 flags:
   inbox: all
-  panel: help
-  show_panel: 'false'
+  panel: skills
+  show_panel: 'true'
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@drone
-selected_index: 10
+selected: fup@ceu
+selected_index: 26

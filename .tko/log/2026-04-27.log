@@ -1,0 +1,31 @@
+2026-04-27 16:54:17, MOVE, v:1, k:fup@ceu, mode:DOWN
+2026-04-27 16:54:18, MOVE, v:1, k:fup@ceu, mode:PICK
+2026-04-27 16:54:17, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 16:54:17, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 16:54:17, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 17:14:37, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:5
+2026-04-27 17:14:39, MOVE, v:1, k:fup@ceu, mode:BACK
+2026-04-27 17:15:26, MOVE, v:1, k:fup@ceu, mode:PICK
+2026-04-27 17:15:31, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0
+2026-04-27 17:15:31, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 17:18:13, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 17:21:38, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:9
+2026-04-27 17:21:37, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 17:24:44, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 17:25:25, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:11
+2026-04-27 17:25:42, EXEC, v:1, k:fup@ceu, mode:FULL, size:11, fail:COMP
+2026-04-27 17:26:21, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:11
+2026-04-27 17:26:42, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:11
+2026-04-27 17:28:13, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:11
+2026-04-27 17:28:43, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:11
+2026-04-27 17:29:02, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:11
+2026-04-27 17:29:15, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:11
+2026-04-27 17:29:14, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 17:29:15, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-04-27 17:31:35, EXEC, v:1, k:fup@ceu, mode:FULL, rate:0, size:12
+2026-04-27 17:31:45, EXEC, v:1, k:fup@ceu, mode:FULL, rate:80, size:12
+2026-04-27 17:32:33, EXEC, v:1, k:fup@ceu, mode:FULL, rate:80, size:14
+2026-04-27 17:33:06, EXEC, v:1, k:fup@ceu, mode:FULL, rate:20, size:15
+2026-04-27 17:33:07, EXEC, v:1, k:fup@ceu, mode:FULL, rate:20
+2026-04-27 17:33:07, EXEC, v:1, k:fup@ceu, mode:FREE
+2026-04-27 17:33:46, EXEC, v:1, k:fup@ceu, mode:FULL, rate:100, size:16
