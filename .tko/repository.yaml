@@ -22,10 +22,10 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@for2
-- fup@if2
 - fup@list
 - fup@for1
+- fup@if2
+- fup@for2
 flags:
   inbox: all
   panel: skills
@@ -33,5 +33,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@esconde
-selected_index: 27
+selected: fup@zigzag
+selected_index: 29
