@@ -1,3 +1,31 @@
 2026-04-28 16:54:01, MOVE, v:1, k:fup@zigzag, mode:PICK
 2026-04-28 16:54:35, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:13
 2026-04-28 16:56:03, MOVE, v:1, k:fup@zigzag, mode:BACK
+2026-04-28 16:57:33, MOVE, v:1, k:fup@zigzag, mode:PICK
+2026-04-28 17:02:29, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:02:59, EXEC, v:1, k:fup@zigzag, mode:FULL, size:20, fail:COMP
+2026-04-28 17:03:18, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:23
+2026-04-28 17:05:31, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:23
+2026-04-28 17:05:27, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:05:31, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:07:55, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:23
+2026-04-28 17:08:15, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:07:55, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:15:16, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:25
+2026-04-28 17:16:14, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:27
+2026-04-28 17:16:38, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:19
+2026-04-28 17:17:31, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:16:38, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:17:44, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:19
+2026-04-28 17:17:58, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:19
+2026-04-28 17:21:49, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:17:58, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:26:41, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:31:13, EXEC, v:1, k:fup@zigzag, mode:FULL, size:16, fail:COMP
+2026-04-28 17:31:19, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:16
+2026-04-28 17:32:31, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:31:19, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:33:19, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-04-28 17:33:43, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:100, size:18
+2026-04-28 17:33:42, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-04-28 17:33:43, MOVE, v:1, k:fup@zigzag, mode:EDIT

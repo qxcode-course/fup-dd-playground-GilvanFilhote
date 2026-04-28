@@ -2,8 +2,73 @@
     "patches": [
         {
             "label": "2026-04-28_16-54-35",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num1, num2 int\n    fmt.Scan(&num1, &num2)\n    if num1 %3 == 0 && num1 %5 == 0{\n        fmt.Print(\"zig\")\n    }\n    \n    fmt.Println(\"\")\n\n    \n}\n",
+            "content": "@@ -91,160 +91,26 @@\n     \n-for i:=num1; i%3C=num2; i++%7B%0A        if i%253!=0 %7C%7C i%255!=0 %7B%0A        fmt.Print(%22%25d%5Cn%22, i)%0A    %7D else if num1 %253 == 0%7B%0A        fmt.Print(%22zig%22)%0A    %7D else if\n+if num1 %253 == 0 &&\n  num\n@@ -140,17 +140,17 @@\n Print(%22z\n-a\n+i\n g%22)%0A    \n@@ -160,26 +160,16 @@\n    %0A    \n-%0A    \n-%0A    \n fmt.Prin\n@@ -177,11 +177,15 @@\n ln(%22%22)%0A%0A\n+    \n %0A%7D%0A\n",
             "lines": "13"
+        },
+        {
+            "label": "2026-04-28_17-02-59",
+            "content": "@@ -161,17 +161,16 @@\n mt.Print\n-f\n (%22%25d%5Cn%22,\n@@ -304,12 +304,27 @@\n    %0A\n-%7D%0A%0A%0A\n+    fmt.Println(%22%22)\n %0A%0A%0A%7D\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-28_17-03-18",
+            "content": "@@ -118,16 +118,19 @@\n ++%7B%0A\n+    \n     if \n-(\n i%253!\n@@ -141,17 +141,16 @@\n %7C i%255!=0\n-)\n  %7B%0A     \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-04-28_17-05-31",
+            "content": "@@ -132,14 +132,12 @@\n 3!=0\n-)\n  %7C%7C \n-(\n i%255!\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-04-28_17-07-55",
+            "content": "@@ -83,17 +83,16 @@\n  &num2)%0A\n-%0A\n     for \n@@ -118,22 +118,35 @@\n ++%7B%0A\n-%0A\n     if \n+(\n i%253!=0\n+) %7C%7C (i%255!=0)\n  %7B%0A \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-04-28_17-15-16",
+            "content": "@@ -272,80 +272,8 @@\n g%22)%0A\n-    %7D else if num1 %253 == 0 && num1 %255 == 0%7B%0A        fmt.Print(%22zigzag%22)%0A\n     \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-04-28_17-16-14",
+            "content": "@@ -346,12 +346,32 @@\n )%0A    %7D%0A\n-%7D\n+    %0A    %0A    %0A%7D%0A%0A%0A%0A%0A\n %0A%7D%0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-04-28_17-16-38",
+            "content": "@@ -168,33 +168,36 @@\n )%0A    %7D else if \n-i\n+num1\n  %253 == 0%7B%0A      \n@@ -229,17 +229,20 @@\n else if \n-i\n+num1\n  %255 == 0\n@@ -282,17 +282,20 @@\n else if \n-i\n+num1\n  %253 == 0\n@@ -298,17 +298,20 @@\n == 0 && \n-i\n+num1\n  %255 == 0\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-28_17-17-44",
+            "content": "@@ -209,18 +209,16 @@\n int(%22zig\n-%5Cn\n %22)%0A    %7D\n@@ -259,18 +259,16 @@\n int(%22zag\n-%5Cn\n %22)%0A    %7D\n@@ -325,18 +325,16 @@\n (%22zigzag\n-%5Cn\n %22)%0A    %7D\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-28_17-17-58",
+            "content": "@@ -45,13 +45,18 @@\n var \n-in, f\n+num1, num2\n  int\n@@ -74,15 +74,21 @@\n an(&\n-in, &f)\n+num1, &num2)%0A\n %0A   \n@@ -97,66 +97,100 @@\n or i\n- \n :=\n- in; i %3C f ; i++ %7B%0A        if i %25 3 == 0 && i %25 5\n+num1; i%3C=num2; i++%7B%0A%0A    if i%253!=0 %7B%0A        fmt.Printf(%22%25d%5Cn%22, i)%0A    %7D else if i %253\n  == 0\n- \n %7B%0A  \n@@ -187,36 +187,32 @@\n 3 == 0%7B%0A        \n-    \n fmt.Println(%22zig\n@@ -208,25 +208,18 @@\n rint\n-ln\n (%22zig\n-zag%22)%0A    \n+%5Cn%22)%0A\n     \n@@ -235,16 +235,14 @@\n  i %25\n- 3\n+5\n  == 0\n- \n %7B%0A  \n@@ -239,36 +239,32 @@\n 5 == 0%7B%0A        \n-    \n fmt.Println(%22zig\n@@ -260,22 +260,18 @@\n rint\n-ln\n (%22z\n-ig%22)%0A    \n+ag%5Cn%22)%0A\n     \n@@ -287,22 +287,29 @@\n  i %25\n- 5\n+3\n  == 0 \n-%7B%0A    \n+&& i %255 == 0%7B%0A\n     \n@@ -325,27 +325,20 @@\n rint\n-ln\n (%22z\n-ag%22)%0A        %7D\n+igzag%5Cn%22)\n %0A   \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-28_17-31-12",
+            "content": "@@ -318,9 +318,10 @@\n     %7D%0A%7D%0A\n+%7D\n %0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_17-31-19",
+            "content": "@@ -304,80 +304,8 @@\n g%22)%0A\n-        %7D else if i %25 3 != 0 && i %25 5 != 0 %7B%0A            fmt.Println(i)%0A\n     \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_17-33-19",
+            "content": "@@ -93,17 +93,16 @@\n  in; i %3C\n-=\n  f ; i++\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-28_17-33-43",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var in, f int\n    fmt.Scan(&in, &f)\n    for i := in; i <= f ; i++ {\n        if i % 3 == 0 && i % 5 == 0 {\n            fmt.Println(\"zigzag\")\n        } else if i % 3 == 0 {\n            fmt.Println(\"zig\")\n        } else if i % 5 == 0 {\n            fmt.Println(\"zag\")\n        } else if i % 3 != 0 && i % 5 != 0 {\n            fmt.Println(i)\n        }\n    }\n}\n\n",
+            "lines": "18"
         }
     ]
 }

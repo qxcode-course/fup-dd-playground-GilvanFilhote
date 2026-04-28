@@ -1,13 +1,18 @@
 package main
 import "fmt"
 func main() {
-    var num1, num2 int
-    fmt.Scan(&num1, &num2)
-    if num1 %3 == 0 && num1 %5 == 0{
-        fmt.Print("zig")
+    var in, f int
+    fmt.Scan(&in, &f)
+    for i := in; i <= f ; i++ {
+        if i % 3 == 0 && i % 5 == 0 {
+            fmt.Println("zigzag")
+        } else if i % 3 == 0 {
+            fmt.Println("zig")
+        } else if i % 5 == 0 {
+            fmt.Println("zag")
+        } else if i % 3 != 0 && i % 5 != 0 {
+            fmt.Println(i)
+        }
     }
-    
-    fmt.Println("")
-
-    
 }
+
