@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-28_17-53-58",
+            "content": "@@ -160,28 +160,8 @@\n  %22d%22\n- && (i%252==0 %7C%7C i==0)\n  %7B%0A \n@@ -186,17 +186,16 @@\n ntf(%22%25dd\n- \n %22, i)%0A  \n@@ -205,72 +205,8 @@\n    %0A\n-    %7D else if l == %22e%22 && i%252!=0%7B%0A        fmt.Printf(%22%25de %22, i)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-28_17-57-33",
+            "content": "@@ -237,54 +237,8 @@\n lse \n-%7B%0A            fmt.Printf(%22%25de %22, i)%0A    %7D%0A    \n if l\n@@ -295,55 +295,8 @@\n    %7D\n-else %7B%0A            fmt.Printf(%22%25dd %22, i)%0A    %7D%0A\n %0A%7D%0A%7D\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_17-58-40",
+            "content": "@@ -157,25 +157,20 @@\n  == %22d%22 \n-%7B%0A    if \n+&& (\n i%252==0 %7C\n@@ -167,32 +167,33 @@\n  (i%252==0 %7C%7C i==0\n+)\n  %7B%0A        fmt.P\n@@ -179,32 +179,36 @@\n i==0) %7B%0A        \n+   \n+ \n fmt.Printf(%22%25dd \n@@ -221,57 +221,91 @@\n     \n-%7D\n     %0A\n+    \n %7D else \n-if l == %22e%22 %7B%0A    if i%252==0 %7C%7C i=\n+%7B%0A            fmt.Printf(%22%25de %22, i)%0A    %7D%0A    if l == %22e%22 && i%252!\n =0\n- \n %7B%0A  \n@@ -337,20 +337,60 @@\n i)%0A    %7D\n+else %7B%0A            fmt.Printf(%22%25dd %22, i)%0A\n     \n-%0A\n %7D%0A%0A%7D%0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-28_18-04-07",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    var l string\n    fmt.Scan(&n, &l)\n    fmt.Printf(\"[ \")\n    for i := 0; i <= 10; i++ {\n        if l == \"d\" {\n    if i%2==0 || i==0 {\n        fmt.Printf(\"%dd \", i)\n    }    \n} else if l == \"e\" {\n    if i%2==0 || i==0 {\n        fmt.Printf(\"%de \", i)\n    }    \n}\n\n}\n}\n",
+            "lines": "20"
+        }
+    ]
+}

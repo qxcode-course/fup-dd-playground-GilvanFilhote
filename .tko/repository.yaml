@@ -22,8 +22,8 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@list
 - fup@for1
+- fup@list
 - fup@if2
 - fup@for2
 flags:
@@ -33,5 +33,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@zigzag
-selected_index: 29
+selected: fup@colorido
+selected_index: 30
