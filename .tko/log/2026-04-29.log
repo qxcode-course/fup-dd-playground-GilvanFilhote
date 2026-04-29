@@ -1,0 +1,28 @@
+2026-04-29 04:23:20, MOVE, v:1, k:fup@colorido, mode:PICK
+2026-04-29 04:23:33, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-04-29 04:23:33, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:27:54, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:28:48, EXEC, v:1, k:fup@colorido, mode:FULL, size:26, fail:COMP
+2026-04-29 04:28:55, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 04:29:06, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 04:29:27, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 04:29:47, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 04:33:01, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:29:47, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:34:13, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:35
+2026-04-29 04:37:46, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:34:13, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:38:45, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:35
+2026-04-29 04:43:02, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:38:45, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:44:09, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 04:44:17, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 04:44:16, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:44:17, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 04:56:44, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 05:00:23, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 05:07:45, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 05:07:43, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 05:07:45, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 05:08:40, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 05:08:49, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
