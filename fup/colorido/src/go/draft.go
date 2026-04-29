@@ -6,22 +6,36 @@ func main() {
     fmt.Scan(&n, &l)
     fmt.Printf("[ ")
 
-    if l=="d"{
-    for i := 0; i <= 10; i++ {
-       if i==n{
-        continue
-       } 
-       if i==10{
-        fmt.Print("ceu")
-        if i<n{
-        fmt.Printf("%dd ", i)
-        }else if i%2==0 {
-        fmt.Printf("%de ", i)
-       }
-       }else{
-        fmt.Printf("%de ", i)
-       }
+    for i:=0; i<=10; i++ {
+        par:=(i%2==0)
+        sufixo:=""
+        if i==n || i==10{
+            continue
+        }
+
+        if l =="d"{
+            if par {
+                sufixo= "d"
+            } else{
+                sufixo= "e"
+            } 
+        } else {
+            if par {
+                sufixo= "e"
+            } else{
+                sufixo= "d"
+            } 
+        }
+
+        if i>n {
+            if sufixo=="d"{
+                sufixo="e"
+            } else {
+              sufixo="d"  
+            }
+        }
+        
+        fmt.Printf("%d%s ", i, sufixo)
     }
-}
-fmt.Printf("]")
+    fmt.Print("ceu ]\n")
 }
