@@ -26,3 +26,16 @@
 2026-04-29 05:07:45, MOVE, v:1, k:fup@colorido, mode:EDIT
 2026-04-29 05:08:40, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
 2026-04-29 05:08:49, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-04-29 05:10:35, MOVE, v:1, k:fup@colorido, mode:BACK
+2026-04-29 05:10:39, MOVE, v:1, k:fup@concentra, mode:DOWN
+2026-04-29 05:10:39, MOVE, v:1, k:fup@concentra, mode:PICK
+2026-04-29 05:08:48, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 05:08:49, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-04-29 05:10:39, MOVE, v:1, k:fup@concentra, mode:EDIT
+2026-04-29 05:10:39, MOVE, v:1, k:fup@concentra, mode:EDIT
+2026-04-29 05:12:57, MOVE, v:1, k:fup@concentra, mode:EDIT
+2026-04-29 05:18:02, MOVE, v:1, k:fup@concentra, mode:EDIT
+2026-04-29 05:18:41, EXEC, v:1, k:fup@concentra, mode:FULL, rate:0, size:10
+2026-04-29 05:18:53, EXEC, v:1, k:fup@concentra, mode:FULL, rate:0, size:10
+2026-04-29 05:19:35, EXEC, v:1, k:fup@concentra, mode:FULL, rate:0, size:11
+2026-04-29 05:19:44, EXEC, v:1, k:fup@concentra, mode:FULL, rate:100, size:11
