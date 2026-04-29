@@ -22,10 +22,13 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@list
-- fup@for2
+- fup@if1
 - fup@for1
+- fup@for2
+- fup@games
 - fup@if2
+- fup@list
+- eval1@eval1
 flags:
   inbox: all
   panel: skills
@@ -33,5 +36,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@concentra
-selected_index: 31
+selected: fup@goiabas
+selected_index: 25
