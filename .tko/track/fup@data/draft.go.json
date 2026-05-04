@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-04_19-19-10",
+            "content": "@@ -41,154 +41,35 @@\n     \n-var hora, minuto, dia, m%C3%AAs, ano int%0A    fmt.Scan(&hora, &minuto, &dia, &m%C3%AAs, &ano)%0A    fmt.Printf(%220%25d:%25d %25d/%25d/%25d%5Cn%22, hora, minuto, dia, m%C3%AAs, ano\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-04_19-23-58",
+            "content": "@@ -146,17 +146,16 @@\n d:%25d %25d/\n-0\n %25d/%25d%5Cn%22\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-05-04_19-24-11",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var hora, minuto, dia, m\u00eas, ano int\n    fmt.Scan(&hora, &minuto, &dia, &m\u00eas, &ano)\n    fmt.Printf(\"0%d:%d %d/0%d/%d\\n\", hora, minuto, dia, m\u00eas, ano)\n}\n",
+            "lines": "7"
+        }
+    ]
+}

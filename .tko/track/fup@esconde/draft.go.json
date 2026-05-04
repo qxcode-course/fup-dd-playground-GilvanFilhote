@@ -52,7 +52,12 @@
         },
         {
             "label": "2026-05-04_18-58-41",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n    for i:=1; i<=n; i++{\n        if i%2!=0{\n            fmt.Printf(\"%d\\n\", i)\n        }\n    \n    }\n    for i:=n; i==0; i--{\n        if i%2==0{\n            fmt.Printf(\"%d\\n\", i)\n        }\n    \n    }\n}\n",
+            "content": "@@ -182,9 +182,9 @@\n n; i\n-%3E\n+=\n =0; \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-04_19-17-28",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n    for i:=1; i<=n; i++{\n        if i%2!=0{\n            fmt.Printf(\"%d\\n\", i)\n        }\n    \n    }\n    for i:=n; i>=0; i--{\n        if i%2==0{\n            fmt.Printf(\"%d\\n\", i)\n        }\n    \n    }\n}\n",
             "lines": "18"
         }
     ]

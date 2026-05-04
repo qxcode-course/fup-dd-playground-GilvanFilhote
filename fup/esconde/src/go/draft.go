@@ -9,7 +9,7 @@ func main() {
         }
     
     }
-    for i:=n; i==0; i--{
+    for i:=n; i>=0; i--{
         if i%2==0{
             fmt.Printf("%d\n", i)
         }
