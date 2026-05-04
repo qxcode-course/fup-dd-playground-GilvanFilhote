@@ -7,8 +7,13 @@
         },
         {
             "label": "2026-04-22_18-53-14",
-            "content": "\n\n\npackage main\nimport \"fmt\"\nfunc main() {\n    var jog1, jog2 string\n    fmt.Scan(&jog1, &jog2)\n    if (jog1==\"R\" && jog2==\"S\") ||(jog1==\"P\" && jog2==\"R\") || (jog1==\"S\" && jog2==\"P\") {\n        fmt.Println(\"jog1\")\n    } else if (jog2==\"R\" && jog1==\"S\") ||(jog2==\"P\" && jog1==\"R\") || (jog2==\"S\" && jog1==\"P\") {\n        fmt.Println(\"jog2\")\n    } else {\n        fmt.Println(\"empate\")\n    }\n    \n}\n",
+            "content": "@@ -1,8 +1,10 @@\n+%0A%0A\n %0Apackage\n",
             "lines": "17"
+        },
+        {
+            "label": "2026-05-04_18-46-35",
+            "content": "\npackage main\nimport \"fmt\"\nfunc main() {\n    var jog1, jog2 string\n    fmt.Scan(&jog1, &jog2)\n    if (jog1==\"R\" && jog2==\"S\") ||(jog1==\"P\" && jog2==\"R\") || (jog1==\"S\" && jog2==\"P\") {\n        fmt.Println(\"jog1\")\n    } else if (jog2==\"R\" && jog1==\"S\") ||(jog2==\"P\" && jog1==\"R\") || (jog2==\"S\" && jog1==\"P\") {\n        fmt.Println(\"jog2\")\n    } else {\n        fmt.Println(\"empate\")\n    }\n    \n}\n",
+            "lines": "15"
         }
     ]
 }

@@ -22,13 +22,13 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@if2
 - fup@list
+- eval1@eval1
+- fup@if2
 - fup@if1
+- fup@for2
 - fup@for1
 - fup@games
-- fup@for2
-- eval1@eval1
 flags:
   inbox: all
   panel: skills
@@ -36,5 +36,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@abs
-selected_index: 3
+selected: fup@loop_iii
+selected_index: 33

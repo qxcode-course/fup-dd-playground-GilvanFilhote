@@ -27,8 +27,13 @@
         },
         {
             "label": "2026-04-10_17-32-36",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var filho_mais_novo, total_de_filhos int\n    fmt.Scan(&filho_mais_novo, &total_de_filhos)\n    for i:= 0; i<total_de_filhos; i++{\n        fmt.Printf(\"%d\\n\", filho_mais_novo)\n        \n    }\n    \n}\n",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var filh\n@@ -77,27 +77,17 @@\n lhos\n-, outro_filho\n  int%0A\n-%09\n+    \n fmt.\n@@ -131,25 +131,25 @@\n os)%0A\n-%09\n+    \n for i\n- \n := 0; i\n- %3C \n+%3C\n tota\n@@ -168,30 +168,18 @@\n  i++\n- \n %7B%0A\n-%09%09outro_filho +%0A%09%09%09\n+        \n fmt.\n@@ -214,11 +214,26 @@\n vo)%0A\n-%0A%09%7D%0A\n+        %0A    %7D%0A    \n %0A%7D%0A\n",
             "lines": "11"
+        },
+        {
+            "label": "2026-05-04_18-54-56",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar filho_mais_novo, total_de_filhos, outro_filho int\n\tfmt.Scan(&filho_mais_novo, &total_de_filhos)\n\tfor i := 0; i < total_de_filhos; i++ {\n\t\toutro_filho +\n\t\t\tfmt.Printf(\"%d\\n\", filho_mais_novo)\n\n\t}\n\n}\n",
+            "lines": "14"
         }
     ]
 }
