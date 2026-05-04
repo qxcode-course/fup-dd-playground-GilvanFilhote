@@ -2,8 +2,38 @@
     "patches": [
         {
             "label": "2026-05-04_19-33-57",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,270 +41,35 @@\n     \n-var velo_media, tempo_minutos, consumo_de_gaso int%0A    fmt.Scan(&velo_media, &tempo_minutos, &consumo_de_gaso)%0A    tempo_horas:= tempo_minutos/60%0A    distancia:= tempo_horas*velo_media%0A    desempenhofinal:= distancia/consumo_de_gaso%0A    fmt.Print(desempenhofinal\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-04_19-45-35",
+            "content": "@@ -287,18 +287,9 @@\n rint\n-f(%22%25.2d%22, \n+(\n dese\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-04_19-46-09",
+            "content": "@@ -291,10 +291,10 @@\n f(%22%25\n-2\n .\n+2\n d%22, \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-04_19-46-24",
+            "content": "@@ -290,11 +290,11 @@\n tf(%22\n-.2%25\n+%252.\n d%22, \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-04_19-46-41",
+            "content": "@@ -290,11 +290,11 @@\n tf(%22\n-%252.\n+.2%25\n d%22, \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-04_19-47-01",
+            "content": "@@ -291,10 +291,10 @@\n f(%22%25\n-.\n 2\n+.\n d%22, \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-04_19-47-08",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var velo_media, tempo_minutos, consumo_de_gaso int\n    fmt.Scan(&velo_media, &tempo_minutos, &consumo_de_gaso)\n    tempo_horas:= tempo_minutos/60\n    distancia:= tempo_horas*velo_media\n    desempenhofinal:= distancia/consumo_de_gaso\n    fmt.Printf(\"%.2d\", desempenhofinal)\n}\n",
+            "lines": "10"
         }
     ]
 }

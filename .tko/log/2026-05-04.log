@@ -396,3 +396,31 @@
 2026-05-04 19:37:09, EXEC, v:1, k:fup@data, mode:FULL, rate:100
 2026-05-04 19:37:10, EXEC, v:1, k:fup@data, mode:FULL, rate:100
 2026-05-04 19:37:11, MOVE, v:1, k:fup@data, mode:BACK
+2026-05-04 19:38:11, MOVE, v:1, k:fup@opala, mode:PICK
+2026-05-04 19:38:17, MOVE, v:1, k:fup@opala, mode:BACK
+2026-05-04 19:38:36, MOVE, v:1, k:fup@opala, mode:PICK
+2026-05-04 19:37:10, MOVE, v:1, k:fup@data, mode:EDIT
+2026-05-04 19:33:55, MOVE, v:1, k:fup@opala, mode:EDIT
+2026-05-04 19:33:55, MOVE, v:1, k:fup@opala, mode:EDIT
+2026-05-04 19:33:55, MOVE, v:1, k:fup@opala, mode:EDIT
+2026-05-04 19:33:57, MOVE, v:1, k:fup@opala, mode:EDIT
+2026-05-04 19:34:13, MOVE, v:1, k:fup@varetas, mode:EDIT
+2026-05-04 19:34:24, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-05-04 19:34:34, MOVE, v:1, k:fup@goiabas, mode:EDIT
+2026-05-04 19:34:41, MOVE, v:1, k:fup@loop_ii, mode:EDIT
+2026-05-04 19:34:44, MOVE, v:1, k:fup@loop_iii, mode:EDIT
+2026-05-04 19:34:58, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-04 19:35:18, MOVE, v:1, k:fup@jokenpo, mode:EDIT
+2026-05-04 19:35:21, MOVE, v:1, k:fup@mumia, mode:EDIT
+2026-05-04 19:36:06, MOVE, v:1, k:fup@guarda, mode:EDIT
+2026-05-04 19:36:13, MOVE, v:1, k:fup@quantos, mode:EDIT
+2026-05-04 19:36:22, MOVE, v:1, k:fup@impar, mode:EDIT
+2026-05-04 19:36:31, MOVE, v:1, k:fup@round, mode:EDIT
+2026-05-04 19:36:44, MOVE, v:1, k:fup@loop_i, mode:EDIT
+2026-05-04 19:43:01, MOVE, v:1, k:fup@opala, mode:EDIT
+2026-05-04 19:45:35, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
+2026-05-04 19:46:09, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
+2026-05-04 19:46:24, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
+2026-05-04 19:46:41, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
+2026-05-04 19:47:01, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
+2026-05-04 19:47:08, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
