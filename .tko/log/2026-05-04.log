@@ -1,2 +1,10 @@
 2026-05-04 18:12:57, MOVE, v:1, k:fup@colorido, mode:PICK
 2026-05-04 18:13:06, EXEC, v:1, k:fup@colorido, mode:FULL, rate:83
+2026-05-04 18:13:25, MOVE, v:1, k:fup@colorido, mode:BACK
+2026-05-04 18:15:24, SELF, v:1, k:fup@max, self:1, rate:100, study:12, refactor:1
+2026-05-04 18:15:27, MOVE, v:1, k:fup@ou, mode:PICK
+2026-05-04 18:15:29, MOVE, v:1, k:fup@ou, mode:BACK
+2026-05-04 18:16:35, SELF, v:1, k:fup@ou, self:1, rate:100, study:5
+2026-05-04 18:16:40, MOVE, v:1, k:fup@abs, mode:PICK
+2026-05-04 18:16:41, MOVE, v:1, k:fup@abs, mode:BACK
+2026-05-04 18:16:56, SELF, v:1, k:fup@abs, self:1, rate:100, friend:Mikaele Silva

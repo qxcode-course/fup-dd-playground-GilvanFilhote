@@ -36,5 +36,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@colorido
-selected_index: 43
+selected: fup@abs
+selected_index: 3
