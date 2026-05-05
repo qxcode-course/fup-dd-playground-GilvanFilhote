@@ -32,8 +32,18 @@
         },
         {
             "label": "2026-05-04_18-54-56",
-            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar filho_mais_novo, total_de_filhos, outro_filho int\n\tfmt.Scan(&filho_mais_novo, &total_de_filhos)\n\tfor i := 0; i < total_de_filhos; i++ {\n\t\toutro_filho +\n\t\t\tfmt.Printf(\"%d\\n\", filho_mais_novo)\n\n\t}\n\n}\n",
+            "content": "@@ -146,31 +146,17 @@\n or i := \n-filho_mais_novo\n+0\n ; i %3C to\n@@ -176,16 +176,32 @@\n ; i++ %7B%0A\n+%09%09outro_filho +%0A\n %09%09%09fmt.P\n@@ -218,28 +218,25 @@\n n%22, \n-i)%0A%09%09outro_filho + 1\n+filho_mais_novo)%0A\n %0A%09%7D%0A\n",
             "lines": "14"
+        },
+        {
+            "label": "2026-05-05_17-36-08",
+            "content": "@@ -232,10 +232,10 @@\n ilho\n+ \n +\n-=\n  1%0A%09\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-36-19",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar filho_mais_novo, total_de_filhos, outro_filho int\n\tfmt.Scan(&filho_mais_novo, &total_de_filhos)\n\tfor i := filho_mais_novo; i < total_de_filhos; i++ {\n\t\t\tfmt.Printf(\"%d\\n\", i)\n\t\toutro_filho+= 1\n\t}\n\n}\n",
+            "lines": "13"
         }
     ]
 }

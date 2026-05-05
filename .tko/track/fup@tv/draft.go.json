@@ -47,8 +47,38 @@
         },
         {
             "label": "2026-05-05_17-17-38",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var valor, parcela_s float64\n    fmt.Scan(&valor, &parcela_s)\n    parcela_s=parcela_s-1\n\n    \n    valordaparcela:=valor*parcela_s*0.05\n    \n    fmt.Printf(\"%f\\n\", valordaparcela)\n\n}\n\n",
+            "content": "@@ -103,28 +103,8 @@\n _s)%0A\n-    if valor%3E1%7B%0A    \n     \n@@ -125,20 +125,22 @@\n ela_s-1%0A\n+%0A\n     \n+%0A\n     valo\n@@ -136,28 +136,26 @@\n   %0A    valor\n-_\n da\n-_\n parcela:=val\n@@ -176,137 +176,8 @@\n .05%0A\n-        valor_total:=valor_da_parcela*parcelas%0A    %7D else %7B%0A        fmt.Printf(%22%25f%5Cn%25f%5Cn%22, valor_total, valor_da_parcela)%0A    %7D%0A%0A\n     \n",
             "lines": "14"
+        },
+        {
+            "label": "2026-05-05_17-25-37",
+            "content": "@@ -243,70 +243,8 @@\n las%0A\n-        fmt.Printf(%22%25f%5Cn%25f%5Cn%22, valor_total, valor_da_parcela)%0A\n     \n@@ -321,11 +321,56 @@\n %0A    %7D%0A%0A\n+    %0A    fmt.Printf(%22%25f%5Cn%22, valordaparcela)%0A%0A\n %7D%0A%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_17-25-55",
+            "content": "@@ -237,17 +237,16 @@\n *parcela\n-_\n s%0A      \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-05_17-26-02",
+            "content": "@@ -103,51 +103,8 @@\n _s)%0A\n-    valor_total:=0%0A    valor_da_parcela:=0%0A\n     \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-05_17-26-53",
+            "content": "@@ -158,10 +158,9 @@\n alor\n-==\n+%3E\n 1%7B%0A \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_17-28-30",
+            "content": "@@ -149,25 +149,21 @@\n %0A    if \n-parcela_s\n+valor\n ==1%7B%0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_17-28-51",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var valor, parcela_s float64\n    fmt.Scan(&valor, &parcela_s)\n    valor_total:=0\n    valor_da_parcela:=0\n    if parcela_s==1{\n        parcela_s=parcela_s-1\n        valor_da_parcela:=valor*parcela_s*0.05\n        valor_total:=valor_da_parcela*parcela_s\n        fmt.Printf(\"%f\\n%f\\n\", valor_total, valor_da_parcela)\n    } else {\n        fmt.Printf(\"%f\\n%f\\n\", valor_total, valor_da_parcela)\n    }\n\n}\n\n",
+            "lines": "18"
         }
     ]
 }

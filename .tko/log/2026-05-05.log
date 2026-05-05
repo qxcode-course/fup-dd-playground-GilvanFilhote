@@ -37,3 +37,23 @@
 2026-05-05 17:15:48, MOVE, v:1, k:fup@tv, mode:EDIT
 2026-05-05 17:15:49, MOVE, v:1, k:fup@tv, mode:EDIT
 2026-05-05 17:17:38, EXEC, v:1, k:fup@tv, mode:FULL, rate:0, size:14
+2026-05-05 17:21:20, MOVE, v:1, k:fup@tv, mode:EDIT
+2026-05-05 17:17:38, MOVE, v:1, k:fup@tv, mode:EDIT
+2026-05-05 17:25:37, EXEC, v:1, k:fup@tv, mode:FULL, size:18, fail:COMP
+2026-05-05 17:25:55, EXEC, v:1, k:fup@tv, mode:FULL, size:16, fail:COMP
+2026-05-05 17:26:02, EXEC, v:1, k:fup@tv, mode:FULL, size:16, fail:COMP
+2026-05-05 17:26:01, MOVE, v:1, k:fup@tv, mode:EDIT
+2026-05-05 17:26:53, EXEC, v:1, k:fup@tv, mode:FULL, rate:0, size:18
+2026-05-05 17:27:17, MOVE, v:1, k:fup@tv, mode:BACK
+2026-05-05 17:28:28, MOVE, v:1, k:fup@tv, mode:PICK
+2026-05-05 17:28:30, EXEC, v:1, k:fup@tv, mode:FULL, rate:0, size:18
+2026-05-05 17:28:51, EXEC, v:1, k:fup@tv, mode:FULL, rate:0, size:18
+2026-05-05 17:29:13, MOVE, v:1, k:fup@tv, mode:BACK
+2026-05-05 17:29:29, MOVE, v:1, k:fup@filhos, mode:PICK
+2026-05-05 17:28:51, MOVE, v:1, k:fup@tv, mode:EDIT
+2026-05-05 17:28:51, MOVE, v:1, k:fup@tv, mode:EDIT
+2026-05-05 17:31:21, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-05-05 17:36:08, EXEC, v:1, k:fup@filhos, mode:FULL, size:13, fail:COMP
+2026-05-05 17:36:19, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:13
+2026-05-05 17:36:18, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-05-05 17:36:19, MOVE, v:1, k:fup@filhos, mode:EDIT

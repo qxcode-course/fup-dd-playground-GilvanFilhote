@@ -3,15 +3,16 @@ import "fmt"
 func main() {
     var valor, parcela_s float64
     fmt.Scan(&valor, &parcela_s)
-    if valor>1{
+    valor_total:=0
+    valor_da_parcela:=0
+    if parcela_s==1{
         parcela_s=parcela_s-1
-        valordaparcela:=valor*parcela_s*0.05
+        valor_da_parcela:=valor*parcela_s*0.05
+        valor_total:=valor_da_parcela*parcela_s
+        fmt.Printf("%f\n%f\n", valor_total, valor_da_parcela)
     } else {
-        valordaparcela:=valor*parcela_s*0.05
+        fmt.Printf("%f\n%f\n", valor_total, valor_da_parcela)
     }
-
-    
-    fmt.Printf("%f\n", valordaparcela)
 
 }
 
