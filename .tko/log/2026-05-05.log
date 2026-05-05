@@ -57,3 +57,12 @@
 2026-05-05 17:36:19, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:13
 2026-05-05 17:36:18, MOVE, v:1, k:fup@filhos, mode:EDIT
 2026-05-05 17:36:19, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-05-05 17:42:33, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0
+2026-05-05 17:42:52, EXEC, v:1, k:fup@filhos, mode:FULL, size:13, fail:COMP
+2026-05-05 17:44:27, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:13
+2026-05-05 17:44:37, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:13
+2026-05-05 17:44:37, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-05-05 17:44:36, MOVE, v:1, k:fup@filhos, mode:EDIT
+2026-05-05 17:47:23, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:13
+2026-05-05 17:47:31, EXEC, v:1, k:fup@filhos, mode:FULL, rate:0, size:13
+2026-05-05 17:48:17, EXEC, v:1, k:fup@filhos, mode:FULL, rate:100, size:13

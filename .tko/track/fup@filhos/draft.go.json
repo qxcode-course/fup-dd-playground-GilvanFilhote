@@ -42,7 +42,37 @@
         },
         {
             "label": "2026-05-05_17-36-19",
-            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar filho_mais_novo, total_de_filhos, outro_filho int\n\tfmt.Scan(&filho_mais_novo, &total_de_filhos)\n\tfor i := filho_mais_novo; i < total_de_filhos; i++ {\n\t\t\tfmt.Printf(\"%d\\n\", i)\n\t\toutro_filho+= 1\n\t}\n\n}\n",
+            "content": "@@ -217,17 +217,27 @@\n %22, i)%0A%09%09\n-i\n+outro_filho\n += 1%0A%09%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-42-52",
+            "content": "@@ -72,16 +72,29 @@\n e_filhos\n+, outro_filho\n  int%0A%09fm\n@@ -216,46 +216,18 @@\n n%22, \n-filho_mais_novo)%0A%09%09filho_mais_novo+= 2\n+i)%0A%09%09i+= 1\n %0A%09%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-44-27",
+            "content": "@@ -218,15 +218,34 @@\n novo)%0A%09%09\n+filho_mais_novo+= 2\n %0A%09%7D%0A%0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-44-37",
+            "content": "@@ -137,9 +137,23 @@\n  := \n-1\n+filho_mais_novo\n ; i \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-47-23",
+            "content": "@@ -137,9 +137,9 @@\n  := \n-0\n+1\n ; i \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-47-31",
+            "content": "@@ -208,26 +208,8 @@\n )%0A%09%09\n-filho_mais_novo+=2\n %0A%09%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-48-17",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar filho_mais_novo, total_de_filhos int\n\tfmt.Scan(&filho_mais_novo, &total_de_filhos)\n\tfor i := 0; i < total_de_filhos; i++ {\n\t\t\tfmt.Printf(\"%d\\n\", filho_mais_novo)\n\t\tfilho_mais_novo+=2\n\t}\n\n}\n",
             "lines": "13"
         }
     ]
