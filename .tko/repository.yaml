@@ -33,10 +33,10 @@ expanded:
 - fup@list
 flags:
   inbox: all
-  panel: skills
+  panel: graph
   show_panel: 'true'
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@filhos
-selected_index: 52
+selected: fup@fuga
+selected_index: 59

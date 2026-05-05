@@ -37,5 +37,9 @@ func main() {
         
         fmt.Printf("%d%s ", i, sufixo)
     }
+    if n==10{
+    fmt.Print("]\n")
+    } else {
     fmt.Print("ceu ]\n")
+    }
 }

@@ -192,8 +192,18 @@
         },
         {
             "label": "2026-04-29_19-56-27",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    var l string\n    fmt.Scan(&n, &l)\n    fmt.Printf(\"[ \")\n\n    for i:=0; i<=10; i++ {\n        par:=(i%2==0)\n        sufixo:=\"\"\n        if i==n || i==10{\n            continue\n        }\n\n        if l ==\"d\"{\n            if par {\n                sufixo= \"d\"\n            } else{\n                sufixo= \"e\"\n            } \n        } else {\n            if par {\n                sufixo= \"e\"\n            } else{\n                sufixo= \"d\"\n            } \n        }\n\n        if i>n {\n            if sufixo==\"d\"{\n                sufixo=\"e\"\n            } else {\n              sufixo=\"d\"  \n            }\n        }\n        \n        fmt.Printf(\"%d%s \", i, sufixo)\n    }\n    fmt.Print(\"ceu ]\\n\")\n}\n",
+            "content": "@@ -707,57 +707,8 @@\n   %7D%0A\n-    if n==10%7B%0A    fmt.Print(%22 %5D%5Cn%22)%0A    %7D else %7B%0A\n     \n@@ -728,16 +728,10 @@\n u %5D%5Cn%22)%0A\n-    %7D%0A\n %7D%0A\n",
             "lines": "41"
+        },
+        {
+            "label": "2026-05-05_17-56-30",
+            "content": "@@ -732,16 +732,17 @@\n .Print(%22\n+ \n %5D%5Cn%22)%0A  \n",
+            "lines": "45"
+        },
+        {
+            "label": "2026-05-05_17-56-37",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    var l string\n    fmt.Scan(&n, &l)\n    fmt.Printf(\"[ \")\n\n    for i:=0; i<=10; i++ {\n        par:=(i%2==0)\n        sufixo:=\"\"\n        if i==n || i==10{\n            continue\n        }\n\n        if l ==\"d\"{\n            if par {\n                sufixo= \"d\"\n            } else{\n                sufixo= \"e\"\n            } \n        } else {\n            if par {\n                sufixo= \"e\"\n            } else{\n                sufixo= \"d\"\n            } \n        }\n\n        if i>n {\n            if sufixo==\"d\"{\n                sufixo=\"e\"\n            } else {\n              sufixo=\"d\"  \n            }\n        }\n        \n        fmt.Printf(\"%d%s \", i, sufixo)\n    }\n    if n==10{\n    fmt.Print(\"]\\n\")\n    } else {\n    fmt.Print(\"ceu ]\\n\")\n    }\n}\n",
+            "lines": "45"
         }
     ]
 }
