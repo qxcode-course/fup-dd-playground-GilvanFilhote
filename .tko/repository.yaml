@@ -22,15 +22,15 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@games
+- sandbox@sandbox
 - fup@for1
 - fup@for2
-- fup@list
-- fup@if1
-- fup@if2
-- sandbox@sandbox
 - eval1@eval1
+- fup@if2
+- fup@if1
 - fup@base
+- fup@games
+- fup@list
 flags:
   inbox: all
   panel: skills
@@ -38,5 +38,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@opala
-selected_index: 14
+selected: fup@tv
+selected_index: 15

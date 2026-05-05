@@ -424,3 +424,5 @@
 2026-05-04 19:46:41, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
 2026-05-04 19:47:01, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
 2026-05-04 19:47:08, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:10
+2026-05-04 19:47:08, MOVE, v:1, k:fup@opala, mode:EDIT
+2026-05-04 19:47:08, MOVE, v:1, k:fup@opala, mode:EDIT
