@@ -22,8 +22,38 @@
         },
         {
             "label": "2026-05-05_18-57-30",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n   var h, p, f, d int\n   fmt.Scan(&h, &p, &f, &d)\n   for i:=0; i<=15; i++{\n    \n   }\n}\n",
+            "content": "@@ -87,21 +87,8 @@\n &d)%0A\n-   if d==-1%7B%0A\n    f\n@@ -120,10 +120,8 @@\n %0A   %7D%0A%7D%0A\n-%7D%0A\n",
             "lines": "9"
+        },
+        {
+            "label": "2026-05-06_18-54-33",
+            "content": "@@ -98,33 +98,33 @@\n ==-1%7B%0A   for i:=\n-f\n+0\n ; i%3C=15; i++%7B%0A  \n@@ -129,222 +129,8 @@\n     \n-if i==p%7B%0A      fmt.Println(%22N%22)%0A    %7D else if i==h%7B%0A      fmt.Println(%22S%22)%0A    %7D%0A   %7D%0A%7D else if d==-1%7B%0A   for i:=f; i%3C=15; i--%7B%0A      if i==p%7B%0A      fmt.Println(%22N%22)%0A    %7D else if i==h%7B%0A      fmt.Println(%22S%22)%0A    %7D\n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-06_19-08-34",
+            "content": "@@ -224,16 +224,17 @@\n e if d==\n+-\n 1%7B%0A   fo\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-06_19-08-53",
+            "content": "@@ -83,17 +83,16 @@\n &f, &d)%0A\n-%0A\n    if d=\n@@ -204,39 +204,8 @@\n S%22)%0A\n-    %7D else if i%3E15 %7B%0A      i=0%0A\n     \n@@ -302,32 +302,32 @@\n %7D else if i==h%7B%0A\n+\n       fmt.Printl\n@@ -337,38 +337,8 @@\n S%22)%0A\n-    %7Delse if i%3E15 %7B%0A      i=0%0A\n     \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-06_19-32-51",
+            "content": "@@ -83,16 +83,18 @@\n &f, &d)%0A\n+%0A \n   if d==\n@@ -97,17 +97,16 @@\n  d==-1%7B%0A\n- \n    for i\n@@ -130,55 +130,17 @@\n     \n-  \n if i\n-%3E15%7B%0A        i=0%0A      %7D else if i==h%7B%0A  \n+==p%7B%0A\n     \n@@ -154,36 +154,20 @@\n rintln(%22\n-S\n+N\n %22)%0A\n-        break%0A  \n     %7D el\n@@ -167,37 +167,35 @@\n    %7D else if i==\n-p\n+h\n %7B%0A\n-  \n       fmt.Printl\n@@ -201,33 +201,42 @@\n ln(%22\n-N\n+S\n %22)%0A    \n-    break\n+%7D else if i%3E15 %7B\n %0A      \n-%7D\n+i=0\n %0A   \n@@ -240,16 +240,19 @@\n     %7D%0A  \n+ %7D%0A\n %7D else i\n@@ -259,17 +259,16 @@\n f d==1%7B%0A\n- \n    for i\n@@ -276,26 +276,26 @@\n =f; i%3C=15; i\n-++\n+--\n %7B%0A      if i\n@@ -298,49 +298,13 @@\n if i\n-%3E15%7B%0A        i=0%0A      %7D else if i==h%7B%0A  \n+==p%7B%0A\n     \n@@ -322,28 +322,12 @@\n ln(%22\n-S\n+N\n %22)%0A\n-        break%0A  \n     \n@@ -335,29 +335,27 @@\n  else if i==\n-p\n+h\n %7B%0A\n-  \n       fmt.Pr\n@@ -365,33 +365,41 @@\n ln(%22\n-N\n+S\n %22)%0A    \n-    break\n+%7Delse if i%3E15 %7B\n %0A      \n-%7D\n+i=0\n %0A   \n@@ -403,14 +403,15 @@\n     %7D%0A  \n+ %7D%0A\n %7D%0A\n-  \n %7D%0A\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-07_02-03-24",
+            "content": "@@ -321,16 +321,17 @@\n f; i\n-%3E=0; i--\n+%3C=15; i++\n %7B%0A  \n@@ -342,10 +342,11 @@\n if i\n-%3C0\n+%3E15\n %7B%0A  \n@@ -353,18 +353,17 @@\n       i=\n-15\n+0\n %0A      %7D\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-07_02-04-20",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n   var h, p, f, d int\n   fmt.Scan(&h, &p, &f, &d)\n  if d==-1{\n    for i:=f; i<=15; i++{\n      if i>15{\n        i=0\n      } else if i==h{\n        fmt.Println(\"S\")\n        break\n      } else if i==p{\n        fmt.Println(\"N\")\n        break\n      }\n    }\n  } else if d==1{\n    for i:=f; i>=0; i--{\n      if i<0{\n        i=15\n      } else if i==h{\n        fmt.Println(\"S\")\n        break\n      } else if i==p{\n        fmt.Println(\"N\")\n        break\n      }\n    }\n  }\n  }\n",
+            "lines": "31"
         }
     ]
 }
