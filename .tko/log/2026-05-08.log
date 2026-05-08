@@ -1,0 +1,9 @@
+2026-05-08 17:40:29, MOVE, v:1, k:fup@concentra, mode:PICK
+2026-05-08 17:40:44, EXEC, v:1, k:fup@concentra, mode:FULL, rate:100
+2026-05-08 17:41:04, MOVE, v:1, k:fup@concentra, mode:BACK
+2026-05-08 17:41:11, MOVE, v:1, k:fup@lotado, mode:DOWN
+2026-05-08 17:41:19, MOVE, v:1, k:fup@lotado, mode:PICK
+2026-05-08 17:40:44, MOVE, v:1, k:fup@concentra, mode:EDIT
+2026-05-08 17:41:10, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-08 17:41:11, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-08 17:45:11, MOVE, v:1, k:fup@lotado, mode:EDIT
