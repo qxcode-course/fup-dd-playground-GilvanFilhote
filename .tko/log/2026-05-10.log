@@ -25,3 +25,43 @@
 2026-05-10 18:42:10, EXEC, v:1, k:fup@tv, mode:FULL, rate:100, size:16
 2026-05-10 18:42:09, MOVE, v:1, k:fup@tv, mode:EDIT
 2026-05-10 18:42:10, MOVE, v:1, k:fup@tv, mode:EDIT
+2026-05-10 18:47:31, MOVE, v:1, k:fup@tv, mode:BACK
+2026-05-10 18:48:09, SELF, v:1, k:fup@tv, self:1, rate:100, study:30, concept:1
+2026-05-10 18:53:54, MOVE, v:1, k:fup@lotado, mode:PICK
+2026-05-10 18:55:48, EXEC, v:1, k:fup@lotado, mode:FULL, size:8, fail:COMP
+2026-05-10 18:59:46, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:05:07, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:06:44, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:19
+2026-05-10 19:10:06, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:06:40, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:10:35, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:19
+2026-05-10 19:10:51, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:20
+2026-05-10 19:11:22, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:23
+2026-05-10 19:13:56, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:20
+2026-05-10 19:14:18, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:13:52, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:15:38, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:22
+2026-05-10 19:18:58, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:33
+2026-05-10 19:19:38, MOVE, v:1, k:fup@lotado, mode:PICK
+2026-05-10 19:23:01, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:22
+2026-05-10 19:19:45, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:22:57, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:25:46, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0
+2026-05-10 19:26:09, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:15
+2026-05-10 19:28:06, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:22
+2026-05-10 19:28:02, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:29:25, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:29:45, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:28
+2026-05-10 19:30:08, EXEC, v:1, k:fup@lotado, mode:FULL, rate:33, size:31
+2026-05-10 19:32:02, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:30:08, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:39:36, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:44:38, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:44:59, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:21
+2026-05-10 19:45:32, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:21
+2026-05-10 19:45:50, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:21
+2026-05-10 19:46:01, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:21
+2026-05-10 19:47:09, EXEC, v:1, k:fup@lotado, mode:FULL, rate:0, size:21
+2026-05-10 19:47:23, EXEC, v:1, k:fup@lotado, mode:FULL, rate:33, size:21
+2026-05-10 19:48:27, EXEC, v:1, k:fup@lotado, mode:FULL, rate:66, size:21
+2026-05-10 19:49:12, EXEC, v:1, k:fup@lotado, mode:FULL, rate:100, size:21

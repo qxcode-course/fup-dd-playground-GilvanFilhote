@@ -1,0 +1,109 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-10_18-55-48",
+            "content": "@@ -46,51 +46,38 @@\n ar c\n-, m int%0A    fmt.Scan(&c)%0A    for %7B%0A   \n+apacidade, circulacao int%0A\n     \n- \n fmt.\n@@ -86,265 +86,90 @@\n an(&\n-m)%0A         if  m%3Cc%7B%0A            fmt.Println(%22ainda cabe%22)%0A         %7D else if m==0%7B%0A            fmt.Println(%22vazio%22)%0A         %7D else if m%3C0%7B%0A            fmt.Println(%22vazio%22)%0A         %7D else if m==c%7B%0A            fmt.Println(%22hora de partir%22)%0A         %7D%0A    %7D%0A\n+capacidade, &circulacao)%0A    for i=0; i%3Ccapacidade%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-10_19-06-44",
+            "content": "@@ -116,11 +116,10 @@\n f  m\n-==0\n+%3Cc\n %7B%0A  \n@@ -145,13 +145,18 @@\n ln(%22\n-vazio\n+ainda cabe\n %22)%0A \n@@ -174,18 +174,19 @@\n lse if m\n-%3Cc\n+==0\n %7B%0A      \n@@ -200,34 +200,29 @@\n mt.Println(%22\n-ainda cabe\n+vazio\n %22)%0A         \n@@ -232,19 +232,18 @@\n lse if m\n-==c\n+%3C0\n %7B%0A      \n@@ -265,13 +265,12 @@\n ln(%22\n-lotad\n+vazi\n o%22)%0A\n@@ -296,10 +296,8 @@\n m==c\n-*2\n %7B%0A  \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-10_19-10-34",
+            "content": "@@ -344,26 +344,8 @@\n r%22)%0A\n-            break%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-10_19-10-51",
+            "content": "@@ -150,37 +150,16 @@\n vazio%22)%0A\n-            continue%0A\n         \n@@ -174,16 +174,16 @@\n if m%3Cc%7B%0A\n+\n         \n@@ -212,37 +212,16 @@\n  cabe%22)%0A\n-            continue%0A\n         \n@@ -237,16 +237,16 @@\n f m==c%7B%0A\n+\n         \n@@ -275,29 +275,8 @@\n o%22)%0A\n-            continue%0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-10_19-11-22",
+            "content": "@@ -146,24 +146,45 @@\n ln(%22vazio%22)%0A\n+            continue%0A\n          %7D e\n@@ -195,16 +195,16 @@\n if m%3Cc%7B%0A\n-\n         \n@@ -233,16 +233,37 @@\n  cabe%22)%0A\n+            continue%0A\n         \n@@ -309,24 +309,45 @@\n n(%22lotado%22)%0A\n+            continue%0A\n          %7D e\n@@ -354,17 +354,17 @@\n lse if m\n-%3C\n+=\n =c*2%7B%0A  \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-10_19-13-56",
+            "content": "@@ -67,17 +67,16 @@\n can(&c)%0A\n-%0A\n     for \n@@ -287,16 +287,25 @@\n  %7D else \n+if m%3C=c*2\n %7B%0A      \n@@ -369,17 +369,16 @@\n       %7D%0A\n-%0A\n     %7D%0A%0A%7D\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-10_19-15-37",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -58,368 +58,70 @@\n     \n-%0A    // %C3%89 sempre bom verificar se a leitura inicial deu certo%0A    if _, err := fmt.Scan(&c); err != nil %7B%0A        return%0A    %7D%0A%0A    for %7B%0A        // O Scan retorna o n%C3%BAmero de itens lidos e um erro. %0A        // Se o input parar (EOF), o loop deve encerrar.%0A        _, err := fmt.Scan(&m)%0A        if err != nil %7B%0A            break %0A        %7D%0A%0A        if m == 0 \n+fmt.Scan(&c)%0A%0A    for %7B%0A        fmt.Scan(&m)%0A         if  m==0\n %7B%0A  \n@@ -151,32 +151,33 @@\n vazio%22)%0A        \n+ \n %7D else if m %3C c \n@@ -175,13 +175,10 @@\n if m\n- %3C c \n+%3Cc\n %7B%0A  \n@@ -213,32 +213,33 @@\n  cabe%22)%0A        \n+ \n %7D else if m == c\n@@ -237,14 +237,11 @@\n if m\n- \n ==\n- c \n+c\n %7B%0A  \n@@ -276,24 +276,25 @@\n o%22)%0A        \n+ \n %7D else %7B%0A   \n@@ -294,43 +294,8 @@\n e %7B%0A\n-            // Entra aqui se m %3E c%0A\n     \n@@ -362,14 +362,17 @@\n     \n-%7D\n+ %7D%0A\n %0A    %7D%0A\n+%0A\n %7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-10_19-18-58",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -60,70 +60,368 @@\n     \n-fmt.Scan(&c)%0A%0A    for %7B%0A        fmt.Scan(&m)%0A         if  m==0\n+%0A    // %C3%89 sempre bom verificar se a leitura inicial deu certo%0A    if _, err := fmt.Scan(&c); err != nil %7B%0A        return%0A    %7D%0A%0A    for %7B%0A        // O Scan retorna o n%C3%BAmero de itens lidos e um erro. %0A        // Se o input parar (EOF), o loop deve encerrar.%0A        _, err := fmt.Scan(&m)%0A        if err != nil %7B%0A            break %0A        %7D%0A%0A        if m == 0 \n %7B%0A  \n@@ -451,33 +451,32 @@\n vazio%22)%0A        \n- \n %7D else if m%3Cc%7B%0A \n@@ -474,10 +474,13 @@\n if m\n-%3Cc\n+ %3C c \n %7B%0A  \n@@ -519,25 +519,24 @@\n e%22)%0A        \n- \n %7D else if m=\n@@ -538,11 +538,14 @@\n if m\n+ \n ==\n-c\n+ c \n %7B%0A  \n@@ -580,25 +580,24 @@\n o%22)%0A        \n- \n %7D else %7B%0A   \n@@ -593,16 +593,51 @@\n  else %7B%0A\n+            // Entra aqui se m %3E c%0A\n         \n@@ -700,17 +700,14 @@\n     \n- %7D%0A\n+%7D\n %0A    %7D%0A\n-%0A\n %7D%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-05-10_19-23-01",
+            "content": "@@ -162,16 +162,214 @@\n       %7D \n+else if m%3Cc%7B%0A            fmt.Println(%22ainda cabe%22)%0A         %7D else if m==c%7B%0A            fmt.Println(%22lotado%22)%0A         %7D else %7B%0A            fmt.Println(%22hora de partir%22)%0A            break%0A         %7D\n %0A%0A    %7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-10_19-26-09",
+            "content": "@@ -113,17 +113,17 @@\n    if  m\n-%3C\n+=\n =0%7B%0A    \n@@ -166,206 +166,8 @@\n   %7D \n-else if m%3Cc%7B%0A            fmt.Println(%22ainda cabe%22)%0A         %7D else if m==c%7B%0A            fmt.Println(%22lotado%22)%0A         %7D else %7B%0A            fmt.Println(%22hora de partir%22)%0A            break%0A         %7D\n %0A%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_19-28-06",
+            "content": "@@ -71,166 +71,18 @@\n &c)%0A\n-    if _, err := fmt.Scan(&c); err != nil %7B%0A        return%0A    %7D%0A    for %7B%0A        _, err := fmt.Scan(&m)%0A        if err != nil %7B%0A            break %0A        %7D\n+%0A    for %7B\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-10_19-29-45",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -58,67 +58,20 @@\n     \n-%0A    // Se n%C3%A3o conseguir ler a capacidade inicial, encerra.\n+fmt.Scan(&c)\n %0A   \n@@ -128,25 +128,24 @@\n eturn%0A    %7D%0A\n-%0A\n     for %7B%0A  \n@@ -146,89 +146,8 @@\n r %7B%0A\n-        // Tenta ler o pr%C3%B3ximo valor. Se der erro (fim do arquivo), sai do loop.%0A\n     \n@@ -226,17 +226,38 @@\n       %7D%0A\n-%0A\n+        fmt.Scan(&m)%0A \n         \n@@ -263,15 +263,13 @@\n  if \n-m %3C= 0 \n+ m%3C=0\n %7B%0A  \n@@ -299,32 +299,33 @@\n vazio%22)%0A        \n+ \n %7D else if m %3C c \n@@ -323,13 +323,10 @@\n if m\n- %3C c \n+%3Cc\n %7B%0A  \n@@ -361,32 +361,33 @@\n  cabe%22)%0A        \n+ \n %7D else if m == c\n@@ -385,14 +385,11 @@\n if m\n- \n ==\n- c \n+c\n %7B%0A  \n@@ -416,24 +416,25 @@\n n(%22lotado%22)%0A\n+ \n         %7D el\n@@ -438,16 +438,16 @@\n  else %7B%0A\n-\n         \n@@ -510,14 +510,17 @@\n     \n-%7D\n+ %7D%0A\n %0A    %7D%0A\n+%0A\n %7D%0A\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-10_19-30-08",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -60,106 +60,309 @@\n     \n-circula:=0%0A    fmt.Scan(&c)%0A    for i:=m;circula%3C2*c; i++%7B%0A        fmt.Scan(&m)%0A        circula+=m\n+%0A    // Se n%C3%A3o conseguir ler a capacidade inicial, encerra.%0A    if _, err := fmt.Scan(&c); err != nil %7B%0A        return%0A    %7D%0A%0A    for %7B%0A        // Tenta ler o pr%C3%B3ximo valor. Se der erro (fim do arquivo), sai do loop.%0A        _, err := fmt.Scan(&m)%0A        if err != nil %7B%0A            break %0A        %7D%0A\n %0A   \n@@ -373,18 +373,15 @@\n  if \n-circula==0\n+m %3C= 0 \n %7B%0A  \n@@ -433,30 +433,14 @@\n  if \n-circula%3C0 %7C%7C circula%3Cc\n+m %3C c \n %7B%0A  \n@@ -497,19 +497,15 @@\n  if \n- circula==c\n+m == c \n %7B%0A  \n@@ -555,23 +555,8 @@\n lse \n-if circula==2*0\n %7B%0A  \n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-10_19-44-59",
+            "content": "@@ -102,18 +102,17 @@\n ;circula\n-==\n+%3C\n 2*c; i++\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-10_19-45-32",
+            "content": "@@ -95,17 +95,28 @@\n or i:=m;\n- \n+circula==2*c\n ; i++%7B%0A \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-10_19-45-50",
+            "content": "@@ -99,14 +99,8 @@\n :=m;\n- i%3C100\n  ; i\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-10_19-46-01",
+            "content": "@@ -318,23 +318,8 @@\n a==c\n- && circula%3C2*c\n %7B%0A  \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-10_19-47-09",
+            "content": "@@ -394,17 +394,17 @@\n cula==2*\n-c\n+0\n %7B%0A      \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-10_19-47-23",
+            "content": "@@ -394,9 +394,9 @@\n cula\n-%3E\n+=\n =2*c\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-10_19-48-27",
+            "content": "@@ -315,18 +315,18 @@\n cula==c \n-%7C%7C\n+&&\n  circula\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-10_19-49-12",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var c, m int\n    circula:=0\n    fmt.Scan(&c)\n    for i:=m; i<100 ; i++{\n        fmt.Scan(&m)\n        circula+=m\n        if circula==0{\n            fmt.Println(\"vazio\")\n        } else if circula<0 || circula<c{\n            fmt.Println(\"ainda cabe\")\n        } else if  circula==c || circula<2*c{\n            fmt.Println(\"lotado\")\n        } else if circula>=2*c{\n            fmt.Println(\"hora de partir\")\n            break\n        }\n    }\n}\n",
+            "lines": "21"
+        }
+    ]
+}
