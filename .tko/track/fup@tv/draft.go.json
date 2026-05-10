@@ -77,8 +77,63 @@
         },
         {
             "label": "2026-05-05_17-28-51",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var valor, parcela_s float64\n    fmt.Scan(&valor, &parcela_s)\n    valor_total:=0\n    valor_da_parcela:=0\n    if parcela_s==1{\n        parcela_s=parcela_s-1\n        valor_da_parcela:=valor*parcela_s*0.05\n        valor_total:=valor_da_parcela*parcela_s\n        fmt.Printf(\"%f\\n%f\\n\", valor_total, valor_da_parcela)\n    } else {\n        fmt.Printf(\"%f\\n%f\\n\", valor_total, valor_da_parcela)\n    }\n\n}\n\n",
+            "content": "@@ -46,22 +46,16 @@\n ar valor\n-_da_tv\n , parcel\n@@ -60,19 +60,8 @@\n ela_\n-da_tv, juro\n s fl\n@@ -85,22 +85,16 @@\n n(&valor\n-_da_tv\n , &parce\n@@ -100,40 +100,53 @@\n ela_\n-da_tv)%0A    juros=parcela_da_tv-1\n+s)%0A    valor_total:=0%0A    valor_da_parcela:=0\n %0A   \n@@ -161,14 +161,11 @@\n ela_\n-da_tv%3E\n+s==\n 1%7B%0A \n@@ -175,120 +175,114 @@\n     \n-juros=juros*5%25%0A        parcela_da_tv=(valor_da_tv/parcela_da_tv)+juros%0A        valor_da_tv=(parcela_da_tv+juros)\n+parcela_s=parcela_s-1%0A        valor_da_parcela:=valor*parcela_s*0.05%0A        valor_total:=valor_da_parcela\n *par\n@@ -286,21 +286,17 @@\n parcela_\n-da_tv\n+s\n %0A       \n@@ -313,33 +313,29 @@\n f(%22%25\n-.2\n f%5Cn%25\n-.2f%22, parcela_da_tv\n+f%5Cn%22, valor_total\n , va\n@@ -337,26 +337,31 @@\n l, valor_da_\n-tv\n+parcela\n )%0A    %7D else\n@@ -388,33 +388,29 @@\n f(%22%25\n-.2\n f%5Cn%25\n-.2f%22, parcela_da_tv\n+f%5Cn%22, valor_total\n , va\n@@ -420,17 +420,22 @@\n _da_\n-tv\n+parcela\n )%0A    %7D%0A\n %7D%0A%0A\n@@ -431,11 +431,12 @@\n )%0A    %7D%0A\n+%0A\n %7D%0A%0A\n",
             "lines": "18"
+        },
+        {
+            "label": "2026-05-10_18-23-32",
+            "content": "@@ -200,12 +200,10 @@\n ros*\n-0.0\n 5\n+%25\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_18-25-29",
+            "content": "@@ -152,17 +152,16 @@\n da_tv-1%0A\n-%0A\n     if p\n@@ -411,17 +411,38 @@\n tf(%22%25.2f\n-%22\n+%5Cn%25.2f%22, parcela_da_tv\n , valor_\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_18-25-55",
+            "content": "@@ -416,27 +416,9 @@\n %25.2f\n- %25.2f%22, valor_da_tv\n+%22\n , va\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-10_18-26-21",
+            "content": "@@ -408,26 +408,25 @@\n Printf(%22%25.2f\n-%5Cn\n+ \n %25.2f%22, valor\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-10_18-26-28",
+            "content": "@@ -418,18 +418,16 @@\n 2f%5Cn%25.2f\n-%5Cn\n %22, valor\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-10_18-26-41",
+            "content": "@@ -61,17 +61,22 @@\n  parcela\n-s\n+_da_tv\n , juros \n@@ -118,17 +118,22 @@\n &parcela\n-s\n+_da_tv\n )%0A    ju\n@@ -143,17 +143,22 @@\n =parcela\n-s\n+_da_tv\n -1%0A%0A    \n@@ -167,17 +167,22 @@\n  parcela\n-s\n+_da_tv\n %3E1%7B%0A    \n@@ -227,9 +227,8 @@\n a_tv\n-:\n =(va\n@@ -244,17 +244,22 @@\n /parcela\n-s\n+_da_tv\n )+juros%0A\n@@ -307,17 +307,22 @@\n *parcela\n-s\n+_da_tv\n %0A       \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-10_18-28-41",
+            "content": "@@ -115,16 +115,37 @@\n arcelas)\n+%0A    juros=parcelas-1\n %0A%0A    if\n@@ -169,48 +169,24 @@\n     \n-parcela_da_tv:=valor_da_tv/parcela_da_tv\n+juros=juros*0.05\n %0A   \n@@ -207,44 +207,38 @@\n a_tv\n-= parcela\n+:=(valor\n _da_tv\n-+(\n+/\n parcela\n-_da_tv*0.05)\n+s)+juros\n %0A   \n@@ -254,16 +254,17 @@\n r_da_tv=\n+(\n parcela_\n@@ -268,16 +268,23 @@\n la_da_tv\n++juros)\n *parcela\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-10_18-33-06",
+            "content": "@@ -62,16 +62,23 @@\n parcelas\n+, juros\n  float64\n@@ -174,25 +174,30 @@\n a_tv/parcela\n-s\n+_da_tv\n %0A        par\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_18-33-34",
+            "content": "@@ -304,18 +304,16 @@\n 2f%5Cn%25.2f\n-%5Cn\n %22, parce\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_18-36-40",
+            "content": "@@ -141,110 +141,136 @@\n     \n-juros:=(parcelas-1)*0.05%0A        valor_da_tv=valor_da_tv*(1+juros)%0A        parcela_da_tv:=valor\n+parcela_da_tv:=valor_da_tv/parcelas%0A        parcela_da_tv= parcela_da_tv+(parcela_da_tv*0.05)%0A        valor_da_tv=parcela\n _da_tv\n-/\n+*\n parc\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_18-42-10",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var valor_da_tv, parcelas float64\n    fmt.Scan(&valor_da_tv, &parcelas)\n\n    if parcelas>1{\n        juros:=(parcelas-1)*0.05\n        valor_da_tv=valor_da_tv*(1+juros)\n        parcela_da_tv:=valor_da_tv/parcelas\n        fmt.Printf(\"%.2f\\n%.2f\\n\", parcela_da_tv, valor_da_tv)\n    } else {\n        fmt.Printf(\"%.2f\\n%.2f\\n\", valor_da_tv, valor_da_tv)\n    }\n}\n\n",
+            "lines": "16"
         }
     ]
 }
