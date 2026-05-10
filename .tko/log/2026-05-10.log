@@ -65,3 +65,5 @@
 2026-05-10 19:47:23, EXEC, v:1, k:fup@lotado, mode:FULL, rate:33, size:21
 2026-05-10 19:48:27, EXEC, v:1, k:fup@lotado, mode:FULL, rate:66, size:21
 2026-05-10 19:49:12, EXEC, v:1, k:fup@lotado, mode:FULL, rate:100, size:21
+2026-05-10 19:49:10, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-10 19:49:11, MOVE, v:1, k:fup@lotado, mode:EDIT
