@@ -27,7 +27,12 @@
         },
         {
             "label": "2026-04-14_18-15-48",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var quantidade int\n    fmt.Scan(&quantidade)\n    vetorr := make ([]int, quantidade)\n    for _, valor := range vetorr {\n    fmt.Scan(&vetorr[valor])\n}\n    fmt.Printf(\"[\")\n    for _, valor := range vetorr {\n    fmt.Printf(\" %d \", valor)\n}\n    fmt.Printf(\"]\\n\")\n}\n",
+            "content": "@@ -204,17 +204,16 @@\n rintf(%22%5B\n- \n %22)%0A    f\n@@ -258,16 +258,17 @@\n Printf(%22\n+ \n %25d %22, va\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-11_00-59-49",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var quantidade int\n    fmt.Scan(&quantidade)\n    vetorr := make ([]int, quantidade)\n    for _, valor := range vetorr {\n    fmt.Scan(&vetorr[valor])\n}\n    fmt.Printf(\"[ \")\n    for _, valor := range vetorr {\n    fmt.Printf(\"%d \", valor)\n}\n    fmt.Printf(\"]\\n\")\n}\n",
             "lines": "15"
         }
     ]

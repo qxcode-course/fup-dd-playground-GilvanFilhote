@@ -1,0 +1,8 @@
+2026-05-11 00:50:14, MOVE, v:1, k:fup@vet_i, mode:PICK
+2026-05-11 00:50:25, EXEC, v:1, k:fup@vet_i, mode:FULL, rate:100
+2026-05-11 00:50:25, MOVE, v:1, k:fup@vet_i, mode:EDIT
+2026-05-11 00:59:04, MOVE, v:1, k:fup@vet_i, mode:BACK
+2026-05-11 00:59:14, MOVE, v:1, k:fup@vet_ii, mode:PICK
+2026-05-11 00:59:49, EXEC, v:1, k:fup@vet_ii, mode:FULL, rate:50, size:15
+2026-05-11 00:59:49, MOVE, v:1, k:fup@vet_ii, mode:EDIT
+2026-05-11 01:04:11, MOVE, v:1, k:fup@vet_ii, mode:EDIT
