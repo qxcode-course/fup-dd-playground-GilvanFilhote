@@ -1,15 +1,20 @@
 package main
 import "fmt"
 func main() {
-    var quantidade int
-    fmt.Scan(&quantidade)
-    vetorr := make ([]int, quantidade)
-    for _, valor := range vetorr {
-    fmt.Scan(&vetorr[valor])
-}
-    fmt.Printf("[ ")
-    for _, valor := range vetorr {
-    fmt.Printf("%d ", valor)
-}
-    fmt.Printf("]\n")
+    var qtd int
+    fmt.Scan(&qtd)
+        if qtd==0{
+        fmt.Println("[ ]")
+        return
+    }
+        fmt.Printf("[ ")
+        var arr []int = make ([]int, qtd)
+        for i:=0 ; i<qtd; i++{
+        fmt.Scan(&arr[i])
+    }
+    
+        for i:= 0; i<qtd; i++{
+            fmt.Printf("%d ", arr[i])
+        }
+        fmt.Println("]")
 }

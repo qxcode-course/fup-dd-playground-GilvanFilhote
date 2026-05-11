@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-11_17-40-09",
+            "content": "@@ -41,314 +41,34 @@\n     \n-var t int%0A    fmt.Scan(&t)%0A    if t==0%7B%0A        fmt.Println(%5B%5D)%0A    %7D%0A    arr:= make(%5Bint, t%5D)%0A    for i:=0; i%3Ct; i++%7B%0A        fmt.Scan(arr%5Bi%5D)%0A    %7D%0A    fmt.Println(%22%5B %22)%0A    for i:=0; i%3Ct; i++%7B%0A        if i!=0%7B%0A        fmt.Printf(%22, %22)%0A        %7D%0A%0A        fmt.Printf(%22%25d%22, arr%5Bi%5D)%0A    %7D%0A    fmt.Println(%22%5D\n+fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_18-05-00",
+            "content": "@@ -101,12 +101,10 @@\n tln(\n-%22\n %5B%5D\n-%22\n )%0A  \n@@ -123,17 +123,16 @@\n = make(%5B\n-%5D\n int, t%5D)\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-11_18-05-25",
+            "content": "@@ -132,16 +132,17 @@\n %5B%5Dint, t\n+%5D\n )%0A    fo\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-11_18-05-27",
+            "content": "@@ -112,14 +112,8 @@\n    %7D\n- else%7B\n %0A   \n@@ -202,17 +202,18 @@\n mt.Print\n-f\n+ln\n (%22%5B %22)%0A \n@@ -350,10 +350,8 @@\n (%22%5D%22)%0A%7D%0A\n-%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-11_18-06-12",
+            "content": "@@ -314,17 +314,17 @@\n rintf(%22%25\n-v\n+d\n %22, arr%5Bi\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-11_18-06-42",
+            "content": "@@ -212,16 +212,17 @@\n rintf(%22%5B\n+ \n %22)%0A    f\n@@ -318,9 +318,9 @@\n f(%22%25\n-d\n+v\n %22, a\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-11_18-07-19",
+            "content": "@@ -317,17 +317,22 @@\n f(%22%25d%22, \n-i\n+arr%5Bi%5D\n )%0A    %7D%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-11_18-10-50",
+            "content": "@@ -317,22 +317,17 @@\n f(%22%25d%22, \n-arr%5Bi%5D\n+i\n )%0A    %7D%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-11_18-11-03",
+            "content": "@@ -181,17 +181,16 @@\n mt.Scan(\n-&\n arr%5Bi%5D)%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-11_18-11-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var t int\n    fmt.Scan(&t)\n    if t==0{\n        fmt.Println(\"[]\")\n    } else{\n    arr:= make([]int, t)\n    for i:=0; i<t; i++{\n        fmt.Scan(&arr[i])\n    }\n    fmt.Printf(\"[\")\n    for i:=0; i<t; i++{\n        if i!=0{\n        fmt.Printf(\", \")\n        }\n\n        fmt.Printf(\"%d\", arr[i])\n    }\n    fmt.Println(\"]\")\n}\n}\n",
+            "lines": "23"
+        }
+    ]
+}

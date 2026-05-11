@@ -13,6 +13,7 @@ Organizar dados em um vetor é uma tarefa comum em várias situações. Suponha 
 
 ### Saída
 
+
 - Imprima os elementos do vetor, um por linha, na ordem de leitura.
 
 ### Restrições
