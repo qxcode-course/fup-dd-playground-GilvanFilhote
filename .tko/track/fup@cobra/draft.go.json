@@ -2,8 +2,33 @@
     "patches": [
         {
             "label": "2026-05-04_18-51-08",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,624 +41,35 @@\n     \n-%0A   // %F0%9D%91%81: Um n%C3%BAmero inteiro que indica a dimens%C3%A3o do tabuleiro.%0A//%F0%9D%91%8B: Um n%C3%BAmero inteiro representando a posi%C3%A7%C3%A3o inicial horizontal da cabe%C3%A7a da cobra.%0A//%F0%9D%91%8C: Um n%C3%BAmero inteiro representando a posi%C3%A7%C3%A3o inicial vertical da cabe%C3%A7a da cobra.%0A//%F0%9D%90%B6: Um caractere representando a dire%C3%A7%C3%A3o da cobra ('U' para cima, 'D' para baixo, 'L' para esquerda, 'R' para direita).%0A//%F0%9D%91%86: Um n%C3%BAmero inteiro representando o n%C3%BAmero de segundos de distra%C3%A7%C3%A3o.%0Avar n, x, y, s int%0Avar c string%0Afmt.Scan(&n, &x, &y, &c, &s)%0Aif c==%22u%22%7B%0A    y-=s%0A%7D else if c==%22d%22%7B%0A    y+=s%0A%7D else if c==%22l%22%7B%0A    x-=s%0A%7D else if c==%22r%22%7B%0A    x+=%0A%7D%0Afmt.Printf(%22%25d %25d%5Cn%22, x, y\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-31_17-32-10",
+            "content": "@@ -624,17 +624,16 @@\n %0A    x+=\n-s\n %0A%7D%0Afmt.P\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-31_17-32-21",
+            "content": "@@ -532,17 +532,17 @@\n %0Aif c==%22\n-U\n+u\n %22%7B%0A    y\n@@ -559,17 +559,17 @@\n  if c==%22\n-D\n+d\n %22%7B%0A    y\n@@ -586,17 +586,17 @@\n  if c==%22\n-L\n+l\n %22%7B%0A    x\n@@ -613,17 +613,17 @@\n  if c==%22\n-R\n+r\n %22%7B%0A    x\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-31_17-36-18",
+            "content": "@@ -23,22 +23,8 @@\n mt%22%0A\n-import %22math%22%0A\n func\n@@ -483,15 +483,11 @@\n , s \n-float64\n+int\n %0Avar\n@@ -545,23 +545,11 @@\n    y\n-=math.Abs (y-s)\n+-=s\n %0A%7D e\n@@ -570,24 +570,13 @@\n %0A   \n-y=math.Abs (y+s)\n+ y+=s\n %0A%7D e\n@@ -597,24 +597,13 @@\n %0A   \n-x=math.Abs (x-s)\n+ x-=s\n %0A%7D e\n@@ -626,23 +626,11 @@\n    x\n-=math.Abs (x+s)\n++=s\n %0A%7D%0Af\n@@ -645,12 +645,12 @@\n f(%22%25\n-f %25f\n+d %25d\n %5Cn%22,\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-31_17-40-15",
+            "content": "@@ -709,15 +709,11 @@\n f(%22%25\n-.0\n f %25\n-.0\n f%5Cn%22\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-31_17-40-31",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\nfunc main() {\n    \n   // \ud835\udc41: Um n\u00famero inteiro que indica a dimens\u00e3o do tabuleiro.\n//\ud835\udc4b: Um n\u00famero inteiro representando a posi\u00e7\u00e3o inicial horizontal da cabe\u00e7a da cobra.\n//\ud835\udc4c: Um n\u00famero inteiro representando a posi\u00e7\u00e3o inicial vertical da cabe\u00e7a da cobra.\n//\ud835\udc36: Um caractere representando a dire\u00e7\u00e3o da cobra ('U' para cima, 'D' para baixo, 'L' para esquerda, 'R' para direita).\n//\ud835\udc46: Um n\u00famero inteiro representando o n\u00famero de segundos de distra\u00e7\u00e3o.\nvar n, x, y, s float64\nvar c string\nfmt.Scan(&n, &x, &y, &c, &s)\nif c==\"U\"{\n    y=math.Abs (y-s)\n} else if c==\"D\"{\n   y=math.Abs (y+s)\n} else if c==\"L\"{\n   x=math.Abs (x-s)\n} else if c==\"R\"{\n    x=math.Abs (x+s)\n}\nfmt.Printf(\"%.0f %.0f\\n\", x, y)\n}\n",
+            "lines": "24"
         }
     ]
 }
