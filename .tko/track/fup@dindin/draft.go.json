@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-31_05-43-23",
+            "content": "@@ -41,719 +41,35 @@\n     \n-var qtd, choco, limao, tarde, manha int%0A    fmt.Scan(&qtd)%0A    vet_sabor:=make(%5B%5Dstring, qtd)%0A    vet_turno:=make(%5B%5Dstring, qtd)%0A%0A    for i:=0; i%3Cqtd; i++%7B%0A        fmt.Scan(&vet_sabor%5Bi%5D)%0A        fmt.Scan(&vet_turno%5Bi%5D)%0A        if vet_sabor%5Bi%5D==%22c%22%7B%0A            choco+=1%0A        %7D else if vet_sabor%5Bi%5D==%22l%22%7B%0A            limao+=1%0A        %7D%0A        if vet_turno%5Bi%5D==%22m%22%7B%0A            manha+=1%0A        %7D else if vet_turno%5Bi%5D==%22t%22%7B%0A            tarde+=1%0A        %7D %0A    %7D%0A        if choco%3Elimao%7B%0A            fmt.Println(%22c%22)%0A        %7D else if choco%3Climao%7B%0A            fmt.Println(%22l%22)%0A        %7D %0A        if manha%3Etarde%7B%0A            fmt.Println(%22t%22)%0A        %7D else if tarde%3Emanha%7B%0A            fmt.Println(%22m%22)%0A        %7D%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-31_16-39-36",
+            "content": "@@ -629,58 +629,8 @@\n   %7D \n-else %7B%0A            fmt.Println(%22empate%22)%0A        %7D\n %0A   \n@@ -752,60 +752,8 @@\n    %7D\n- else %7B%0A            fmt.Println(%22empate%22)%0A        %7D%0A\n %0A%0A%7D%0A\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-05-31_16-40-44",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var qtd, choco, limao, tarde, manha int\n    fmt.Scan(&qtd)\n    vet_sabor:=make([]string, qtd)\n    vet_turno:=make([]string, qtd)\n\n    for i:=0; i<qtd; i++{\n        fmt.Scan(&vet_sabor[i])\n        fmt.Scan(&vet_turno[i])\n        if vet_sabor[i]==\"c\"{\n            choco+=1\n        } else if vet_sabor[i]==\"l\"{\n            limao+=1\n        }\n        if vet_turno[i]==\"m\"{\n            manha+=1\n        } else if vet_turno[i]==\"t\"{\n            tarde+=1\n        } \n    }\n        if choco>limao{\n            fmt.Println(\"c\")\n        } else if choco<limao{\n            fmt.Println(\"l\")\n        } else {\n            fmt.Println(\"empate\")\n        }\n        if manha>tarde{\n            fmt.Println(\"t\")\n        } else if tarde>manha{\n            fmt.Println(\"m\")\n        } else {\n            fmt.Println(\"empate\")\n        }\n\n\n}\n",
+            "lines": "39"
+        }
+    ]
+}
