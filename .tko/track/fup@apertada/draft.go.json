@@ -2,8 +2,78 @@
     "patches": [
         {
             "label": "2026-05-11_18-12-30",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,176 +41,35 @@\n     \n-    vetor:=make(%5B%5Dint, 0, 4)%0A        for i:=0; i%3C4;i++%7B%0A            fmt.Scan(&vetor%5Bi%5D)%0A        %7D%0A        for i:=0; i%3C4;i++%7B%0A            fmt.Println(&vetor%5Bi%5D)%0A        %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-31_03-37-08",
+            "content": "@@ -80,33 +80,32 @@\n   for i:=0; i%3C4;\n- \n i++%7B%0A           \n@@ -157,17 +157,16 @@\n =0; i%3C4;\n- \n i++%7B%0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-31_03-37-25",
+            "content": "@@ -60,17 +60,20 @@\n (%5B%5Dint, \n-5\n+0, 4\n )%0A      \n@@ -78,33 +78,33 @@\n     for i:=0; i%3C\n-5\n+4\n ; i++%7B%0A         \n@@ -160,9 +160,9 @@\n ; i%3C\n-5\n+4\n ; i+\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-31_03-39-07",
+            "content": "@@ -185,16 +185,17 @@\n Println(\n+&\n vetor%5Bi%5D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-31_03-40-10",
+            "content": "@@ -135,100 +135,50 @@\n     \n-    if vetor%5B0%5D%3Evetor%5Bi%5D%7B%0A                vetor%5B0%5D=vetor%5Bi%5D%0A            %7D\n+%7D%0A        for i:=0; i%3C5; i++%7B\n %0A      \n-  %7D%0A\n       \n-  \n fmt.\n@@ -186,18 +186,29 @@\n rint\n-f\n+ln\n (vetor%5B\n-0\n+i\n %5D)%0A\n+        %7D%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-31_03-48-36",
+            "content": "@@ -238,12 +238,8 @@\n ntf(\n-%22v%25%22\n veto\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-31_03-49-05",
+            "content": "@@ -239,13 +239,11 @@\n tf(%22\n-d\n+v\n %25%22\n-, \n veto\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-31_03-49-13",
+            "content": "@@ -235,17 +235,17 @@\n Printf(%22\n-v\n+d\n %25%22, veto\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-31_03-49-21",
+            "content": "@@ -239,10 +239,10 @@\n tf(%22\n-%25\n v\n+%25\n %22, v\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-31_03-51-06",
+            "content": "@@ -241,10 +241,8 @@\n (%22%25v\n-%5Cn\n %22, v\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-31_03-51-24",
+            "content": "@@ -67,30 +67,8 @@\n  5)%0A\n-        menorvalor:=0%0A\n     \n@@ -173,26 +173,24 @@\n         \n-menorvalor\n+vetor%5B0%5D\n =vetor%5Bi\n@@ -240,22 +240,22 @@\n f(%22%25\n-d%22, menorvalor\n+v%5Cn%22, vetor%5B0%5D\n )%0A%7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-31_04-02-55",
+            "content": "@@ -265,10 +265,8 @@\n (%22%25d\n-%5Cn\n %22, m\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-31_04-03-28",
+            "content": "@@ -181,14 +181,8 @@\n r%5Bi%5D\n-%7C%7Ci==0\n %7B%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-31_04-13-37",
+            "content": "@@ -160,26 +160,24 @@\n      if \n-menorvalor\n+vetor%5B0%5D\n %3Evetor%5Bi\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-31_04-14-12",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n        vetor:=make([]int, 5)\n        menorvalor:=0\n        for i:=0; i<5; i++{\n            fmt.Scan(&vetor[i])\n            if menorvalor>vetor[i]||i==0{\n                menorvalor=vetor[i]\n            }\n        }\n        fmt.Printf(\"%d\\n\", menorvalor)\n}\n",
+            "lines": "13"
         }
     ]
 }
