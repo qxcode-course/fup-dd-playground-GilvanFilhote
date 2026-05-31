@@ -78,3 +78,5 @@
 2026-05-31 05:31:24, EXEC, v:1, k:fup@patas, mode:FULL, rate:0, size:30
 2026-05-31 05:32:02, EXEC, v:1, k:fup@patas, mode:FULL, rate:42, size:30
 2026-05-31 05:32:13, EXEC, v:1, k:fup@patas, mode:FULL, rate:100, size:30
+2026-05-31 05:32:12, MOVE, v:1, k:fup@patas, mode:EDIT
+2026-05-31 05:32:13, MOVE, v:1, k:fup@patas, mode:EDIT
