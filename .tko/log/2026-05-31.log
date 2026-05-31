@@ -30,3 +30,25 @@
 2026-05-31 04:14:12, EXEC, v:1, k:fup@apertada, mode:FULL, rate:100, size:13
 2026-05-31 04:14:10, MOVE, v:1, k:fup@apertada, mode:EDIT
 2026-05-31 04:14:12, MOVE, v:1, k:fup@apertada, mode:EDIT
+2026-05-31 04:14:45, MOVE, v:1, k:fup@apertada, mode:BACK
+2026-05-31 04:15:06, SELF, v:1, k:fup@apertada, self:1, rate:100, study:40
+2026-05-31 04:15:07, MOVE, v:1, k:fup@dieta, mode:DOWN
+2026-05-31 04:15:07, MOVE, v:1, k:fup@dieta, mode:PICK
+2026-05-31 04:15:07, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:5
+2026-05-31 04:15:08, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-31 04:15:09, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-31 04:15:09, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-31 04:15:10, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-31 04:15:13, MOVE, v:1, k:fup@dieta, mode:BACK
+2026-05-31 04:16:03, MOVE, v:1, k:fup@dieta, mode:PICK
+2026-05-31 04:15:07, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-31 04:15:07, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-31 04:15:10, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-31 04:24:01, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-31 04:29:15, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-31 04:30:04, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:14
+2026-05-31 04:30:43, EXEC, v:1, k:fup@dieta, mode:FULL, size:14, fail:COMP
+2026-05-31 04:32:07, EXEC, v:1, k:fup@dieta, mode:FULL, size:15, fail:COMP
+2026-05-31 04:32:35, EXEC, v:1, k:fup@dieta, mode:FULL, size:15, fail:COMP
+2026-05-31 04:33:18, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:15
+2026-05-31 04:33:28, EXEC, v:1, k:fup@dieta, mode:FULL, rate:100, size:15

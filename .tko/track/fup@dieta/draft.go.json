@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-31_04-15-07",
+            "content": "@@ -41,203 +41,35 @@\n     \n-var tam, soma int%0A    fmt.Scan(&tam)%0A%0A    vetor:=make(%5B%5Dint, tam)%0A    for i:=0; i%3C=tam; i++%7B%0A        fmt.Scan(&vetor%5Bi%5D)%0A        soma+=vetor%5Bi%5D%0A    %7D%0A    soma=soma/tam%0A    fmt.Printf(%22%25d%5Cn%22, soma\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-31_04-30-04",
+            "content": "@@ -51,23 +51,19 @@\n m, soma \n-float64\n+int\n %0A    fmt\n@@ -97,15 +97,11 @@\n e(%5B%5D\n-float64\n+int\n , ta\n@@ -222,17 +222,17 @@\n rintf(%22%25\n-f\n+d\n %5Cn%22, som\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-31_04-30-43",
+            "content": "@@ -48,20 +48,9 @@\n  tam\n- int%0A    var\n+,\n  som\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-31_04-32-07",
+            "content": "@@ -138,16 +138,17 @@\n i:=0; i%3C\n+=\n tam; i++\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-31_04-32-35",
+            "content": "@@ -223,20 +223,11 @@\n oma/\n-float64(\n tam\n-)\n %0A   \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-31_04-33-18",
+            "content": "@@ -253,10 +253,8 @@\n f(%22%25\n-.1\n f%5Cn%22\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-31_04-33-28",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var tam int\n    var soma float64\n    fmt.Scan(&tam)\n\n    vetor:=make([]float64, tam)\n    for i:=0; i<tam; i++{\n        fmt.Scan(&vetor[i])\n        soma+=vetor[i]\n    }\n    soma=soma/float64(tam)\n    fmt.Printf(\"%.1f\\n\", soma)\n}\n",
+            "lines": "15"
+        }
+    ]
+}
