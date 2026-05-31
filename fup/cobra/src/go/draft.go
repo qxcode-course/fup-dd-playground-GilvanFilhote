@@ -1,6 +1,6 @@
 package main
 import "fmt"
-import "math"
+
 func main() {
     
    // 𝑁: Um número inteiro que indica a dimensão do tabuleiro.
@@ -8,22 +8,21 @@ func main() {
 //𝑌: Um número inteiro representando a posição inicial vertical da cabeça da cobra.
 //𝐶: Um caractere representando a direção da cobra ('U' para cima, 'D' para baixo, 'L' para esquerda, 'R' para direita).
 //𝑆: Um número inteiro representando o número de segundos de distração.
-var n, x, y, s float64
+var n, x, y, s int
 var c string
 fmt.Scan(&n, &x, &y, &c, &s)
+
 switch c{
-case "u"{
+case "U":
     y=y-s
-}
-case "d"{
+case "D":
     y=y+s
-}
-case "l"{
+case "L":
     x=x-s
-}
-case "r"{
+case "R":
     x=x+s
 }
-}
-fmt.Printf("%.0f %.0f\n", x, y)
+x = ((x % n) + n) % n
+y = ((y % n) + n) % n
+fmt.Printf("%d %d\n", x, y)
 }

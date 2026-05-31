@@ -27,8 +27,48 @@
         },
         {
             "label": "2026-05-31_17-40-31",
-            "content": "package main\nimport \"fmt\"\nimport \"math\"\nfunc main() {\n    \n   // \ud835\udc41: Um n\u00famero inteiro que indica a dimens\u00e3o do tabuleiro.\n//\ud835\udc4b: Um n\u00famero inteiro representando a posi\u00e7\u00e3o inicial horizontal da cabe\u00e7a da cobra.\n//\ud835\udc4c: Um n\u00famero inteiro representando a posi\u00e7\u00e3o inicial vertical da cabe\u00e7a da cobra.\n//\ud835\udc36: Um caractere representando a dire\u00e7\u00e3o da cobra ('U' para cima, 'D' para baixo, 'L' para esquerda, 'R' para direita).\n//\ud835\udc46: Um n\u00famero inteiro representando o n\u00famero de segundos de distra\u00e7\u00e3o.\nvar n, x, y, s float64\nvar c string\nfmt.Scan(&n, &x, &y, &c, &s)\nif c==\"U\"{\n    y=math.Abs (y-s)\n} else if c==\"D\"{\n   y=math.Abs (y+s)\n} else if c==\"L\"{\n   x=math.Abs (x-s)\n} else if c==\"R\"{\n    x=math.Abs (x+s)\n}\nfmt.Printf(\"%.0f %.0f\\n\", x, y)\n}\n",
+            "content": "@@ -547,154 +547,132 @@\n &s)%0A\n-maximo:=n-1%0Aswitch c%7B%0Acase %22u%22%7B%0A    y=\n+if c==%22U%22%7B%0A    y=math.Abs (\n y-s\n+)\n %0A%7D\n-%0Acase %22d\n+ else if c==%22D\n %22%7B%0A   \n- \n y=\n+math.Abs (\n y+s\n+)\n %0A%7D\n-%0Acase %22l%22%7B%0A    x=x-s%0A%7D%0Acase %22r\n+ else if c==%22L\n %22%7B%0A   \n- \n x=\n-x+s%0A%7D%0A%7D%0Aif y%3C0%7B%0A    y=math.Abs(y)%0A%7D%0Aif x%3C0\n+math.Abs (x-s)%0A%7D else if c==%22R%22\n %7B%0A  \n@@ -687,33 +687,14 @@\n .Abs\n+ \n (x\n-)%0A%7D%0Aif x%3Emaximo%7B%0A    x=\n++s)\n %0A%7D%0Af\n",
             "lines": "24"
+        },
+        {
+            "label": "2026-05-31_19-34-50",
+            "content": "@@ -734,66 +734,8 @@\n   x=\n- maximo-(x-maximo)%0A%7D%0Aif y%3Emaximo%7B%0A    y= maximo-(y-maximo)\n %0A%7D%0Af\n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-05-31_19-36-07",
+            "content": "@@ -575,11 +575,11 @@\n se %22\n-U%22:\n+u%22%7B\n %0A   \n@@ -589,18 +589,19 @@\n y-s%0A\n+%7D\n %0Acase %22\n-D%22:\n+d%22%7B\n %0A   \n@@ -611,18 +611,19 @@\n y+s%0A\n+%7D\n %0Acase %22\n-L%22:\n+l%22%7B\n %0A   \n@@ -633,18 +633,19 @@\n x-s%0A\n+%7D\n %0Acase %22\n-R%22:\n+r%22%7B\n %0A   \n@@ -651,16 +651,17 @@\n   x=x+s%0A\n+%7D\n %0A%7D%0Aif y%3C\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-05-31_19-37-43",
+            "content": "@@ -585,16 +585,17 @@\n   y=y-s%0A\n+%0A\n case %22D%22\n@@ -606,16 +606,17 @@\n   y=y+s%0A\n+%0A\n case %22L%22\n@@ -627,16 +627,17 @@\n   x=x-s%0A\n+%0A\n case %22R%22\n@@ -648,16 +648,17 @@\n   x=x+s%0A\n+%0A\n %7D%0Aif y%3C0\n@@ -682,18 +682,41 @@\n y)%0A%7D\n- else if y\n+%0Aif x%3C0%7B%0A    x=math.Abs(x)%0A%7D%0Aif x\n %3Emax\n@@ -724,17 +724,17 @@\n mo%7B%0A    \n-y\n+x\n = maximo\n@@ -735,17 +735,17 @@\n maximo-(\n-y\n+x\n -maximo)\n@@ -754,42 +754,9 @@\n %0Aif \n-x%3C0%7B%0A    x=math.Abs(x)%0A%7D else if x\n+y\n %3Emax\n@@ -756,33 +756,33 @@\n f y%3Emaximo%7B%0A    \n-x\n+y\n = maximo-(x-maxi\n@@ -767,33 +767,33 @@\n %0A    y= maximo-(\n-x\n+y\n -maximo)%0A%7D%0Afmt.P\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-05-31_19-41-15",
+            "content": "@@ -651,29 +651,8 @@\n s%0A%7D%0A\n-for y%3C0 %7C%7C y%3Emaximo%7B%0A\n if y\n@@ -674,17 +674,22 @@\n Abs(y)%0A%7D\n-%0A\n+ else \n if y%3Emax\n@@ -724,31 +724,8 @@\n )%0A%7D%0A\n-%7D%0Afor x%3C0 %7C%7C x%3Emaximo%7B%0A\n if x\n@@ -747,17 +747,22 @@\n Abs(x)%0A%7D\n-%0A\n+ else \n if x%3Emax\n@@ -793,18 +793,16 @@\n ximo)%0A%7D%0A\n-%7D%0A\n fmt.Prin\n",
+            "lines": "36"
+        },
+        {
+            "label": "2026-05-31_19-48-30",
+            "content": "@@ -493,19 +493,23 @@\n x, y, s \n-int\n+float64\n %0Avar c s\n@@ -543,17 +543,28 @@\n &c, &s)%0A\n+maximo:=n-1\n %0A\n-\n switch c\n@@ -651,55 +651,189 @@\n s%0A%7D%0A\n-x = ((x %25 n) + n) %25 n\n+for y%3C0 %7C%7C y%3Emaximo%7B%0Aif y%3C0%7B%0A    y=math.Abs(y)%0A%7D%0Aif y%3Emaximo%7B\n %0A    y\n- \n = \n-((y %25 n) + n) %25 n\n+maximo-(y-maximo)%0A%7D%0A%7D%0Afor x%3C0 %7C%7C x%3Emaximo%7B%0Aif x%3C0%7B%0A    x=math.Abs(x)%0A%7D%0Aif x%3Emaximo%7B%0A    x= maximo-(x-maximo)%0A%7D%0A%7D\n %0Afmt\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-05-31_19-55-47",
+            "content": "@@ -654,16 +654,20 @@\n  n) %25 n%0A\n+    \n y = ((y \n@@ -697,12 +697,16 @@\n f(%22%25\n-d %25d\n+.0f %25.0f\n %5Cn%22,\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-31_19-56-05",
+            "content": "@@ -19,16 +19,29 @@\n t %22fmt%22%0A\n+import %22math%22\n %0Afunc ma\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-31_19-56-16",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    \n   // \ud835\udc41: Um n\u00famero inteiro que indica a dimens\u00e3o do tabuleiro.\n//\ud835\udc4b: Um n\u00famero inteiro representando a posi\u00e7\u00e3o inicial horizontal da cabe\u00e7a da cobra.\n//\ud835\udc4c: Um n\u00famero inteiro representando a posi\u00e7\u00e3o inicial vertical da cabe\u00e7a da cobra.\n//\ud835\udc36: Um caractere representando a dire\u00e7\u00e3o da cobra ('U' para cima, 'D' para baixo, 'L' para esquerda, 'R' para direita).\n//\ud835\udc46: Um n\u00famero inteiro representando o n\u00famero de segundos de distra\u00e7\u00e3o.\nvar n, x, y, s int\nvar c string\nfmt.Scan(&n, &x, &y, &c, &s)\n\nswitch c{\ncase \"U\":\n    y=y-s\ncase \"D\":\n    y=y+s\ncase \"L\":\n    x=x-s\ncase \"R\":\n    x=x+s\n}\nx = ((x % n) + n) % n\ny = ((y % n) + n) % n\nfmt.Printf(\"%d %d\\n\", x, y)\n}\n",
+            "lines": "28"
         }
     ]
 }

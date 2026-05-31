@@ -125,3 +125,22 @@
 2026-05-31 17:40:29, MOVE, v:1, k:fup@cobra, mode:EDIT
 2026-05-31 17:40:31, MOVE, v:1, k:fup@cobra, mode:EDIT
 2026-05-31 17:49:34, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 17:53:11, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 19:34:47, MOVE, v:1, k:fup@cobra, mode:PICK
+2026-05-31 19:34:50, EXEC, v:1, k:fup@cobra, mode:FULL, size:39, fail:COMP
+2026-05-31 19:36:07, EXEC, v:1, k:fup@cobra, mode:FULL, size:42, fail:COMP
+2026-05-31 19:37:43, EXEC, v:1, k:fup@cobra, mode:FULL, rate:18, size:42
+2026-05-31 19:37:38, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 19:37:43, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 19:41:15, EXEC, v:1, k:fup@cobra, mode:FULL, rate:18, size:36
+2026-05-31 19:41:55, EXEC, v:1, k:fup@cobra, mode:FULL, rate:18
+2026-05-31 19:41:12, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 19:41:55, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 19:48:30, EXEC, v:1, k:fup@cobra, mode:FULL, rate:27, size:42
+2026-05-31 19:48:27, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 19:48:30, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 19:55:47, EXEC, v:1, k:fup@cobra, mode:FULL, size:28, fail:COMP
+2026-05-31 19:56:05, EXEC, v:1, k:fup@cobra, mode:FULL, size:28, fail:COMP
+2026-05-31 19:56:16, EXEC, v:1, k:fup@cobra, mode:FULL, rate:100, size:28
+2026-05-31 19:56:14, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-31 19:56:15, MOVE, v:1, k:fup@cobra, mode:EDIT
