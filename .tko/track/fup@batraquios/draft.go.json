@@ -12,8 +12,18 @@
         },
         {
             "label": "2026-06-01_17-21-43",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, m int\n    fmt.Scan(&n, &m)\n    vet_n:=make([]int, n)\n    vet_m:=make([]int, m)\n    \n    fmt.Prinln(\"nao\")\n}\n",
+            "content": "@@ -131,224 +131,8 @@\n     \n-for i:=n; i%3Cn; i++%7B%0A        fmt.Scan(&vet_n%5Bi%5D)%0A    %7D%0A     for y:=m; y%3Cm; y++%7B%0A        fmt.Scan(&vet_m%5By%5D)%0A    %7D%0A     for i:=n; i%3Cn; i++%7B%0A        if vet_n%5Bi%5D==vet_m%5Bi%5D%7B%0A            fmt.Println(%22sim%22)%0A        %7D%0A    %7D%0A\n %0A   \n@@ -140,17 +140,16 @@\n fmt.Prin\n-t\n ln(%22nao%22\n",
             "lines": "10"
+        },
+        {
+            "label": "2026-06-04_03-27-26",
+            "content": "@@ -340,24 +340,16 @@\n    %7D\n- else %7B\n %0A    \n-    \n+%7D%0A%0A\n     \n@@ -371,28 +371,6 @@\n o%22)%0A\n-        %7D%0A    %7D%0A%0A    %0A\n %7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-04_03-28-00",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, m int\n    fmt.Scan(&n, &m)\n    vet_n:=make([]int, n)\n    vet_m:=make([]int, m)\n    for i:=n; i<n; i++{\n        fmt.Scan(&vet_n[i])\n    }\n     for y:=m; y<m; y++{\n        fmt.Scan(&vet_m[y])\n    }\n     for i:=n; i<n; i++{\n        if vet_n[i]==vet_m[i]{\n            fmt.Println(\"sim\")\n        } else {\n            fmt.Println(\"nao\")\n        }\n    }\n\n    \n}\n",
+            "lines": "23"
         }
     ]
 }
