@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-01_16-57-52",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var p, n, rep int\n    fmt.Scan(&p, &n)\n    vet:=make([]int, n)\n    for i:=0; i<n; i++{\n        fmt.Scan(&vet[i])\n        if vet[i]==p{\n            rep++\n        }\n    }\n    fmt.Println(rep)\n}\n",
+            "lines": "14"
+        }
+    ]
+}

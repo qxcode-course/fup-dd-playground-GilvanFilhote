@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-01_17-21-05",
+            "content": "@@ -308,23 +308,10 @@\n    f\n-mt.Prinln(%22nao%22)\n+or \n %0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-01_17-21-30",
+            "content": "@@ -127,16 +127,187 @@\n  m)%0A    \n+for y:=0; y%3Cm; y++ %7B%0A        if y%3Cm%7B%0A            fmt.Scan(&vet_m%5By%5D)%0A        %7D%0A    %7D%0A     for i:=0; i%3Cn; i++ %7B%0A        if i%3Cn%7B%0A            fmt.Scan(&vet_n%5Bi%5D)%0A        %7D %0A%7D\n %0A    fmt\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-01_17-21-43",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, m int\n    fmt.Scan(&n, &m)\n    vet_n:=make([]int, n)\n    vet_m:=make([]int, m)\n    \n    fmt.Prinln(\"nao\")\n}\n",
+            "lines": "10"
+        }
+    ]
+}
