@@ -22,8 +22,108 @@
         },
         {
             "label": "2026-06-04_03-28-00",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, m int\n    fmt.Scan(&n, &m)\n    vet_n:=make([]int, n)\n    vet_m:=make([]int, m)\n    for i:=n; i<n; i++{\n        fmt.Scan(&vet_n[i])\n    }\n     for y:=m; y<m; y++{\n        fmt.Scan(&vet_m[y])\n    }\n     for i:=n; i<n; i++{\n        if vet_n[i]==vet_m[i]{\n            fmt.Println(\"sim\")\n        } else {\n            fmt.Println(\"nao\")\n        }\n    }\n\n    \n}\n",
+            "content": "@@ -179,44 +179,8 @@\n i%5D)%0A\n-        fmt.Printf(%22%25d%22, &vet_n%5Bi%5D)%0A\n     \n@@ -242,39 +242,149 @@\n     \n-    fmt.Printf(%22%25d%22, vet_m%5By%5D)%0A\n+%7D%0A     for i:=n; i%3Cn; i++%7B%0A        if vet_n%5Bi%5D==vet_m%5Bi%5D%7B%0A            fmt.Println(%22sim%22)%0A        %7D else %7B%0A            fmt.Println(%22nao%22)%0A    \n     \n@@ -389,17 +389,18 @@\n   %7D%0A    \n- \n+%7D%0A\n %0A    %0A%7D%0A\n",
             "lines": "23"
+        },
+        {
+            "label": "2026-06-06_02-10-32",
+            "content": "@@ -134,17 +134,17 @@\n  for i:=\n-0\n+n\n ; i%3Cn; i\n@@ -233,9 +233,9 @@\n  y:=\n-0\n+m\n ; y%3C\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-06_02-11-42",
+            "content": "@@ -197,18 +197,16 @@\n intf(%22%25d\n-%5Cn\n %22, &vet_\n@@ -296,10 +296,8 @@\n (%22%25d\n-%5Cn\n %22, v\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-06_02-12-17",
+            "content": "@@ -192,25 +192,25 @@\n mt.Printf(%22%25\n-v\n+d\n %5Cn%22, &vet_n%5B\n@@ -293,17 +293,17 @@\n rintf(%22%25\n-v\n+d\n %5Cn%22, vet\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-06_02-12-30",
+            "content": "@@ -192,25 +192,25 @@\n mt.Printf(%22%25\n-d\n+v\n %5Cn%22, &vet_n%5B\n@@ -297,9 +297,9 @@\n f(%22%25\n-d\n+v\n %5Cn%22,\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-06_02-12-47",
+            "content": "@@ -198,24 +198,25 @@\n ntf(%22%25d%5Cn%22, \n+&\n vet_n%5Bi%5D)%0A  \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-06_02-13-56",
+            "content": "@@ -283,10 +283,8 @@\n     \n-//\n fmt.\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-06_02-15-06",
+            "content": "@@ -208,17 +208,17 @@\n , vet_n%5B\n-0\n+i\n %5D)%0A    %7D\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-06_02-15-26",
+            "content": "@@ -183,27 +183,16 @@\n         \n-%0A    %7D%0A    \n fmt.Prin\n@@ -212,16 +212,22 @@\n t_n%5B0%5D)%0A\n+    %7D%0A\n      for\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-06_02-15-57",
+            "content": "@@ -227,41 +227,8 @@\n 0%5D)%0A\n-    fmt.Printf(%22%25d%5Cn%22, vet_n%5B1%5D)%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-06_02-16-09",
+            "content": "@@ -260,41 +260,8 @@\n 1%5D)%0A\n-    fmt.Printf(%22%25d%5Cn%22, vet_n%5B2%5D)%0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-06_02-16-20",
+            "content": "@@ -175,32 +175,43 @@\n t_n%5Bi%5D)%0A        \n+%0A    %7D%0A    \n fmt.Printf(%22%25d%5Cn\n@@ -227,22 +227,77 @@\n 0%5D)%0A    \n-%7D%0A    \n+fmt.Printf(%22%25d%5Cn%22, vet_n%5B1%5D)%0A    fmt.Printf(%22%25d%5Cn%22, vet_n%5B2%5D)\n %0A     fo\n@@ -346,24 +346,26 @@\n y%5D)%0A        \n+//\n fmt.Printf(%22\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-06_02-21-06",
+            "content": "@@ -139,17 +139,16 @@\n i:=0; i%3C\n-=\n n; i++%7B%0A\n@@ -240,17 +240,16 @@\n y:=0; y%3C\n-=\n m; y++%7B%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-06_02-21-48",
+            "content": "@@ -139,16 +139,17 @@\n i:=0; i%3C\n+=\n n; i++%7B%0A\n@@ -241,16 +241,17 @@\n y:=0; y%3C\n+=\n m; y++%7B%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-06_02-22-00",
+            "content": "@@ -223,24 +223,25 @@\n  %7D%0A    %0A    \n+ \n for y:=0; y%3C\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-06_02-26-26",
+            "content": "@@ -135,20 +135,20 @@\n for \n-y\n+i\n :=0; \n-y%3Cm; y\n+i%3Cn; i\n ++%7B%0A\n@@ -165,27 +165,27 @@\n t.Scan(&vet_\n-m%5By\n+n%5Bi\n %5D)%0A        f\n@@ -210,11 +210,11 @@\n vet_\n-m%5By\n+n%5B0\n %5D)%0A \n@@ -222,17 +222,16 @@\n   %7D%0A    \n- \n %0A    for\n@@ -227,36 +227,36 @@\n    %0A    for \n-i\n+y\n :=0; \n-i%3Cn; i\n+y%3Cm; y\n ++%7B%0A        \n@@ -261,35 +261,35 @@\n   fmt.Scan(&vet_\n-n%5Bi\n+m%5By\n %5D)%0A        fmt.P\n@@ -298,35 +298,35 @@\n ntf(%22%25d%5Cn%22, vet_\n-n%5B0\n+m%5By\n %5D)%0A    %7D%0A    %0A  \n@@ -318,20 +318,21 @@\n )%0A    %7D%0A    \n+ \n %0A    %0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-06_02-26-37",
+            "content": "@@ -135,18 +135,22 @@\n for \n-i\n+y\n :=0; \n-i%3Cn;\n+y%3Cm; y++\n %7B%0A  \n@@ -165,27 +165,27 @@\n t.Scan(&vet_\n-n%5Bi\n+m%5By\n %5D)%0A        f\n@@ -210,31 +210,25 @@\n vet_\n-n%5Bi\n+m%5By\n %5D)%0A    \n-    i++\n+%7D\n %0A    \n-%7D\n+ \n %0A   \n@@ -228,36 +228,36 @@\n    %0A    for \n-y\n+i\n :=0; \n-y%3Cm; y\n+i%3Cn; i\n ++%7B%0A        \n@@ -262,35 +262,35 @@\n   fmt.Scan(&vet_\n-m%5By\n+n%5Bi\n %5D)%0A        fmt.P\n@@ -299,35 +299,35 @@\n ntf(%22%25d%5Cn%22, vet_\n-m%5By\n+n%5B0\n %5D)%0A    %7D%0A     %0A \n@@ -315,30 +315,24 @@\n n%5B0%5D)%0A    %7D%0A\n-     %0A\n     %0A    %0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-06_02-32-47",
+            "content": "@@ -133,36 +133,32 @@\n   for i:=0; i%3Cn;\n- i++\n %7B%0A        fmt.Sc\n@@ -175,55 +175,8 @@\n i%5D)%0A\n-        %0A    %7D%0A    for i:=0; i%3Cn; i++%7B%0A       %0A\n     \n@@ -189,24 +189,26 @@\n t.Printf(%22%25d\n+%5Cn\n %22, vet_n%5Bi%5D)\n@@ -204,24 +204,36 @@\n , vet_n%5Bi%5D)%0A\n+        i++%0A\n     %7D%0A    fo\n@@ -290,43 +290,8 @@\n     \n-%0A    %7D%0A    for y:=0; y%3Cm; y++%7B%0A    \n fmt.\n@@ -300,16 +300,18 @@\n intf(%22%25d\n+%5Cn\n %22, vet_m\n@@ -317,24 +317,30 @@\n m%5By%5D)%0A    %7D%0A\n+     %0A\n     %0A    %0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-06_02-48-52",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -71,17 +71,16 @@\n &n, &m)%0A\n-%0A\n     vet_\n@@ -80,20 +80,18 @@\n    vet_n\n- \n :=\n- \n make(%5B%5Di\n@@ -106,20 +106,18 @@\n    vet_m\n- \n :=\n- \n make(%5B%5Di\n@@ -126,84 +126,8 @@\n , m)\n-%0A%0A    // Passo 1: L%C3%AA TODOS os valores primeiro (sua tela n%C3%A3o fica misturada)\n %0A   \n@@ -132,34 +132,29 @@\n    for i\n- \n :=\n- \n 0; i\n- %3C \n+%3C\n n; i++\n- \n %7B%0A      \n@@ -183,122 +183,18 @@\n     \n-%7D%0A\n     \n-for y := 0; y %3C m; y++ %7B%0A        fmt.Scan(&vet_m%5By%5D)%0A    %7D%0A%0A    // Passo 2: Imprime tudo de uma vez no final\n+%0A    %7D\n %0A   \n@@ -203,27 +203,30 @@\n or i\n- \n :=\n- \n 0; i\n- %3C \n+%3C\n n; i++\n- \n %7B\n+%0A       \n %0A   \n@@ -240,26 +240,24 @@\n t.Printf(%22%25d\n-%5Cn\n %22, vet_n%5Bi%5D)\n@@ -260,137 +260,75 @@\n %5Bi%5D)\n- \n %0A    \n-    // %F0%9F%92%A1 Nota: Se o exerc%C3%ADcio pedir os n%C3%BAmeros na mesma linha, %0A        // troque %22%25d%5Cn%22 por %22%25d %22 (com um espa%C3%A7o no final)\n+%7D%0A    for y:=0; y%3Cm; y++%7B%0A        fmt.Scan(&vet_m%5By%5D)%0A        \n %0A   \n@@ -343,32 +343,23 @@\n or y\n- \n :=\n- \n 0; y\n- %3C \n+%3C\n m; y++\n- \n %7B%0A\n-    \n     \n@@ -376,10 +376,8 @@\n (%22%25d\n-%5Cn\n %22, v\n@@ -391,10 +391,20 @@\n )%0A    %7D%0A\n+    %0A    %0A\n %7D%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-06_02-49-45",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -73,16 +73,17 @@\n &n, &m)%0A\n+%0A\n     vet_\n@@ -83,18 +83,20 @@\n    vet_n\n+ \n :=\n+ \n make(%5B%5Di\n@@ -111,18 +111,20 @@\n    vet_m\n+ \n :=\n+ \n make(%5B%5Di\n@@ -129,16 +129,92 @@\n %5Dint, m)\n+%0A%0A    // Passo 1: L%C3%AA TODOS os valores primeiro (sua tela n%C3%A3o fica misturada)\n %0A    for\n@@ -211,37 +211,42 @@\n a)%0A    for i\n+ \n :=\n+ \n 0; i\n-%3C\n+ %3C \n n; i++\n+ \n %7B%0A        fm\n@@ -263,34 +263,138 @@\n t_n%5Bi%5D)%0A    \n+%7D%0A\n     \n-%0A    %7D\n+for y := 0; y %3C m; y++ %7B%0A        fmt.Scan(&vet_m%5By%5D)%0A    %7D%0A%0A    // Passo 2: Imprime tudo de uma vez no final\n %0A    for i:=\n@@ -395,21 +395,26 @@\n or i\n+ \n :=\n+ \n 0; i\n-%3C\n+ %3C \n n; i++\n+ \n %7B%0A  \n@@ -418,24 +418,16 @@\n %0A       \n-%0A    \n-   \n  fmt.Pri\n@@ -429,24 +429,26 @@\n t.Printf(%22%25d\n+%5Cn\n %22, vet_n%5Bi%5D)\n@@ -451,75 +451,137 @@\n %5Bi%5D)\n+ \n %0A    \n-%7D%0A    for y:=0; y%3Cm; y++%7B%0A        fmt.Scan(&vet_m%5By%5D)%0A        \n+    // %F0%9F%92%A1 Nota: Se o exerc%C3%ADcio pedir os n%C3%BAmeros na mesma linha, %0A        // troque %22%25d%5Cn%22 por %22%25d %22 (com um espa%C3%A7o no final)\n %0A   \n@@ -596,23 +596,32 @@\n or y\n+ \n :=\n+ \n 0; y\n-%3C\n+ %3C \n m; y++\n+ \n %7B%0A\n+    \n     \n@@ -634,16 +634,18 @@\n intf(%22%25d\n+%5Cn\n %22, vet_m\n@@ -659,16 +659,6 @@\n   %7D%0A\n-    %0A    %0A\n %7D%0A\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-06-06_03-07-01",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, m int\n    fmt.Scan(&n, &m)\n    vet_n:=make([]int, n)\n    vet_m:=make([]int, m)\n    for i:=0; i<n; i++{\n        fmt.Scan(&vet_n[i])\n        \n    }\n    for i:=0; i<n; i++{\n       \n        fmt.Printf(\"%d\", vet_n[i])\n    }\n    for y:=0; y<m; y++{\n        fmt.Scan(&vet_m[y])\n        \n    }\n    for y:=0; y<m; y++{\n    fmt.Printf(\"%d\", vet_m[y])\n    }\n    \n    \n}\n",
+            "lines": "25"
         }
     ]
 }

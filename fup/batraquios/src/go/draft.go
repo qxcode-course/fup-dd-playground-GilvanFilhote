@@ -5,19 +5,21 @@ func main() {
     fmt.Scan(&n, &m)
     vet_n:=make([]int, n)
     vet_m:=make([]int, m)
-    for i:=n; i<n; i++{
+    for i:=0; i<n; i++{
         fmt.Scan(&vet_n[i])
+        
     }
-     for y:=m; y<m; y++{
+    for i:=0; i<n; i++{
+       
+        fmt.Printf("%d", vet_n[i])
+    }
+    for y:=0; y<m; y++{
         fmt.Scan(&vet_m[y])
+        
     }
-     for i:=n; i<n; i++{
-        if vet_n[i]==vet_m[i]{
-            fmt.Println("sim")
-        } else {
-            fmt.Println("nao")
-        }
+    for y:=0; y<m; y++{
+    fmt.Printf("%d", vet_m[y])
     }
-
+    
     
 }
