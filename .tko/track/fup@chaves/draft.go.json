@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-19_17-46-10",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num int\n    fmt.Scan(&num)\n    if num>0{\n        fmt.Println(\"positivo\")\n    } else if num<0{\n        fmt.Println(\"negativo\")\n    } else {\n        fmt.Println(\"nulo\")\n    }\n}\n",
+            "lines": "13"
+        }
+    ]
+}

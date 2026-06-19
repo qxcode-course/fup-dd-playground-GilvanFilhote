@@ -1,0 +1,5 @@
+{"ts":1781890961,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAJ1/NWoC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1781891046,"hash":"8e00bfccb941f7d06cd3f3c7c0d3d9684e5121e53374d8af8aed9b14f22f806a","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var num int\n    \n"}]}
+{"ts":1781891073,"hash":"bf61749be98dffbbb28ce04cfe267a994041122a4d75e273e5269f28f36dda69","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    fmt.Scan(&num)\n    if num>\n"}]}
+{"ts":1781891130,"hash":"bf59f06ca07e47727ea36c79a1eb7d6481e3af419d504728ffd2d3691bcae366","mode":"diff","ops":[{"tag":"replace","a1":5,"a2":6,"text":"    if num>0{\n        fmt.Println(\"positifo)\n    }\n"}]}
+{"ts":1781891169,"hash":"28634c51f578a6e8ccfe558a9879e256583e6f6932cdc84006e71132ae1b240f","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"        fmt.Println(\"positivo\")\n    } else if num<0{\n        fmt.Println(\"negativo\")\n    } else {\n        fmt.Println(\"nulo\")\n"}]}
