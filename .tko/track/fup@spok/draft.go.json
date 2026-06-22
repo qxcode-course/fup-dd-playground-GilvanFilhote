@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-21_18-56-09",
+            "content": "@@ -17,158 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22strconv%22%0A)%0Afunc main() %7B%0A    var numero int%0A    fmt.Scan(&numero)%0A    palindromo:=strconv.Itoa(numero)%0A    %0A    for i==%0A        %0A    %7D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-22_17-37-17",
+            "content": "@@ -141,272 +141,20 @@\n     \n-ehpalindromo:=1%0A    for i:=0; i%3Clen(palindromo)/2; i++%7B%0A        if palindromo%5Bi%5D!=palindromo%5Blen(palindromo)-1-i%5D%7B%0A            ehpalindromo=0%0A        %7D%0A    %7D%0A    if ehpalindromo==1%7B%0A        fmt.Println(1)%0A    %7D else if ehpalindromo==0%7B%0A        fmt.Println(0)%0A    %7D\n+%0A    for i==\n %0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-06-22_17-41-56",
+            "content": "@@ -413,12 +413,14 @@\n      %0A    %7D%0A\n+%7D%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-22_17-42-14",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"strconv\"\n)\nfunc main() {\n    var numero int\n    fmt.Scan(&numero)\n    palindromo:=strconv.Itoa(numero)\n    ehpalindromo:=1\n    for i:=0; i<len(palindromo)/2; i++{\n        if palindromo[i]!=palindromo[len(palindromo)-1-i]{\n            ehpalindromo=0\n        }\n    }\n    if ehpalindromo==1{\n        fmt.Println(1)\n    } else if ehpalindromo==0{\n        fmt.Println(0)\n    }\n        \n    }\n",
+            "lines": "22"
+        }
+    ]
+}

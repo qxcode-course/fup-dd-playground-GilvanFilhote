@@ -62,3 +62,5 @@
 2026-06-19 18:00:32, MOVE, v:1, k:fup@omeletao, mode:PICK
 2026-06-19 18:00:33, EXEC, v:1, k:fup@omeletao, mode:FULL, rate:100
 2026-06-19 18:00:34, MOVE, v:1, k:fup@omeletao, mode:BACK
+2026-06-19 18:00:20, MOVE, v:1, k:fup@omeletao, mode:EDIT
+2026-06-19 18:00:33, MOVE, v:1, k:fup@omeletao, mode:EDIT

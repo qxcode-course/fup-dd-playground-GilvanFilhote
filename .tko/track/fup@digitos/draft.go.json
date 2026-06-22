@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-22_17-58-10",
+            "content": "@@ -76,15 +76,8 @@\n &num\n-, &num1\n )%0A  \n@@ -113,16 +113,40 @@\n 1; i++%7B%0A\n+        fmt.Scan(&num1)%0A\n         \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-22_17-58-53",
+            "content": "@@ -109,17 +109,16 @@\n i:=0; i%3C\n-=\n num1; i+\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-22_17-59-36",
+            "content": "@@ -113,14 +113,13 @@\n ; i%3C\n+=\n num1\n--1\n ; i+\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-22_17-59-43",
+            "content": "@@ -142,16 +142,19 @@\n um==num1\n+%5Bi%5D\n %7B%0A      \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-22_18-00-05",
+            "content": "@@ -17,32 +17,14 @@\n ort \n-(%0A  \n %22fmt%22%0A\n- %22strconv%22%0A)%0A%0A\n func\n@@ -101,98 +101,26 @@\n     \n-cacado:=strconv.Itoa(num)%0A    aparecido:=strconv.Itoa(num1)%0A    for i:=0; i%3Clen(aparecido)\n+for i:=0; i%3Cnum1-1\n ; i+\n@@ -146,11 +146,8 @@\n num1\n-%5Bi%5D\n %7B%0A  \n@@ -183,41 +183,6 @@\n   %7D%0A\n-    fmt.Print(%22%25d%22, cont)%0A    %0A    \n %7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-22_18-10-38",
+            "content": "@@ -227,25 +227,17 @@\n  if \n-cacado==aparecido\n+num==num1\n %5Bi%5D%7B\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-22_18-11-08",
+            "content": "@@ -235,16 +235,8 @@\n do==\n- string(\n apar\n@@ -243,17 +243,16 @@\n ecido%5Bi%5D\n-)\n %7B%0A      \n@@ -297,15 +297,12 @@\n rint\n-f\n (%22%25d\n-%5Cn\n %22, c\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-22_18-16-12",
+            "content": "package main\nimport (\n  \"fmt\"\n \"strconv\"\n)\n\nfunc main() {\n    var num, num1 int\n    fmt.Scan(&num, &num1)\n    cont:=0\n    cacado:=strconv.Itoa(num)\n    aparecido:=strconv.Itoa(num1)\n    for i:=0; i<len(aparecido); i++{\n        if cacado== string(aparecido[i]){\n            cont++\n        }\n    }\n    fmt.Printf(\"%d\\n\", cont)\n    \n    }\n",
+            "lines": "20"
+        }
+    ]
+}

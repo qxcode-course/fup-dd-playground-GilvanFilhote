@@ -1,0 +1,15 @@
+2026-06-21 18:50:01, MOVE, v:1, k:fup@omeletao, mode:PICK
+2026-06-21 18:50:03, EXEC, v:1, k:fup@omeletao, mode:FULL, rate:100
+2026-06-21 18:50:18, EXEC, v:1, k:fup@omeletao, mode:FULL, rate:100
+2026-06-21 18:52:53, MOVE, v:1, k:fup@spok, mode:DOWN
+2026-06-21 18:54:33, MOVE, v:1, k:fup@spok, mode:PICK
+2026-06-21 18:50:18, MOVE, v:1, k:fup@omeletao, mode:EDIT
+2026-06-21 18:52:53, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-06-21 18:56:09, EXEC, v:1, k:fup@spok, mode:FULL, rate:0, size:5
+2026-06-21 18:52:53, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-06-21 18:56:08, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-06-21 18:57:06, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-06-21 18:56:08, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-06-21 18:57:28, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-06-21 19:00:43, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-06-21 19:00:43, MOVE, v:1, k:fup@spok, mode:EDIT
