@@ -32,3 +32,8 @@
 2026-06-22 18:11:08, EXEC, v:1, k:fup@digitos, mode:FULL, size:20, fail:COMP
 2026-06-22 18:11:44, MOVE, v:1, k:fup@digitos, mode:EDIT
 2026-06-22 18:16:12, EXEC, v:1, k:fup@digitos, mode:FULL, rate:100, size:20
+2026-06-22 18:17:11, MOVE, v:1, k:fup@digitos, mode:BACK
+2026-06-22 18:17:39, SELF, v:1, k:fup@digitos, self:1, rate:100
+2026-06-22 18:16:11, MOVE, v:1, k:fup@digitos, mode:EDIT
+2026-06-22 18:16:12, MOVE, v:1, k:fup@digitos, mode:EDIT
+2026-06-22 18:18:40, SELF, v:1, k:fup@digitos, self:1, rate:100, study:30
