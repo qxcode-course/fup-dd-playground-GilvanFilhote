@@ -40,3 +40,7 @@
 2026-06-22 18:22:13, MOVE, v:1, k:fup@sopa, mode:DOWN
 2026-06-22 18:22:16, MOVE, v:1, k:fup@sopa, mode:PICK
 2026-06-22 18:22:13, MOVE, v:1, k:fup@sopa, mode:EDIT
+2026-06-22 18:25:04, MOVE, v:1, k:fup@sopa, mode:EDIT
+2026-06-22 19:14:18, MOVE, v:1, k:fup@sopa, mode:PICK
+2026-06-22 19:23:28, EXEC, v:1, k:fup@sopa, mode:FULL, rate:0, size:7
+2026-06-22 19:23:28, MOVE, v:1, k:fup@sopa, mode:EDIT

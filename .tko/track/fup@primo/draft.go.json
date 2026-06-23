@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-23_18-33-11",
+            "content": "@@ -242,10 +242,8 @@\n rint\n-ln\n (res\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-23_18-33-19",
+            "content": "@@ -238,16 +238,18 @@\n mt.Print\n+ln\n (resulta\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-23_18-33-33",
+            "content": "@@ -48,19 +48,8 @@\n nt%7B%0A\n-    num:=0%0A\n     \n@@ -78,13 +78,17 @@\n     \n-num=0\n+return 0;\n %0A   \n@@ -119,12 +119,15 @@\n     \n-num=\n+return \n 1 %0A \n@@ -142,19 +142,17 @@\n  return \n-num\n+0\n ;%0A%7D%0Afunc\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-23_18-53-47",
+            "content": "@@ -77,9 +77,9 @@\n && x\n-%3E\n+%3C\n 2%7B%0A \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-06-23_18-56-02",
+            "content": "@@ -52,58 +52,35 @@\n     \n-resul:=1%0A    for i:=0; i%3Cx; i++%7B%0A \n+num:=0%0A\n     \n-   \n if x%25\n-i\n+2\n ==0\n+ && x%3E2\n %7B%0A  \n@@ -89,29 +89,36 @@\n     \n-    resul==0%0A        \n+num=0%0A    %7D else if x%25x==0 %7B\n %0A   \n@@ -118,25 +118,30 @@\n 0 %7B%0A        \n-%7D\n+num=1 \n %0A    %7D%0A    r\n@@ -146,21 +146,19 @@\n  return \n-resul\n+num\n ;%0A%7D%0Afunc\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-06-23_19-13-00",
+            "content": "@@ -118,16 +118,17 @@\n   resul=\n+=\n 0%0A      \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-23_19-13-10",
+            "content": "@@ -68,17 +68,17 @@\n  for i:=\n-1\n+0\n ; i%3Cx; i\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-23_19-14-08",
+            "content": "@@ -1,8 +1,28 @@\n+@@ -1,277 +1,38 @@%0A-\n package \n@@ -29,22 +29,30 @@\n main\n-%0A\n+%250A\n import \n-%22fmt%22%0A\n+%2522fmt%2522%250A\n func\n@@ -70,18 +70,22 @@\n int) int\n-%7B%0A\n+%257B%250A\n     resu\n@@ -88,17 +88,19 @@\n resul:=1\n-%0A\n+%250A\n     for \n@@ -110,17 +110,23 @@\n 2; i\n-%3C\n+%253C\n x; i++\n-%7B%0A\n+%257B%250A\n     \n@@ -138,14 +138,20 @@\n f x%25\n+25\n i==0\n-%7B%0A\n+%257B%250A\n     \n@@ -165,25 +165,27 @@\n  resul=0\n-%0A\n+%250A\n         \n %0A       \n@@ -180,17 +180,19 @@\n     \n-%0A\n+%250A\n         \n %7D%0A  \n@@ -191,16 +191,24 @@\n     \n-%7D%0A    %7D%0A\n+%257D%250A    %257D%250A\n     \n@@ -220,19 +220,25 @@\n n resul;\n-%0A%7D%0A\n+%250A%257D%250A\n func mai\n@@ -245,10 +245,14 @@\n n() \n-%7B%0A\n+%257B%250A\n     \n@@ -262,17 +262,19 @@\n  num int\n-%0A\n+%250A\n     fmt.\n@@ -279,25 +279,27 @@\n t.Scan(&num)\n-%0A\n+%250A\n     resultad\n@@ -314,17 +314,19 @@\n imo(num)\n-%0A\n+%250A\n     fmt.\n@@ -334,10 +334,8 @@\n rint\n-ln\n (res\n@@ -345,7 +345,65 @@\n ado)\n-%0A%7D\n+%250A%257D%0A+@@ -72,9 +72,9 @@%250A  i:=%250A-2%250A+1%250A ; i%25253C%0A %250A\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-06-23_19-15-47",
+            "content": "package main\nimport \"fmt\"\nfunc ehprimo(x int) int{\n    resul:=1\n    for i:=2; i<x; i++{\n        if x%i==0{\n            resul=0\n        \n        }\n    }\n    return resul;\n}\nfunc main() {\n    var num int\n    fmt.Scan(&num)\n    resultado:= ehprimo(num)\n    fmt.Println(resultado)\n}\n",
+            "lines": "18"
+        }
+    ]
+}
