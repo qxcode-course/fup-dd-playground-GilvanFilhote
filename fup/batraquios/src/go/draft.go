@@ -7,9 +7,10 @@ func main() {
     vet_m:=make([]int, m)
     for i:=0; i<n; i++{
         fmt.Scan(&vet_n[i])
+        for j:=0; j<m; j++{
+            fmt.Scan(&vet_m[i])
+        }
+        fmt.Print("hhh")
     }
-    for i:=0; i<m; i++{
-        fmt.Scan(&vet_m[i])
-    }
-    
+}
     

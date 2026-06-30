@@ -1,0 +1,289 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-24_18-33-35",
+            "content": "@@ -248,14 +248,8 @@\n int(\n-%22%25v%22, \n vet)\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-24_18-33-51",
+            "content": "@@ -183,9 +183,8 @@\n  i:=\n-0\n ; i%3C\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-24_18-34-09",
+            "content": "@@ -254,15 +254,12 @@\n %25v%22, vet\n-%5Bi%5D\n )%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-24_18-34-20",
+            "content": "@@ -225,24 +225,26 @@\n vet%5Bi%5D)%0A    \n+%7D%0A\n     fmt.Prin\n@@ -259,16 +259,10 @@\n vet%5Bi%5D)%0A\n-    %7D%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-24_18-34-40",
+            "content": "@@ -246,15 +246,12 @@\n rint\n-f\n (%22%25\n-d%5Cn\n+v\n %22, v\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-24_18-40-42",
+            "content": "@@ -54,22 +54,16 @@\n _album, \n-quant_\n fig_baru\n@@ -109,22 +109,16 @@\n album, &\n-quant_\n fig_baru\n@@ -188,24 +188,16 @@\n ; i%3C\n-quant_fig_baruel\n+len(vet)\n ; i+\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-24_19-29-52",
+            "content": "@@ -70,16 +70,28 @@\n g_baruel\n+, figurinhas\n  int%0A   \n@@ -135,17 +135,29 @@\n ruel\n+, &figurinhas\n )%0A    \n-con\n+ve\n t:= \n@@ -172,23 +172,19 @@\n nt, \n-quant_album+1)%0A\n+figurinhas)\n %0A   \n@@ -231,184 +231,34 @@\n     \n-var fig int%0A        fmt.Scan(&fig)%0A        cont%5Bfig%5D++%0A    %7D%0A    primeiro:=true%0A    for i:=1; i%3Cquant_album; i++%7B%0A        if cont%5Bi%5D%3E1%7B%0A            if !primeiro%7B%0A      \n+fmt.Scan(&vet%5Bi%5D)%0A\n         \n   fm\n@@ -245,34 +245,32 @@\n vet%5Bi%5D)%0A        \n-  \n fmt.Printf(%22 %22)%0A\n@@ -269,301 +269,22 @@\n tf(%22\n- %22)%0A            %7D%0A            fmt.Print(i)%0A            primeiro=false%0A        %7D%0A    %7D%0A    primeiro=true%0A    for i:=1; i%3Cquant_album; i++%7B%0A        if cont%5Bi%5D%3E1%7B%0A            if !primeiro%7B%0A                fmt.Printf(%22 %22)%0A            %7D%0A            fmt.Print(i)%0A            primeiro=false%0A        %7D\n+%25d%5Cn%22, vet%5Bi%5D)\n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-29_20-56-51",
+            "content": "@@ -701,24 +701,6 @@\n   %7D%0A\n-    fmt.Println()%0A\n %7D%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-06-29_20-57-15",
+            "content": "@@ -303,17 +303,16 @@\n i:=1; i%3C\n-=\n quant_al\n@@ -343,10 +343,9 @@\n t%5Bi%5D\n-==\n+%3E\n 1%7B%0A \n@@ -436,18 +436,16 @@\n mt.Print\n-ln\n (i)%0A    \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_20-59-11",
+            "content": "@@ -430,32 +430,34 @@\n        fmt.Print\n+ln\n (i)%0A            \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_20-59-19",
+            "content": "@@ -344,9 +344,10 @@\n t%5Bi%5D\n-%3E\n+==\n 1%7B%0A \n@@ -511,33 +511,32 @@\n     for i:=1; i%3C\n-=\n quant_album; i++\n@@ -547,34 +547,33 @@\n       if cont%5Bi%5D\n-==\n+%3E\n 1%7B%0A            i\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_21-00-24",
+            "content": "@@ -299,24 +299,25 @@\n for i:=1; i%3C\n+=\n quant_album;\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_21-00-34",
+            "content": "@@ -172,25 +172,24 @@\n for i:=0; i%3C\n-=\n quant_fig_ba\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_21-01-09",
+            "content": "@@ -557,17 +557,17 @@\n ont%5Bi%5D==\n-0\n+1\n %7B%0A      \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_21-01-43",
+            "content": "@@ -484,34 +484,16 @@\n %7D%0A    %7D%0A\n-    fmt.Println()%0A\n     prim\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_21-02-23",
+            "content": "@@ -172,24 +172,25 @@\n for i:=0; i%3C\n+=\n quant_fig_ba\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-06-29_21-03-58",
+            "content": "@@ -295,33 +295,32 @@\n     for i:=1; i%3C\n-=\n quant_album; i++\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-06-29_21-04-24",
+            "content": "@@ -504,11 +504,8 @@\n tln(\n-%22%5B%22\n )%0A  \n@@ -722,28 +722,8 @@\n   %7D%0A\n-    fmt.Printf(%22%5D%22)%0A\n     \n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-06-29_21-05-50",
+            "content": "@@ -504,25 +504,8 @@\n tln(\n-)%0A    fmt.Printf(\n %22%5B%22)\n",
+            "lines": "36"
+        },
+        {
+            "label": "2026-06-29_21-06-14",
+            "content": "@@ -519,17 +519,16 @@\n rintf(%22%5B\n- \n %22)%0A    p\n@@ -754,17 +754,16 @@\n Printf(%22\n- \n %5D%22)%0A    \n",
+            "lines": "37"
+        },
+        {
+            "label": "2026-06-29_21-06-23",
+            "content": "@@ -291,28 +291,8 @@\n rue%0A\n-    fmt.Printf(%22%5B%22)%0A\n     \n@@ -488,29 +488,8 @@\n   %7D%0A\n-    fmt.Println(%22%5D%22)%0A\n     \n",
+            "lines": "37"
+        },
+        {
+            "label": "2026-06-29_21-07-28",
+            "content": "@@ -300,25 +300,24 @@\n mt.Printf(%22%5B\n- \n %22)%0A    for i\n@@ -521,17 +521,16 @@\n rintln(%22\n- \n %5D%22)%0A    \n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-06-29_21-07-37",
+            "content": "@@ -510,33 +510,34 @@\n  %7D%0A    fmt.Print\n-f\n+ln\n (%22 %5D%22)%0A    fmt.P\n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-06-29_21-07-46",
+            "content": "@@ -347,44 +347,8 @@\n ++%7B%0A\n-        for j:=0; j%3Ccont%5Bi%5D-j; j++%7B%0A\n     \n@@ -501,30 +501,24 @@\n     %7D%0A    %7D%0A\n-    %7D%0A\n     fmt.Prin\n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-06-29_21-14-46",
+            "content": "@@ -371,17 +371,17 @@\n cont%5Bi%5D-\n-1\n+j\n ; j++%7B%0A \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-16-33",
+            "content": "@@ -839,16 +839,17 @@\n Printf(%22\n+ \n %5D%22)%0A    \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-16-45",
+            "content": "@@ -778,17 +778,16 @@\n .Print(i\n- \n )%0A      \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-16-52",
+            "content": "@@ -780,17 +780,11 @@\n rint\n-f(%22%25d%22, i\n+(i \n )%0A  \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-17-19",
+            "content": "@@ -781,17 +781,16 @@\n intf(%22%25d\n- \n %22, i)%0A  \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-17-25",
+            "content": "@@ -768,33 +768,41 @@\n        fmt.Print\n-(\n+f(%22%25d %22, \n i)%0A            p\n@@ -847,21 +847,16 @@\n Printf(%22\n-%0A    \n %5D%22)%0A    \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-17-57",
+            "content": "@@ -839,17 +839,16 @@\n Printf(%22\n- \n %0A    %5D%22)\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-06-29_21-18-12",
+            "content": "@@ -832,32 +832,37 @@\n    fmt.Printf(%22 \n+%0A    \n %5D%22)%0A    fmt.Prin\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-06-29_21-18-34",
+            "content": "@@ -839,16 +839,17 @@\n Printf(%22\n+ \n %5D%22)%0A    \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-18-50",
+            "content": "@@ -569,11 +569,27 @@\n (%22 %5D\n-%5Cn%22\n+%22)%0A    fmt.Println(\n )%0A  \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-20-01",
+            "content": "@@ -823,17 +823,16 @@\n Printf(%22\n- \n %5D%22)%0A    \n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-06-29_21-20-15",
+            "content": "@@ -648,17 +648,8 @@\n ++%7B%0A\n-        %0A\n     \n@@ -738,17 +738,16 @@\n        %7D\n- \n %0A       \n@@ -791,32 +791,40 @@\n o=false%0A        \n+%7D%0A    %7D%0A\n     fmt.Printf(%22\n@@ -828,24 +828,16 @@\n f(%22 %5D%22)%0A\n-        \n     fmt.\n@@ -846,26 +846,10 @@\n intln()%0A\n-        %7D%0A    %7D%0A\n %7D%0A\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-06-29_21-23-39",
+            "content": "@@ -687,19 +687,16 @@\n         \n- //\n  if !pri\n@@ -713,19 +713,16 @@\n         \n- //\n      fmt\n@@ -749,11 +749,8 @@\n     \n- //\n  %7D %0A\n@@ -801,30 +801,24 @@\n o=false%0A    \n-    %7D%0A\n         fmt.\n@@ -830,32 +830,36 @@\n f(%22 %5D%22)%0A        \n+    \n fmt.Println()%0A  \n@@ -856,16 +856,26 @@\n intln()%0A\n+        %7D%0A\n     %7D%0A%7D%0A\n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-24-34",
+            "content": "@@ -816,34 +816,32 @@\n e%0A        %7D%0A    \n-%7D%0A\n     fmt.Printf(%22\n@@ -845,16 +845,20 @@\n f(%22 %5D%22)%0A\n+    \n     fmt.\n@@ -867,10 +867,16 @@\n intln()%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-24-43",
+            "content": "@@ -842,16 +842,17 @@\n Printf(%22\n+ \n %5D%22)%0A    \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-25-15",
+            "content": "@@ -679,32 +679,35 @@\n ==0%7B%0A           \n+ //\n  if !primeiro%7B%0A \n@@ -708,32 +708,35 @@\n iro%7B%0A           \n+ //\n      fmt.Printf(\n@@ -743,32 +743,46 @@\n %22 %22)%0A           \n+ \n+// %7D %0A       \n      fmt.Print(i\n@@ -775,36 +775,32 @@\n    fmt.Print(i)%0A\n-    \n             prim\n@@ -822,79 +822,16 @@\n     \n- \n-   %7D else %7B%0A            fmt.Printf(%22%5B %5D%22)%0A            %7D%0A        \n %7D%0A    \n+%7D%0A\n     \n@@ -846,17 +846,12 @@\n tf(%22\n- \n %5D%22)%0A\n-    \n     \n@@ -864,16 +864,10 @@\n intln()%0A\n-    %7D%0A\n %7D%0A\n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-29_21-27-16",
+            "content": "@@ -865,34 +865,32 @@\n %7D%0A        %7D%0A    \n-%7D%0A\n     fmt.Printf(%22\n@@ -890,24 +890,28 @@\n rintf(%22 %5D%22)%0A\n+    \n     fmt.Prin\n@@ -916,10 +916,16 @@\n intln()%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "43"
+        },
+        {
+            "label": "2026-06-29_21-27-28",
+            "content": "@@ -875,19 +875,16 @@\n %7D%0A    %7D%0A\n-// \n     fmt.\n@@ -900,15 +900,12 @@\n %5D%22)%0A\n-//\n     \n- \n fmt.\n@@ -918,9 +918,6 @@\n n()%0A\n-// \n %7D%0A\n",
+            "lines": "43"
+        },
+        {
+            "label": "2026-06-29_21-27-36",
+            "content": "@@ -923,11 +923,10 @@\n ln()%0A// \n-%0A\n %7D%0A\n",
+            "lines": "43"
+        },
+        {
+            "label": "2026-06-29_21-27-42",
+            "content": "@@ -613,32 +613,8 @@\n rue%0A\n-    ultimo := len(cont)%0A\n     \n@@ -678,29 +678,8 @@\n %5D==0\n- && cont%5Bi%5D != ultimo\n %7B%0A  \n@@ -747,26 +747,15 @@\n     \n-   %7D %0A\n        \n-     \n fmt.\n@@ -755,32 +755,36 @@\n    fmt.Print(i)%0A\n+    \n             prim\n@@ -798,32 +798,100 @@\n lse%0A        \n-%7D%0A    %7D%0A\n+    %7D else %7B%0A            fmt.Printf(%22%5B %5D%22)%0A            %7D%0A        %7D%0A    %7D%0A// \n     fmt.Prin\n@@ -895,24 +895,27 @@\n rintf(%22 %5D%22)%0A\n+// \n     fmt.Prin\n@@ -920,10 +920,14 @@\n intln()%0A\n+// %0A\n %7D%0A\n",
+            "lines": "44"
+        },
+        {
+            "label": "2026-06-29_21-31-16",
+            "content": "@@ -878,16 +878,17 @@\n Printf(%22\n+ \n %5D%22)%0A    \n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-06-29_21-31-25",
+            "content": "@@ -878,17 +878,16 @@\n Printf(%22\n- \n %5D%22)%0A    \n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-06-29_21-31-37",
+            "content": "@@ -637,35 +637,8 @@\n nt)%0A\n-    if len(cont) != 0%7B%0A    \n     \n@@ -667,17 +667,16 @@\n um; i++%7B\n- \n %0A       \n@@ -672,24 +672,29 @@\n ++%7B%0A        \n+%0A    \n     if cont%5B\n@@ -725,36 +725,32 @@\n mo%7B%0A            \n- \n-   \n if !primeiro%7B%0A  \n@@ -739,36 +739,32 @@\n   if !primeiro%7B%0A\n-    \n                 \n@@ -795,19 +795,11 @@\n     \n-  \n-  \n %7D %0A\n-    \n     \n@@ -823,36 +823,32 @@\n (i)%0A            \n-  \n-  \n primeiro=false%0A \n@@ -846,30 +846,16 @@\n o=false%0A\n-            %7D%0A\n         \n@@ -860,17 +860,13 @@\n   %7D%0A\n+\n     %7D\n-    \n %0A   \n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-06-29_21-33-00",
+            "content": "@@ -939,16 +939,17 @@\n Printf(%22\n+ \n %5D%22)%0A    \n",
+            "lines": "43"
+        },
+        {
+            "label": "2026-06-29_21-33-15",
+            "content": "@@ -355,30 +355,8 @@\n     \n-if cont%5Bi%5D%3E1%7B%0A        \n for \n@@ -379,24 +379,75 @@\n 1; j++%7B%0A\n+        if cont%5Bi%5D%3E1%7B%0A            if !primeiro%7B%0A   \n         \n fmt.Prin\n@@ -430,32 +430,37 @@\n iro%7B%0A           \n+     \n fmt.Print(%22 %22, i\n@@ -448,33 +448,74 @@\n    fmt.Print\n+f\n (%22 %22\n-, i)%0A\n+)%0A            %7D%0A            fmt.Print(i)%0A    \n         prim\n@@ -537,24 +537,30 @@\n     %7D%0A    %7D%0A\n+    %7D%0A\n     fmt.Prin\n@@ -565,16 +565,18 @@\n intf(%22 %5D\n+%5Cn\n %22)%0A    f\n@@ -605,24 +605,75 @@\n imeiro=true%0A\n+    ultimo := len(cont)%0A    if len(cont) != 0%7B%0A    \n     for i:=1\n@@ -686,32 +686,33 @@\n uant_album; i++%7B\n+ \n %0A        if cont\n@@ -696,32 +696,36 @@\n ; i++%7B %0A        \n+    \n if cont%5Bi%5D==0%7B%0A \n@@ -721,18 +721,81 @@\n nt%5Bi%5D==0\n-%7B%0A\n+ && cont%5Bi%5D != ultimo%7B%0A                if !primeiro%7B%0A            \n         \n@@ -807,25 +807,74 @@\n rint\n+f\n (%22 %22\n-, i)%0A\n+)%0A                %7D %0A                fmt.Print(i)%0A   \n         \n prim\n@@ -861,32 +861,37 @@\n t(i)%0A           \n+     \n primeiro=false%0A \n@@ -901,16 +901,33 @@\n     \n+    %7D%0A        \n %7D\n-%0A\n %0A    %7D\n+    \n %0A   \n@@ -943,11 +943,28 @@\n tf(%22\n- \n %5D%22)%0A\n+    fmt.Println()%0A\n %7D%0A\n",
+            "lines": "43"
+        },
+        {
+            "label": "2026-06-29_21-48-19",
+            "content": "@@ -673,10 +673,8 @@\n %22 %5D%22)%0A%7D%0A\n-%7D%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-06-29_21-48-26",
+            "content": "@@ -268,25 +268,39 @@\n +%0A    %7D%0A    \n+primeiro:=true\n %0A\n-\n     fmt.Prin\n@@ -431,24 +431,38 @@\n  i)%0A        \n+primeiro=false\n %0A        %7D%0A \n@@ -508,24 +508,37 @@\n f(%22%5B %22)%0A    \n+primeiro=true\n %0A    for i:=\n@@ -610,23 +610,38 @@\n %22 %22, i)%0A\n-\n        \n+ primeiro=false\n %0A       \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_21-49-07",
+            "content": "@@ -438,18 +438,16 @@\n %7D%0A    %7D%0A\n-%7D%0A\n     fmt.\n@@ -615,11 +615,12 @@\n f(%22 %5D%22)%0A\n+%7D\n %0A%7D%0A\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-06-29_21-51-17",
+            "content": "@@ -290,16 +290,17 @@\n rintf(%22%5B\n+ \n %22)%0A    f\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-06-29_21-51-28",
+            "content": "@@ -461,10 +461,8 @@\n (%22 %5D\n-%5Cn\n %22)%0A \n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-06-29_21-51-36",
+            "content": "@@ -475,24 +475,25 @@\n mt.Printf(%22%5B\n+ \n %22)%0A    %0A    \n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-06-29_21-51-42",
+            "content": "@@ -614,16 +614,14 @@\n intf(%22 %5D\n-%5Cn\n %22)%0A%0A%7D%0A\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-06-29_21-51-52",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var quant_album, quant_fig_baruel int\n    fmt.Scan(&quant_album, &quant_fig_baruel)\n    cont:= make([]int, quant_album+1)\n\n    for i:=0; i<quant_fig_baruel; i++{\n        var fig int\n        fmt.Scan(&fig)\n        cont[fig]++\n    }\n    \n    fmt.Printf(\"[\")\n    for i:=1; i<=quant_album; i++{\n        if cont[i]>1{\n        for j:=0; j<cont[i]-1; j++{\n        fmt.Print(\" \", i)\n        \n        }\n    }\n}\n    fmt.Printf(\" ]\\n\")\n    fmt.Printf(\"[\")\n    \n    for i:=1; i<=quant_album; i++{\n        if cont[i]==0{\n        fmt.Print(\" \", i)\n       \n        }\n\n    }\n    fmt.Printf(\" ]\\n\")\n\n}\n",
+            "lines": "35"
+        }
+    ]
+}

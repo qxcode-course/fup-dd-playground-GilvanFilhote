@@ -1,0 +1,18 @@
+2026-06-28 19:43:14, MOVE, v:1, k:fup@repetidos, mode:PICK
+2026-06-28 19:43:17, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:100
+2026-06-28 19:44:13, MOVE, v:1, k:fup@repetidos, mode:BACK
+2026-06-28 19:43:16, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-28 19:56:42, MOVE, v:1, k:fup@repetidos, mode:PICK
+2026-06-28 19:56:44, MOVE, v:1, k:fup@repetidos, mode:BACK
+2026-06-28 19:56:48, MOVE, v:1, k:fup@repetidos, mode:PICK
+2026-06-28 19:56:50, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:100
+2026-06-28 19:56:52, MOVE, v:1, k:fup@repetidos, mode:BACK
+2026-06-28 19:56:57, MOVE, v:1, k:fup@tazos, mode:DOWN
+2026-06-28 19:57:05, MOVE, v:1, k:fup@baruel, mode:PICK
+2026-06-28 19:56:50, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-28 19:56:57, MOVE, v:1, k:fup@tazos, mode:EDIT
+2026-06-28 19:56:57, MOVE, v:1, k:fup@tazos, mode:EDIT
+2026-06-28 19:58:29, MOVE, v:1, k:fup@baruel, mode:BACK
+2026-06-28 20:12:48, MOVE, v:1, k:fup@baruel, mode:PICK
+2026-06-28 20:18:10, EXEC, v:1, k:fup@baruel, mode:FULL, rate:0
+2026-06-28 20:18:10, MOVE, v:1, k:fup@baruel, mode:EDIT

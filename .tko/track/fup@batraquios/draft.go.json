@@ -122,8 +122,23 @@
         },
         {
             "label": "2026-06-06_03-07-01",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, m int\n    fmt.Scan(&n, &m)\n    vet_n:=make([]int, n)\n    vet_m:=make([]int, m)\n    for i:=0; i<n; i++{\n        fmt.Scan(&vet_n[i])\n        \n    }\n    for i:=0; i<n; i++{\n       \n        fmt.Printf(\"%d\", vet_n[i])\n    }\n    for y:=0; y<m; y++{\n        fmt.Scan(&vet_m[y])\n        \n    }\n    for y:=0; y<m; y++{\n    fmt.Printf(\"%d\", vet_m[y])\n    }\n    \n    \n}\n",
+            "content": "@@ -187,24 +187,35 @@\n     \n+%0A    %7D%0A    \n for \n-j\n+i\n :=0; \n-j%3Cm; j\n+i%3Cn; i\n ++%7B%0A\n@@ -217,24 +217,93 @@\n i++%7B%0A       \n+%0A        fmt.Printf(%22%25d%22, vet_n%5Bi%5D)%0A    %7D%0A    for y:=0; y%3Cm; y++%7B%0A   \n      fmt.Sca\n@@ -311,17 +311,17 @@\n (&vet_m%5B\n-i\n+y\n %5D)%0A     \n@@ -327,18 +327,69 @@\n     \n+%0A    \n %7D%0A    \n-    \n+for y:=0; y%3Cm; y++%7B%0A    fmt.Printf(%22%25d%22, vet_m%5By%5D)\n %0A   \n@@ -397,12 +397,14 @@\n %7D%0A    %0A    %0A\n+%7D%0A\n",
             "lines": "25"
+        },
+        {
+            "label": "2026-06-24_18-08-00",
+            "content": "@@ -257,24 +257,8 @@\n     \n-fmt.Print(%22hhh%22)\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-24_18-08-41",
+            "content": "@@ -276,15 +276,18 @@\n )%0A    %7D%0A\n-%7D\n+    \n %0A    %0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-24_18-08-50",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, m int\n    fmt.Scan(&n, &m)\n    vet_n:=make([]int, n)\n    vet_m:=make([]int, m)\n    for i:=0; i<n; i++{\n        fmt.Scan(&vet_n[i])\n        for j:=0; j<m; j++{\n            fmt.Scan(&vet_m[i])\n        }\n        fmt.Print(\"hhh\")\n    }\n}\n    \n",
+            "lines": "16"
         }
     ]
 }
