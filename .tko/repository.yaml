@@ -34,5 +34,5 @@ audit:
   enabled: true
   interval_seconds: null
 lang: go
-selected: fup@tazos
-selected_index: 90
+selected: fup@baruel
+selected_index: 89
