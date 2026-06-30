@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-30_15-58-30",
+            "content": "@@ -201,265 +201,14 @@\n     \n-    fmt.Printf(%22%25f%5Cn%22, media)%0A    %7D%0A    for i:=0; i%3Cv; i++%7B%0A        if vetor%5Bi%5D==media%7B%0A            fmt.Print(%22M %22)%0A        %7D else if vetor%5Bi%5D%3Emedia %7B%0A            fmt.Printf(%22G %22)%0A        %7D else %7B%0A            ft.Printf(%22P %22)%0A        %7D%0A    %7D%0A    fmt.Println()\n+%7D%0A    %0A\n %0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-06-30_16-03-41",
+            "content": "@@ -399,33 +399,32 @@\n  %7B%0A            f\n-m\n t.Printf(%22P %22)%0A \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-30_16-03-49",
+            "content": "@@ -218,10 +218,8 @@\n f(%22%25\n-.2\n f%5Cn%22\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-30_16-04-07",
+            "content": "@@ -204,11 +204,8 @@\n     \n- //\n  fmt\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-30_16-05-00",
+            "content": "@@ -193,32 +193,34 @@\n etor%5Bi%5D%0A        \n+//\n  fmt.Printf(%22%25.2\n@@ -234,10 +234,8 @@\n edia\n-/v\n )%0A  \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-30_16-05-50",
+            "content": "@@ -201,49 +201,9 @@\n     \n-%7D%0A\n  \n-   v1:= float64(v)%0A    media=media/v1%0A\n     \n@@ -228,17 +228,25 @@\n %22, media\n-)\n+/v)%0A    %7D\n %0A    for\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-30_16-08-21",
+            "content": "@@ -493,14 +493,11 @@\n rint\n-f(%22%5Cn%22\n+ln(\n )%0A%7D%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_16-08-50",
+            "content": "@@ -298,27 +298,8 @@\n ++%7B%0A\n-        if i==v-1%7B%0A\n     \n@@ -474,36 +474,8 @@\n   %7D%0A\n-    %7D else %7B%0A        %0A    %7D%0A\n     \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_16-12-22",
+            "content": "@@ -297,24 +297,35 @@\n i++%7B%0A       \n+ if i==v-1%7B\n %0A        if \n@@ -493,16 +493,39 @@\n   %7D%0A    \n+%7D else %7B%0A        %0A    %7D\n %0A    %7D%0A \n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-06-30_16-12-45",
+            "content": "@@ -354,16 +354,17 @@\n Print(%22M\n+ \n %22)%0A     \n@@ -418,16 +418,17 @@\n rintf(%22G\n+ \n %22)%0A     \n@@ -468,64 +468,8 @@\n f(%22P\n-%22)%0A        %7D%0A        if i!=v-1%7B%0A            fmt.Printf(%22\n  %22)%0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-06-30_16-17-33",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var v int\n    fmt.Scan(&v)\n    vetor:= make([]float64, v)\n    var media float64\n    for i:=0; i<v; i++{\n        fmt.Scan(&vetor[i])\n        media+=vetor[i]\n    }\n    v1:= float64(v)\n    media=media/v1\n    fmt.Printf(\"%.2f\\n\", media)\n    for i:=0; i<v; i++{\n       \n        if vetor[i]==media{\n            fmt.Print(\"M\")\n        } else if vetor[i]>media {\n            fmt.Printf(\"G\")\n        } else {\n            fmt.Printf(\"P\")\n        }\n        if i!=v-1{\n            fmt.Printf(\" \")\n        }\n    \n    }\n    fmt.Printf(\"\\n\")\n}\n",
+            "lines": "30"
+        }
+    ]
+}

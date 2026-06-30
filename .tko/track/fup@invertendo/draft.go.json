@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-30_15-16-04",
+            "content": "@@ -17,193 +17,58 @@\n ort \n-(%0A    %22fmt%22%0A    %22slices%22%0A)%0Afunc main() %7B%0A    var v int%0A    fmt.Scan(&v)%0A    vetor:= make(%5B%5Dint, v)%0A    slice.Reverse(vetor)%0A    fmt.Printf(%22%5B%22)%0A    fmt.Printf( vetor)%0A    fmt.Printf(%22 %5D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-30_15-22-03",
+            "content": "@@ -120,173 +120,71 @@\n     \n-for i:=0; i%3Cv; i++%7B%0A        fmt.Scan(&vetor%5Bi%5D)%0A    %7D%0A%0A    slice.Reverse(vetor)%0A    fmt.Printf(%22%5B%22)%0A    for i:=0; i%3Cv; i++%7B%0A        fmt.Printf(%22 %25d%22, vetor%5Bi%5D)%0A    %7D\n+slice.Reverse(vetor)%0A    fmt.Printf(%22%5B%22)%0A    fmt.Printf( vetor)\n %0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-06-30_15-25-08",
+            "content": "@@ -180,17 +180,16 @@\n    slice\n-s\n .Reverse\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-30_15-25-49",
+            "content": "@@ -305,10 +305,8 @@\n (%22 %5D\n-%5Cn\n %22)%0A%7D\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-30_15-26-02",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"slices\"\n)\nfunc main() {\n    var v int\n    fmt.Scan(&v)\n    vetor:= make([]int, v)\n    for i:=0; i<v; i++{\n        fmt.Scan(&vetor[i])\n    }\n\n    slices.Reverse(vetor)\n    fmt.Printf(\"[\")\n    for i:=0; i<v; i++{\n        fmt.Printf(\" %d\", vetor[i])\n    }\n    fmt.Printf(\" ]\\n\")\n}\n",
+            "lines": "20"
+        }
+    ]
+}
