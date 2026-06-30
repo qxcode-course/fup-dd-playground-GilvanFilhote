@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-30_07-49-56",
+            "content": "@@ -36,17 +36,16 @@\n  %22sort%22%0A\n-)\n %0Afunc ma\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-50-10",
+            "content": "@@ -319,20 +319,16 @@\n   %7D%0A%0A%0A%7D%0A\n-    \n fmt.Prin\n@@ -335,11 +335,11 @@\n tf(%22\n-%25\n .2\n+%25\n f%22, \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-51-20",
+            "content": "@@ -156,17 +156,16 @@\n mt.Scan(\n-&\n vetor%5Bi%5D\n@@ -206,27 +206,18 @@\n     \n-var \n mediana\n- float64\n+:=0\n %0A   \n@@ -223,17 +223,17 @@\n   if v%252\n-=\n+!\n =0%7B%0A    \n@@ -316,20 +316,19 @@\n %0A    %7D%0A%0A\n-    \n+%0A%7D%0A\n     fmt.\n@@ -340,11 +340,11 @@\n f(%22%25\n-f\n .2\n+f\n %22, m\n@@ -355,12 +355,6 @@\n na)%0A\n-%0A\n %7D%0A\n-    %0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-54-25",
+            "content": "@@ -255,17 +255,16 @@\n ediana=(\n-(\n vetor%5Bv/\n@@ -271,22 +271,16 @@\n 2-1%5D\n-)+(\n++\n vetor\n-%5Bv/2%5D)\n+/2\n )/2%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-55-32",
+            "content": "@@ -246,32 +246,34 @@\n         mediana=\n+((\n vetor%5Bv/2-1%5D+vet\n@@ -268,17 +268,19 @@\n r%5Bv/2-1%5D\n-+\n+)+(\n vetor%5Bv/\n@@ -281,16 +281,18 @@\n tor%5Bv/2%5D\n+))\n /2%0A    %7D\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-55-49",
+            "content": "@@ -352,11 +352,11 @@\n f(%22%25\n+f\n .2\n-f\n %22, m\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-56-27",
+            "content": "@@ -349,17 +349,17 @@\n intf(%22%25.\n-1\n+2\n f%22, medi\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-56-40",
+            "content": "@@ -254,17 +254,16 @@\n mediana=\n-(\n vetor%5Bv/\n@@ -277,17 +277,16 @@\n tor%5Bv/2%5D\n-)\n /2%0A    %7D\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-57-02",
+            "content": "@@ -357,10 +357,8 @@\n %25.1f\n-%5Cn\n %22, m\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-30_07-57-10",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"sort\"\n)\nfunc main() {\n    var v int\n    fmt.Scan(&v)\n    vetor := make([]float64, v)\n    for i:=0; i<v; i++{\n        fmt.Scan(&vetor[i])\n\n    }\n    sort.Float64s(vetor)\n    var mediana float64\n    if v%2==0{\n        mediana=(vetor[v/2-1]+vetor[v/2])/2\n    } else {\n        mediana=vetor[v/2]\n    }\n\n        fmt.Printf(\"%.1f\\n\", mediana)\n\n}\n    \n",
+            "lines": "25"
+        }
+    ]
+}
