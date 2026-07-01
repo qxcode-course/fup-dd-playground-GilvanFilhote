@@ -123,3 +123,12 @@
 2026-07-01 04:06:31, MOVE, v:1, k:fup@dominos, mode:PICK
 2026-07-01 04:06:33, EXEC, v:1, k:fup@dominos, mode:FULL, rate:100
 2026-07-01 04:06:35, MOVE, v:1, k:fup@dominos, mode:BACK
+2026-07-01 16:21:03, MOVE, v:1, k:fup@xuxa, mode:DOWN
+2026-07-01 16:21:04, MOVE, v:1, k:fup@xuxa, mode:PICK
+2026-07-01 16:21:03, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-01 16:21:03, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-01 16:30:05, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-01 16:35:20, MOVE, v:1, k:fup@xuxa, mode:PICK
+2026-07-01 16:35:22, EXEC, v:1, k:fup@xuxa, mode:FULL, rate:0, size:8
+2026-07-01 16:35:22, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-01 16:36:13, MOVE, v:1, k:fup@xuxa, mode:EDIT
