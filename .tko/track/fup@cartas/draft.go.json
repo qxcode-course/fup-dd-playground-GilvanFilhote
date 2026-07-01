@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-01_01-36-16",
+            "content": "@@ -40,157 +40,36 @@\n %0A   \n-var v int%0A   fmt.Scan(&v)%0A   vetor:= make(%5B%5Dint, v)%0A   for i:=0; i%3Cv; i++%7B%0A    fmt.Scan(&vetor%5Bi%5D)%0A    if vetor%5Bi%5D==1%7B%0A        vetor%5Bi%5D=%22A%22%0A    %7D%0A   %7D\n+ fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-01_01-39-45",
+            "content": "@@ -166,11 +166,8 @@\n     \n- //\n  vet\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-07-01_01-40-01",
+            "content": "@@ -139,111 +139,8 @@\n i%5D)%0A\n-%7D%0Afmt.Printf(%22%5B%22)%0A    for i:=0; i%3Cv; i++%7B%0A        if i!=v-1%7B%0A            fmt.Printf(%22 %22)%0A        %7D%0A    \n     \n@@ -167,299 +167,33 @@\n     \n-   \n- fmt.Printf(%22A%22)%0A        %7D else if vetor%5Bi%5D==11%7B%0A            fmt.Printf(%22J%22)%0A        %7D else if vetor%5Bi%5D==12%7B%0A            fmt.Printf(%22Q%22)%0A        %7D else if vetor%5Bi%5D==13%7B%0A            fmt.Printf(%22K%22)%0A        %7D else %7B%0A            fmt.Printf(%22%25d%22, vetor%5Bi%5D)%0A        %7D%0A    %7D%0A    fmt.Printf(%22%5D%22)%0A\n+// vetor%5Bi%5D=%22A%22%0A    %7D%0A   %7D\n %0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-07-01_01-51-16",
+            "content": "@@ -559,10 +559,8 @@\n f(%22%5D\n-%5Cn\n %22)%0A%0A\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-07-01_01-51-23",
+            "content": "@@ -194,25 +194,16 @@\n f i!=v-1\n-%0A        \n %7B%0A      \n@@ -220,17 +220,16 @@\n Printf(%22\n-,\n  %22)%0A    \n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-07-01_01-52-01",
+            "content": "@@ -194,16 +194,25 @@\n f i!=v-1\n+%0A        \n %7B%0A      \n@@ -248,17 +248,8 @@\n   %7D%0A\n-        %0A\n     \n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-07-01_01-52-15",
+            "content": "@@ -198,17 +198,8 @@\n =v-1\n- && i!=0 \n %7B%0A  \n@@ -235,16 +235,24 @@\n       %7D%0A\n+        \n %0A       \n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-07-01_01-53-12",
+            "content": "@@ -192,16 +192,18 @@\n  if i!=v\n+-1\n  && i!=0\n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-07-01_01-53-20",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n   var v int\n   fmt.Scan(&v)\n   vetor:= make([]int, v)\n   for i:=0; i<v; i++{\n    fmt.Scan(&vetor[i])\n}\nfmt.Printf(\"[\")\n    for i:=0; i<v; i++{\n        if i!=v && i!=0 {\n            fmt.Printf(\", \")\n        }\n\n        if vetor[i]==1{\n            fmt.Printf(\"A\")\n        } else if vetor[i]==11{\n            fmt.Printf(\"J\")\n        } else if vetor[i]==12{\n            fmt.Printf(\"Q\")\n        } else if vetor[i]==13{\n            fmt.Printf(\"K\")\n        } else {\n            fmt.Printf(\"%d\", vetor[i])\n        }\n    }\n    fmt.Printf(\"]\\n\")\n\n}\n",
+            "lines": "30"
+        }
+    ]
+}

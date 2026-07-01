@@ -1,0 +1,20 @@
+2026-07-01 01:36:12, MOVE, v:1, k:fup@cartas, mode:DOWN
+2026-07-01 01:36:12, MOVE, v:1, k:fup@cartas, mode:PICK
+2026-07-01 01:36:16, EXEC, v:1, k:fup@cartas, mode:FULL, rate:0, size:5
+2026-07-01 01:39:45, EXEC, v:1, k:fup@cartas, mode:FULL, size:13, fail:COMP
+2026-07-01 01:40:01, EXEC, v:1, k:fup@cartas, mode:FULL, rate:0, size:13
+2026-07-01 01:36:12, MOVE, v:1, k:fup@cartas, mode:EDIT
+2026-07-01 01:40:01, MOVE, v:1, k:fup@cartas, mode:EDIT
+2026-07-01 01:40:46, MOVE, v:1, k:fup@cartas, mode:EDIT
+2026-07-01 01:43:06, MOVE, v:1, k:fup@cartas, mode:EDIT
+2026-07-01 01:50:46, MOVE, v:1, k:fup@cartas, mode:EDIT
+2026-07-01 01:51:16, EXEC, v:1, k:fup@cartas, mode:FULL, rate:0, size:29
+2026-07-01 01:51:23, EXEC, v:1, k:fup@cartas, mode:FULL, rate:20, size:29
+2026-07-01 01:52:01, EXEC, v:1, k:fup@cartas, mode:FULL, size:30, fail:COMP
+2026-07-01 01:52:15, EXEC, v:1, k:fup@cartas, mode:FULL, rate:20, size:30
+2026-07-01 01:53:12, EXEC, v:1, k:fup@cartas, mode:FULL, rate:20, size:30
+2026-07-01 01:53:20, EXEC, v:1, k:fup@cartas, mode:FULL, rate:100, size:30
+2026-07-01 01:53:59, MOVE, v:1, k:fup@cartas, mode:BACK
+2026-07-01 01:54:06, SELF, v:1, k:fup@cartas, self:1, rate:100
+2026-07-01 01:54:15, MOVE, v:1, k:fup@medico, mode:DOWN
+2026-07-01 01:54:19, MOVE, v:1, k:fup@medico, mode:PICK
