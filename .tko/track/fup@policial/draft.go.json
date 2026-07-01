@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-01_02-38-03",
+            "content": "@@ -17,264 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22slices%22%0A    ) %0A    %0Afunc main() %7B%0A    var n int%0A    fmt.Scan(&n)%0A    vetor:= make(%5B%5Dint, n)%0A    for i:=0; i%3Cn; i++%7B%0A        fmt.Scan(&vetor%5Bi%5D)%0A    %7D%0A    slices.Sort(vetor)%0A    for i:= 0; i%3Cn; i++%7B%0A        fmt.Printf(%22%25d%5Cn%22, vetor%5Bi%5D)%0A    %7D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-01_03-01-36",
+            "content": "@@ -250,16 +250,18 @@\n intf(%22%25d\n+%5Cn\n %22, vetor\n@@ -275,27 +275,6 @@\n   %7D%0A\n-    fmt.Printf(%22%5Cn%22)%0A\n %7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-01_03-02-02",
+            "content": "@@ -267,65 +267,8 @@\n i%5D)%0A\n-        if i!=v-1%7B%0A            fmt.Printf(%22 %22)%0A        %7D%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-01_03-02-35",
+            "content": "@@ -277,17 +277,17 @@\n   if i!=\n-n\n+v\n -1%7B%0A    \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-01_03-02-41",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"slices\"\n    ) \n    \nfunc main() {\n    var n int\n    fmt.Scan(&n)\n    vetor:= make([]int, n)\n    for i:=0; i<n; i++{\n        fmt.Scan(&vetor[i])\n    }\n    slices.Sort(vetor)\n    for i:= 0; i<n; i++{\n        fmt.Printf(\"%d\", vetor[i])\n        if i!=n-1{\n            fmt.Printf(\" \")\n        }\n    }\n    fmt.Printf(\"\\n\")\n}\n",
+            "lines": "22"
+        }
+    ]
+}

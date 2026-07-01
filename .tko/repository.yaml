@@ -19,13 +19,13 @@ sources:
   writeable: false
   quests: null
 expanded:
+- fup@for1
+- fup@for2
+- fup@if2
 - fup@string
 - fup@struct
-- fup@for1
-- fup@if2
-- fup@list
 - fup@if1
-- fup@for2
+- fup@list
 flags:
   inbox: all
   panel: skills
@@ -35,5 +35,5 @@ audit:
   enabled: true
   interval_seconds: null
 lang: go
-selected: fup@cartas
-selected_index: 92
+selected: fup@dominos
+selected_index: 114

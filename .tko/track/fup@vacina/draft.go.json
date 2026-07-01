@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-01_03-22-30",
+            "content": "@@ -17,504 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22slices%22%0A)%0A%0Afunc main() %7B%0A   var vacinas int%0A   fmt.Scan(&vacinas)%0A   for%C3%A7a:= make(%5B%5Dint, vacinas)%0A   celulas:= make(%5B%5Dint, vacinas)%0A   for i:=0; i%3Cvacinas; i++%7B%0A    fmt.Scan(&for%C3%A7a%5Bi%5D)%0A    fmt.Scan(&celulas%5Bi%5D)%0A   %7D%0A   slices.Sort(for%C3%A7a)%0A   slices.Sort(celulas)%0A   salvatudo:=true%0A   for i:=0; i%3Cvacinas; i++%7B%0A    if for%C3%A7a%5Bi%5D%3Ccelulas%5Bi%5D%7B%0A        salvatudo=false%0A    %7D else %7B%0A        continue%0A    %7D%0A%7D%0Aif salvatudo==true%7B%0A    fmt.Printf(%22Yes%5Cn%22)%0A%7D else%7B%0A    fmt.Printf(%22No%5Cn%22)%0A%7D%0A   \n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-01_03-36-34",
+            "content": "@@ -392,16 +392,46 @@\n o=false%0A\n+    %7D else %7B%0A        continue%0A\n     %7D%0A%7D%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-07-01_03-39-41",
+            "content": "@@ -219,76 +219,8 @@\n i%5D)%0A\n-    // fmt.Scan(&celulas%5Bi%5D)%0A   %7D%0A   for i:=0; i%3Cvacinas; i++%7B%0A   %0A \n     \n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-07-01_03-42-52",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"slices\"\n)\n\nfunc main() {\n   var vacinas int\n   fmt.Scan(&vacinas)\n   for\u00e7a:= make([]int, vacinas)\n   celulas:= make([]int, vacinas)\n   for i:=0; i<vacinas; i++{\n    fmt.Scan(&for\u00e7a[i])\n    // fmt.Scan(&celulas[i])\n   }\n   for i:=0; i<vacinas; i++{\n   \n     fmt.Scan(&celulas[i])\n   }\n   slices.Sort(for\u00e7a)\n   slices.Sort(celulas)\n   salvatudo:=true\n   for i:=0; i<vacinas; i++{\n    if for\u00e7a[i]<celulas[i]{\n        salvatudo=false\n    }\n}\nif salvatudo==true{\n    fmt.Printf(\"Yes\\n\")\n} else{\n    fmt.Printf(\"No\\n\")\n}\n   \n}\n",
+            "lines": "34"
+        }
+    ]
+}

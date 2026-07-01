@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-01_03-08-18",
+            "content": "@@ -41,140 +41,35 @@\n     \n-var num1, num2, mmc1, mmc2 int%0A    fmt.Scan(&num1, num2)%0A    mmc:= a%0A    for mmc%25b!=0%7B%0A        mmc+=a%0A    %7D%0A    fmt.Printf(mmc)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-01_03-20-31",
+            "content": "@@ -51,16 +51,28 @@\n m1, num2\n+, mmc1, mmc2\n  int%0A   \n@@ -104,20 +104,17 @@\n   mmc:= \n-num1\n+a\n %0A    for\n@@ -118,20 +118,17 @@\n for mmc%25\n-num2\n+b\n !=0%7B%0A   \n@@ -137,20 +137,17 @@\n    mmc+=\n-num1\n+a\n %0A    %7D%0A \n@@ -162,10 +162,9 @@\n rint\n-ln\n+f\n (mmc\n@@ -167,12 +167,14 @@\n (mmc)%0A    %7D%0A\n+%7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-07-01_03-21-10",
+            "content": "@@ -76,17 +76,16 @@\n (&num1, \n-&\n num2)%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-07-01_03-21-39",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num1, num2 int\n    fmt.Scan(&num1, &num2)\n    mmc:= num1\n    for mmc%num2!=0{\n        mmc+=num1\n    }\n    fmt.Println(mmc)\n    }\n",
+            "lines": "11"
+        }
+    ]
+}
