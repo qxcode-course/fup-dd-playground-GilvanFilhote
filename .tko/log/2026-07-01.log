@@ -110,3 +110,16 @@
 2026-07-01 03:45:17, MOVE, v:1, k:fup@dominos, mode:EDIT
 2026-07-01 03:54:27, MOVE, v:1, k:fup@dominos, mode:EDIT
 2026-07-01 03:55:17, EXEC, v:1, k:fup@dominos, mode:FULL, rate:0, size:7
+2026-07-01 03:58:42, MOVE, v:1, k:fup@dominos, mode:BACK
+2026-07-01 03:59:25, MOVE, v:1, k:fup@dominos, mode:PICK
+2026-07-01 03:59:29, MOVE, v:1, k:fup@dominos, mode:BACK
+2026-07-01 03:59:58, MOVE, v:1, k:fup@dominos, mode:PICK
+2026-07-01 04:03:50, EXEC, v:1, k:fup@dominos, mode:FULL, rate:0, size:21
+2026-07-01 04:03:49, MOVE, v:1, k:fup@dominos, mode:EDIT
+2026-07-01 04:03:50, MOVE, v:1, k:fup@dominos, mode:EDIT
+2026-07-01 04:06:08, EXEC, v:1, k:fup@dominos, mode:FULL, rate:100, size:21
+2026-07-01 04:06:20, MOVE, v:1, k:fup@dominos, mode:BACK
+2026-07-01 04:06:31, SELF, v:1, k:fup@dominos, self:1, rate:100, study:13
+2026-07-01 04:06:31, MOVE, v:1, k:fup@dominos, mode:PICK
+2026-07-01 04:06:33, EXEC, v:1, k:fup@dominos, mode:FULL, rate:100
+2026-07-01 04:06:35, MOVE, v:1, k:fup@dominos, mode:BACK

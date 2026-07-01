@@ -2,8 +2,18 @@
     "patches": [
         {
             "label": "2026-07-01_03-55-17",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n    \n}\n",
+            "content": "@@ -72,317 +72,7 @@\n     \n-domino:= make(%5B%5Dint, n)%0A    for i:=0; i%3Cn; i++%7B%0A        fmt.Scan(&domino%5Bi%5D)%0A    %7D%0A    ordenado:=true%0A    for i:=0; i%3Cn; i++%7B%0A        if domino%5Bi%5D%3Edomino%5Bi+1%5D%7B%0A            ordenado=false%0A        %7D%0A    %7D%0A    if ordenado==true%7B%0A        fmt.Println(%22ok%22)%0A    %7D else%7B%0A        fmt.Println(%22precisa de ajuste%22)%0A    %7D\n %0A%7D%0A\n",
             "lines": "7"
+        },
+        {
+            "label": "2026-07-01_04-03-50",
+            "content": "@@ -191,10 +191,8 @@\n  i%3Cn\n--1\n ; i+\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-01_04-06-08",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n    domino:= make([]int, n)\n    for i:=0; i<n; i++{\n        fmt.Scan(&domino[i])\n    }\n    ordenado:=true\n    for i:=0; i<n-1; i++{\n        if domino[i]>domino[i+1]{\n            ordenado=false\n        }\n    }\n    if ordenado==true{\n        fmt.Println(\"ok\")\n    } else{\n        fmt.Println(\"precisa de ajuste\")\n    }\n}\n",
+            "lines": "21"
         }
     ]
 }
