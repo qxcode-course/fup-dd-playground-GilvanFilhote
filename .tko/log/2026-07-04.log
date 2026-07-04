@@ -1,0 +1,32 @@
+2026-07-04 14:13:01, MOVE, v:1, k:fup@xuxa, mode:PICK
+2026-07-04 14:27:57, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-04 14:37:06, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-04 14:41:14, EXEC, v:1, k:fup@xuxa, mode:FULL, size:19, fail:COMP
+2026-07-04 14:42:10, EXEC, v:1, k:fup@xuxa, mode:FULL, size:19, fail:COMP
+2026-07-04 14:41:51, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-04 14:42:11, EXEC, v:1, k:fup@xuxa, mode:FULL, fail:COMP
+2026-07-04 14:45:01, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-04 14:48:04, EXEC, v:1, k:fup@xuxa, mode:FULL, rate:0, size:19
+2026-07-04 14:49:00, EXEC, v:1, k:fup@xuxa, mode:FULL, rate:0, size:19
+2026-07-04 14:49:09, EXEC, v:1, k:fup@xuxa, mode:FULL, rate:100, size:19
+2026-07-04 14:49:23, MOVE, v:1, k:fup@xuxa, mode:BACK
+2026-07-04 14:49:41, SELF, v:1, k:fup@xuxa, self:1, rate:100, study:30, refactor:1
+2026-07-04 14:50:12, MOVE, v:1, k:fup@inverte, mode:DOWN
+2026-07-04 14:50:13, MOVE, v:1, k:fup@inverte, mode:PICK
+2026-07-04 14:50:21, EXEC, v:1, k:fup@inverte, mode:FULL, rate:0, size:6
+2026-07-04 14:49:08, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-04 14:49:09, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-07-04 14:50:12, MOVE, v:1, k:fup@inverte, mode:EDIT
+2026-07-04 14:51:34, MOVE, v:1, k:fup@inverte, mode:EDIT
+2026-07-04 14:50:21, MOVE, v:1, k:fup@inverte, mode:EDIT
+2026-07-04 14:57:10, MOVE, v:1, k:fup@inverte, mode:EDIT
+2026-07-04 14:59:08, EXEC, v:1, k:fup@inverte, mode:FULL, size:12, fail:COMP
+2026-07-04 15:02:10, MOVE, v:1, k:fup@inverte, mode:EDIT
+2026-07-04 15:02:26, EXEC, v:1, k:fup@inverte, mode:FULL, rate:0, size:13
+2026-07-04 15:03:24, MOVE, v:1, k:fup@inverte, mode:PICK
+2026-07-04 15:03:25, EXEC, v:1, k:fup@inverte, mode:FULL, rate:0, size:13
+2026-07-04 15:03:26, EXEC, v:1, k:fup@inverte, mode:FULL, rate:0
+2026-07-04 15:03:30, EXEC, v:1, k:fup@inverte, mode:FULL, rate:0
+2026-07-04 15:04:03, EXEC, v:1, k:fup@inverte, mode:FULL, rate:100, size:13
+2026-07-04 15:04:10, MOVE, v:1, k:fup@inverte, mode:BACK
+2026-07-04 15:04:24, SELF, v:1, k:fup@inverte, self:1, rate:100, study:12, refactor:1

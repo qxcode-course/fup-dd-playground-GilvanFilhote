@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-04_14-50-21",
+            "content": "@@ -42,152 +42,35 @@\n     \n-var letra string%0A    fmt.Scan(&letra)%0A    if letra %3E='a' && letra %3C='z'%7B%0A        letra-=32%0A    %7D else if letra%3E='A' && letra%3E='Z'%7B%0A        %0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-07-04_14-59-08",
+            "content": "@@ -52,12 +52,14 @@\n tra \n-rune\n+string\n %0A   \n@@ -162,17 +162,17 @@\n && letra\n-%3C\n+%3E\n ='Z'%7B%0A  \n@@ -181,52 +181,13 @@\n     \n-letra+=32%0A    %7D%0A    fmt.Printf(%22%25c%5Cn%22, letra)\n+%0A    %7D\n %0A%7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-07-04_15-02-26",
+            "content": "@@ -70,14 +70,8 @@\n can(\n-%22%25c%22, \n &let\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-07-04_15-03-25",
+            "content": "@@ -65,17 +65,16 @@\n fmt.Scan\n-f\n (%22%25c%22, &\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-07-04_15-04-03",
+            "content": "\npackage main\nimport \"fmt\"\nfunc main() {\n    var letra rune\n    fmt.Scanf(\"%c\", &letra)\n    if letra >='a' && letra <='z'{\n        letra-=32\n    } else if letra>='A' && letra<='Z'{\n        letra+=32\n    }\n    fmt.Printf(\"%c\\n\", letra)\n}\n",
+            "lines": "13"
+        }
+    ]
+}
