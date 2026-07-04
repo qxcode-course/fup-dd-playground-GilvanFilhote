@@ -30,3 +30,47 @@
 2026-07-04 15:04:03, EXEC, v:1, k:fup@inverte, mode:FULL, rate:100, size:13
 2026-07-04 15:04:10, MOVE, v:1, k:fup@inverte, mode:BACK
 2026-07-04 15:04:24, SELF, v:1, k:fup@inverte, self:1, rate:100, study:12, refactor:1
+2026-07-04 15:05:44, MOVE, v:1, k:fup@substring, mode:DOWN
+2026-07-04 15:05:45, MOVE, v:1, k:fup@substring, mode:PICK
+2026-07-04 15:04:03, MOVE, v:1, k:fup@inverte, mode:EDIT
+2026-07-04 15:04:01, MOVE, v:1, k:fup@inverte, mode:EDIT
+2026-07-04 15:05:44, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 15:05:44, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 16:31:15, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:5
+2026-07-04 16:31:15, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 16:40:35, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 16:45:52, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 16:53:20, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 16:54:11, EXEC, v:1, k:fup@substring, mode:FULL, size:19, fail:COMP
+2026-07-04 16:54:37, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:18
+2026-07-04 16:54:50, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:18
+2026-07-04 16:55:05, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:18
+2026-07-04 16:55:44, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:21
+2026-07-04 16:55:59, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:21
+2026-07-04 16:56:28, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:21
+2026-07-04 16:58:24, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 16:56:28, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 16:59:56, EXEC, v:1, k:fup@substring, mode:FULL, size:24, fail:COMP
+2026-07-04 17:00:07, EXEC, v:1, k:fup@substring, mode:FULL, size:25, fail:COMP
+2026-07-04 17:00:14, EXEC, v:1, k:fup@substring, mode:FULL, size:25, fail:COMP
+2026-07-04 17:01:23, EXEC, v:1, k:fup@substring, mode:FULL, size:25, fail:COMP
+2026-07-04 17:03:24, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 17:04:06, EXEC, v:1, k:fup@substring, mode:FULL, size:22, fail:COMP
+2026-07-04 17:05:33, EXEC, v:1, k:fup@substring, mode:FULL, size:22, fail:COMP
+2026-07-04 17:05:48, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:22
+2026-07-04 17:06:06, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:22
+2026-07-04 17:06:04, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 17:06:06, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 17:08:42, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:22
+2026-07-04 17:11:13, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:26
+2026-07-04 17:11:34, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:30
+2026-07-04 17:13:18, EXEC, v:1, k:fup@substring, mode:FULL, rate:0
+2026-07-04 17:11:33, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 17:13:18, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-04 17:13:30, EXEC, v:1, k:fup@substring, mode:FULL, rate:0
+2026-07-04 17:15:38, MOVE, v:1, k:fup@substring, mode:BACK
+2026-07-04 17:15:39, MOVE, v:1, k:fup@substring, mode:PICK
+2026-07-04 17:15:40, EXEC, v:1, k:fup@substring, mode:FULL, rate:0
+2026-07-04 17:15:52, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:30
+2026-07-04 17:16:46, EXEC, v:1, k:fup@substring, mode:FULL, rate:0, size:30
+2026-07-04 17:17:26, MOVE, v:1, k:fup@substring, mode:PICK
