@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_14-06-14",
+            "content": "@@ -17,444 +17,58 @@\n ort \n-(%0A    %22fmt%22%0A    %22os%22%0A    %22bufio%22%0A    %22strings%22%0A    %22unicode%22%0A)%0Afunc main() %7B%0A    l:=bufio.NewReader(os.Stdin)%0A    f, _:=l.ReadString('%5Cn')%0A    c, _:=l.ReadString('%5Cn')%0A    var m rune%0A    fmt.Scan(&m)%0A    for _, x:= range strings.TrimSpace(f)%7B%0A        if !unicode.IsLetter(x)%7C%7Cstrings.ContainsRune(c, unicod.ToLower(x))%7B%0A            fmt.Print(string(x))%0A        %7D else%7B%0A            fmt.Print(string(m))%0A        %7D%0A    %7D%0A%0A    fmt.Println(%22\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_14-17-07",
+            "content": "@@ -319,17 +319,16 @@\n , unicod\n-e\n .ToLower\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-06_14-17-17",
+            "content": "@@ -189,36 +189,35 @@\n     \n-m, _:=l.ReadString('%5Cn')%0A   \n+var m rune%0A    fmt.Scan(&m)\n %0A   \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-06_14-19-34",
+            "content": "@@ -357,17 +357,25 @@\n t.Print(\n-x\n+string(x)\n )%0A      \n@@ -410,17 +410,16 @@\n int(\n-rune(m%5B0%5D\n+string(m\n ))%0A \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-06_14-20-28",
+            "content": "@@ -217,22 +217,8 @@\n %0A   \n- r:= %5B%5Drune(m)\n %0A   \n@@ -403,12 +403,18 @@\n nt(r\n+une(m\n %5B0%5D)\n+)\n %0A   \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-06_14-23-18",
+            "content": "@@ -375,17 +375,9 @@\n int(\n-string(x)\n+x\n )%0A  \n@@ -416,21 +416,13 @@\n int(\n-string(\n r%5B0%5D)\n-)\n %0A   \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-06_14-24-16",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n    \"strings\"\n    \"unicode\"\n)\nfunc main() {\n    l:=bufio.NewReader(os.Stdin)\n    f, _:=l.ReadString('\\n')\n    c, _:=l.ReadString('\\n')\n    m, _:=l.ReadString('\\n')\n    r:= []rune(m)\n    for _, x:= range strings.TrimSpace(f){\n        if !unicode.IsLetter(x)||strings.ContainsRune(c, unicode.ToLower(x)){\n            fmt.Print(string(x))\n        } else{\n            fmt.Print(string(r[0]))\n        }\n    }\n\n    fmt.Println(\"\")\n}\n",
+            "lines": "24"
+        }
+    ]
+}

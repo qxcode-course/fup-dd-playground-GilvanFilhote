@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_15-43-40",
+            "content": "@@ -17,276 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22os%22%0A    %22bufio%22%0A)%0Afunc main() %7B%0A    l:= bufio.NewReader(os.Stdin)%0A    texto, _:= l.ReadString('%5Cn')%0A    letra, _:= l.ReadString('%5Cn')%0A    cont:=0%0A    for _, c:= range frase%7B%0A        if c== letra%7B%0A            cont++%0A        %7D%0A    %7D%0A    fmt.Println(cont\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_15-47-40",
+            "content": "@@ -197,21 +197,21 @@\n = range \n-texto\n+frase\n %7B%0A      \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_15-47-46",
+            "content": "@@ -219,21 +219,21 @@\n  if c== \n-texto\n+letra\n %7B%0A      \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_15-47-51",
+            "content": "@@ -139,19 +139,16 @@\n    letra\n-Str\n , _:= l.\n@@ -168,45 +168,8 @@\n n')%0A\n-    %0A    letra:= %5B%5Drune(letraStr)%5B0%5D%0A\n     \n@@ -219,21 +219,21 @@\n  if c== \n-letra\n+texto\n %7B%0A      \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_15-54-09",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n)\nfunc main() {\n    l:= bufio.NewReader(os.Stdin)\n    texto, _:= l.ReadString('\\n')\n    letraStr, _:= l.ReadString('\\n')\n    \n    letra:= []rune(letraStr)[0]\n    cont:=0\n    for _, c:= range texto{\n        if c== letra{\n            cont++\n        }\n    }\n    fmt.Println(cont)\n}\n",
+            "lines": "20"
+        }
+    ]
+}

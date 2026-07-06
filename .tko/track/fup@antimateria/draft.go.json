@@ -57,8 +57,38 @@
         },
         {
             "label": "2026-07-06_05-04-09",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var palavra1, palavra2 string\n    fmt.Scan(&palavra1, &palavra2)\n    n:=len(palavra1)\n\n    if n>len(palavra2){\n        n=len(palavra2)\n    }\n    k:=0\n    for i:=1; i<=n; i++{\n        if palavra1[len(palavra1)-i:]==palavra2[:i]{\n            k=i\n        }\n    }\n    fmt.Print(palavra1[:k]+palavra2[k:])\n}\n",
+            "content": "@@ -319,16 +319,20 @@\n palavra1\n+%5B:k%5D\n +palavra\n",
             "lines": "18"
+        },
+        {
+            "label": "2026-07-06_14-33-43",
+            "content": "@@ -323,26 +323,8 @@\n vra1\n-%5B:len(palavra1)-k%5D\n +pal\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_14-36-00",
+            "content": "@@ -314,10 +314,8 @@\n rint\n-ln\n (pal\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_14-36-22",
+            "content": "@@ -102,17 +102,16 @@\n lavra2)%0A\n-%0A\n     n:=l\n@@ -191,19 +191,8 @@\n :=0%0A\n-    pos:=0%0A\n     \n@@ -224,11 +224,10 @@\n     \n-s:=\n+if\n  pal\n@@ -253,68 +253,22 @@\n -i:%5D\n-%0A        p:=strings.Index(palavra2, s)%0A    %0A        if p!=-1\n+==palavra2%5B:i%5D\n %7B%0A  \n@@ -285,26 +285,8 @@\n k=i%0A\n-            pos=p%0A\n     \n@@ -301,13 +301,8 @@\n   %7D%0A\n-    %0A\n     \n@@ -314,18 +314,11 @@\n rint\n-(%0A        \n+ln(\n pala\n@@ -344,63 +344,20 @@\n -k%5D+\n-%0A        palavra2%5B:pos%5D+%0A        palavra2%5Bpos+k:%5D,%0A    \n+palavra2%5Bk:%5D\n )%0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_14-46-12",
+            "content": "@@ -17,40 +17,13 @@\n ort \n-(%0A    %22fmt%22%0A    %22strings%22%0A    %0A)\n+%22fmt%22\n %0Afun\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-07-06_14-46-48",
+            "content": "@@ -517,24 +517,6 @@\n   )%0A\n-    fmt.Println()%0A\n %7D%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-06_14-47-40",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"strings\"\n    \n)\nfunc main() {\n    var palavra1, palavra2 string\n    fmt.Scan(&palavra1, &palavra2)\n\n    n:=len(palavra1)\n\n    if n>len(palavra2){\n        n=len(palavra2)\n    }\n    k:=0\n    pos:=0\n    for i:=1; i<=n; i++{\n        s:= palavra1[len(palavra1)-i:]\n        p:=strings.Index(palavra2, s)\n    \n        if p!=-1{\n            k=i\n            pos=p\n        }\n    }\n    \n    fmt.Print(\n        palavra1[:len(palavra1)-k]+\n        palavra2[:pos]+\n        palavra2[pos+k:],\n    )\n    fmt.Println()\n}\n",
+            "lines": "34"
         }
     ]
 }

@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_14-52-20",
+            "content": "@@ -17,944 +17,59 @@\n ort \n-(%0A    %22bufio%22%0A    %22os%22%0A    %22fmt%22%0A    %22strings%22%0A    %22unicode%22%0A    )%0A    %0A%0A%0A%0A    %0Afunc main() %7B%0A    l:= bufio.NewReader(os.Stdin)%0A    text, _:= l.ReadString('%5Cn')%0A    text= strings.TrimSpace(text)%0A%0A    var op string%0A    fmt.Scan(&op)%0A    switch op%7B%0A    case %22m%22:%0A        fmt.Print(strings.ToUpper(text))%0A    %0A    case %22M%22:%0A        fmt.Print(strings.ToLower(text))%0A%0A    case %22i%22:%0A        for_, x:= range text%7B%0A            if unicode.IsUpper(x)%7B%0A                fmt.Print(string(unicode.ToLower(x)))%0A            %7D else if unicode.IsLower(x)%7B%0A                fmt.Print(string(unicode.ToUpper(x)))%0A            %7D else%7B%0A                fmt.Print(string(x))%0A            %7D%0A        %7D%0A%0A%0A    case %22p%22:%0A        p:=strings.Fields(strings.ToLower(text))%0A        for i, x:= range p%7B%0A            if len(x)%3E1%7B%0A                x=strings.ToUpper(x%5B:1%5D)+x%5B1:%5D%0A            %7D%0A            if i%3E0%7B%0A                fmt.Print(%22 %22)%0A            %7D%0A        %7D%0A    %7D%0A    \n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_15-09-28",
+            "content": "@@ -401,17 +401,16 @@\n      for\n- \n _, x:= r\n",
+            "lines": "52"
+        },
+        {
+            "label": "2026-07-06_15-09-40",
+            "content": "@@ -80,16 +80,29 @@\n %22%0A    )%0A\n+    %0A%0A%0A%0A    %0A\n func mai\n@@ -935,33 +935,8 @@\n   %7D%0A\n-            fmt.Print(x)%0A\n     \n",
+            "lines": "52"
+        },
+        {
+            "label": "2026-07-06_15-11-36",
+            "content": "@@ -199,72 +199,44 @@\n xt)%0A\n+%0A\n     \n-op, _:= l.ReadString('%5Cn')%0A    op= strings.TrimSpace(op)%0A   \n+var op string%0A    fmt.Scan(&op)\n %0A   \n@@ -261,9 +261,9 @@\n se %22\n-M\n+m\n %22:%0A \n@@ -309,33 +309,33 @@\n %0A    %0A    case %22\n-m\n+M\n %22:%0A        fmt.P\n",
+            "lines": "48"
+        },
+        {
+            "label": "2026-07-06_15-13-11",
+            "content": "@@ -995,20 +995,7 @@\n     \n-fmt.Println()\n %0A%7D%0A\n",
+            "lines": "48"
+        },
+        {
+            "label": "2026-07-06_15-13-29",
+            "content": "package main\nimport (\n    \"bufio\"\n    \"os\"\n    \"fmt\"\n    \"strings\"\n    \"unicode\"\n    )\nfunc main() {\n    l:= bufio.NewReader(os.Stdin)\n    text, _:= l.ReadString('\\n')\n    text= strings.TrimSpace(text)\n    op, _:= l.ReadString('\\n')\n    op= strings.TrimSpace(op)\n   \n    switch op{\n    case \"M\":\n        fmt.Print(strings.ToUpper(text))\n    \n    case \"m\":\n        fmt.Print(strings.ToLower(text))\n\n    case \"i\":\n        for _, x:= range text{\n            if unicode.IsUpper(x){\n                fmt.Print(string(unicode.ToLower(x)))\n            } else if unicode.IsLower(x){\n                fmt.Print(string(unicode.ToUpper(x)))\n            } else{\n                fmt.Print(string(x))\n            }\n        }\n\n\n    case \"p\":\n        p:=strings.Fields(strings.ToLower(text))\n        for i, x:= range p{\n            if len(x)>1{\n                x=strings.ToUpper(x[:1])+x[1:]\n            }\n            if i>0{\n                fmt.Print(\" \")\n            }\n            fmt.Print(x)\n        }\n    }\n    fmt.Println()\n}\n",
+            "lines": "48"
+        }
+    ]
+}

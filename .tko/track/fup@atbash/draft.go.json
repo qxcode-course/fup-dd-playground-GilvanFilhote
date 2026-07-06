@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_15-26-39",
+            "content": "@@ -17,571 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22os%22%0A    %22bufio%22%0A)%0Afunc main() %7B%0A    l:= bufio.NewReader (os.Stdin)%0A    texto, _:= l.ReadString('%5Cn')%0A    p1, _:= l.ReadString('%5Cn')%0A    p2, _:= l.ReadString('%5Cn')%0A    texto= texto%5B:len(texto)-1%5D%0A    p1= p1%5B:len(p1)-1%5D%0A    p2= p2%5B:len(p2)-1%5D%0A    m:= make(map%5Brune%5Drune)%0A    for i:=0; i%3Clen(p1); i++%7B%0A        m%5Brune(p1%5Bi%5D)%5D= rune(p2%5Bi%5D)%0A        m%5Brune(p2%5Bi%5D)%5D= rune(p1%5Bi%5D)%0A    %7D%0A    for _, c:= range texto%7B%0A        if troca, existe:= m%5Bc%5D; existe%7B%0A            fmt.Print(string(troca))%0A        %7D else%7B%0A            fmt.Print(string(c))%0A        %7D%0A    %7D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_15-42-33",
+            "content": "@@ -582,24 +582,6 @@\n   %7D%0A\n-    fmt.Println()%0A\n %7D%0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-06_15-42-49",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n)\nfunc main() {\n    l:= bufio.NewReader (os.Stdin)\n    texto, _:= l.ReadString('\\n')\n    p1, _:= l.ReadString('\\n')\n    p2, _:= l.ReadString('\\n')\n    texto= texto[:len(texto)-1]\n    p1= p1[:len(p1)-1]\n    p2= p2[:len(p2)-1]\n    m:= make(map[rune]rune)\n    for i:=0; i<len(p1); i++{\n        m[rune(p1[i])]= rune(p2[i])\n        m[rune(p2[i])]= rune(p1[i])\n    }\n    for _, c:= range texto{\n        if troca, existe:= m[c]; existe{\n            fmt.Print(string(troca))\n        } else{\n            fmt.Print(string(c))\n        }\n    }\n    fmt.Println()\n}\n",
+            "lines": "28"
+        }
+    ]
+}
