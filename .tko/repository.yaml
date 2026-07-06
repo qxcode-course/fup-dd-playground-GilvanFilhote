@@ -38,5 +38,5 @@ audit:
   enabled: true
   interval_seconds: null
 lang: go
-selected: fup@traficantes
-selected_index: 153
+selected: fup@fresco
+selected_index: 154

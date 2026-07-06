@@ -1,0 +1,5 @@
+{"ts":1783302261,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAHgIS2oC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1783302600,"hash":"593d8d87b08ccbdbd4763997739df4655423acd260873bc46d90889e102568f0","mode":"diff","ops":[{"tag":"replace","a1":1,"a2":2,"text":"import (\n    \"fmt\"\n\n\n\n)\n"}]}
+{"ts":1783302621,"hash":"380f78fe188c788a0fe15699e0f54b1e0fe3f3c6159c9d1141d5953b9f1745cb","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    \"os\"\n    \"bufio\"\n"},{"tag":"insert","a1":8,"a2":8,"text":"    \n"}]}
+{"ts":1783302643,"hash":"2605ffd6678ce3b30cb41f210b7a6c0e9b92a90fa0a10cd4be6a7b0e4d9397fc","mode":"diff","ops":[{"tag":"insert","a1":9,"a2":9,"text":"    leitor:= bufio.NewReader(os.Stdin)\n"}]}
+{"ts":1783302682,"hash":"1c2ac3b3ab7f9d6f0bb520c76da0b4442948a2de9cccc95d3cf5904f78a0ff97","mode":"diff","ops":[{"tag":"insert","a1":10,"a2":10,"text":"    frase, _:= leitor.ReadString('\\n')\n"}]}
