@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_05-08-27",
+            "content": "@@ -41,151 +41,35 @@\n     \n-var nome string%0A    soma:= 0%0A    for _, c:= range nome%7B%0A        if c!= '%5Cn' %7B%0A            soma+= int(c)%0A        %7D%0A    %7D%0A    fmt.Println(soma%2550\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_05-13-24",
+            "content": "@@ -170,16 +170,18 @@\n mt.Print\n+ln\n (soma%2550\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-07-06_05-13-52",
+            "content": "@@ -57,28 +57,8 @@\n ing%0A\n-    fmt.Scan(&nome)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-07-06_05-14-17",
+            "content": "@@ -194,10 +194,8 @@\n rint\n-ln\n (som\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-07-06_05-14-24",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nome string\n    fmt.Scan(&nome)\n    soma:= 0\n    for _, c:= range nome{\n        if c!= '\\n' {\n            soma+= int(c)\n        }\n    }\n    fmt.Println(soma%50)\n}\n",
+            "lines": "13"
+        }
+    ]
+}

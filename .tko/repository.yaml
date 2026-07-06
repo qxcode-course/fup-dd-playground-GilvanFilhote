@@ -37,5 +37,5 @@ audit:
   enabled: true
   interval_seconds: null
 lang: go
-selected: fup@bubula
-selected_index: 169
+selected: fup@gagueira
+selected_index: 176

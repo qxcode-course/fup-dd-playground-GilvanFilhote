@@ -27,8 +27,38 @@
         },
         {
             "label": "2026-07-06_04-18-49",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var palavra1, palavra2 string\n    fmt.Scan(&palavra1, &palavra2)\n    n:=len(palavra1)\n    if n>len(palavra2){\n        n=len(palavra2)\n    }\n    k:=0\n    for i:=1; i<n; i++{\n        if palavra1[len(palavra1)-i:]==palavra2[:i]{\n            k=i\n        }\n    }\n    fmt.Print(palavra1[:len(palavra1)-k]+palavra2[k:])\n}\n",
+            "content": "@@ -309,16 +309,43 @@\n t.Print(\n+palavra1%5B:len(palavra1)-k%5D+\n palavra2\n",
             "lines": "17"
+        },
+        {
+            "label": "2026-07-06_05-00-34",
+            "content": "@@ -127,13 +127,8 @@\n a1)%0A\n-    %0A\n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-06_05-01-22",
+            "content": "@@ -123,16 +123,20 @@\n lavra1)%0A\n+    \n %0A    if \n@@ -207,17 +207,16 @@\n i:=1; i%3C\n-=\n n; i++%7B%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_05-02-20",
+            "content": "@@ -315,19 +315,8 @@\n int(\n-palavra%5B:k%5D\n pala\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_05-03-54",
+            "content": "@@ -322,17 +322,16 @@\n avra%5B:k%5D\n-+\n palavra2\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_05-04-01",
+            "content": "@@ -318,17 +318,16 @@\n (palavra\n-1\n %5B:k%5D+pal\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_05-04-09",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var palavra1, palavra2 string\n    fmt.Scan(&palavra1, &palavra2)\n    n:=len(palavra1)\n\n    if n>len(palavra2){\n        n=len(palavra2)\n    }\n    k:=0\n    for i:=1; i<=n; i++{\n        if palavra1[len(palavra1)-i:]==palavra2[:i]{\n            k=i\n        }\n    }\n    fmt.Print(palavra1[:k]+palavra2[k:])\n}\n",
+            "lines": "18"
         }
     ]
 }

@@ -1,0 +1,8 @@
+{"ts":1783314593,"hash":"321fcd216e3302ba019567f71e751b78a36e880150e6d8e7a0b5d5a639dd8384","mode":"full","content":"H4sIAKU4S2oC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAGCACrQCyjKzCvJydNQ8kjNycnXUQjPL8pJUVTS5KrlAgBkKzsfVQAAAA=="}
+{"ts":1783314666,"hash":"eb2794b33c513ae091c7e099081ed4c0f9cfddfb433c9e381dc822ce50f84077","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":5,"text":"    var nome string\n    som\n"}]}
+{"ts":1783314693,"hash":"85e39795c8ceabd53e0307c9aa089cd04bb5477b96095929f2be51af90256ac9","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    soma:= 0\n    for _, c\n"}]}
+{"ts":1783314730,"hash":"95d2442b388d86922d52284aa13ff1e6f754654633c8d66726f62bd33b750c6c","mode":"diff","ops":[{"tag":"replace","a1":5,"a2":6,"text":"    for _, c:= range nome{\n        if c!= '\\n'\n    }\n"}]}
+{"ts":1783314776,"hash":"3885cc7c28073d9142bfd576d2011f5ce1db36e0d113d6c1ad19ec83c20b865b","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"        if c!= '\\n' {\n            \n        }\n"}]}
+{"ts":1783314796,"hash":"414a939cc8d5df0242fc9d5e9ecede67d82ac97727e3cd33a4b3cd24695f1ef8","mode":"diff","ops":[{"tag":"replace","a1":7,"a2":8,"text":"            soma+= int(c)\n"},{"tag":"replace","a1":10,"a2":11,"text":"    fmt.Println(soma)\n"}]}
+{"ts":1783314832,"hash":"8e58c8ec9c6cfafdca64ef9083335533cca35a4beddf5b3edde7ec4739de11a9","mode":"diff","ops":[{"tag":"replace","a1":10,"a2":11,"text":"    fmt.Print(soma%50)\n"}]}
+{"ts":1783314856,"hash":"f5bbc04bb1f7b87d6dda6168bf52b14b8beae72df6e9a98e5d84c82f036ddd2b","mode":"diff","ops":[{"tag":"insert","a1":4,"a2":4,"text":"    fmt.Scan(&nome)\n"}]}
