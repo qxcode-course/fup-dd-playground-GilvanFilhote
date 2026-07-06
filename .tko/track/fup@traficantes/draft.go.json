@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_01-36-17",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n    \"strings\"\n\n\n\n)\nfunc main() {\n    leitor:= bufio.NewReader(os.Stdin)\n    frase, _:= leitor.ReadString('\\n')\n    codigo, _:= leitor.ReadString('\\n')\n    subst, _:= leitor.ReadString('\\n')\n    frase=\n\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "lines": "19"
+        }
+    ]
+}

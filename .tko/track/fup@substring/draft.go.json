@@ -102,8 +102,58 @@
         },
         {
             "label": "2026-07-04_17-16-46",
-            "content": "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n\t\"strings\"\n)\nfunc main() {\n    \n    leitor:= bufio.NewReader(os.Stdin)\n    leitor.ReadString('\\n')\n    texto, _:= leitor.ReadString('\\n')\n    \n    texto= strings.TrimSpace(texto)\n    \n    var indice, tam_substring int\n    fmt.Scan(&indice, &tam_substring)\n\n    fim:= indice+tam_substring\n    if fim>len(texto){\n        fim=len(texto)\n    }\n\n    \n    fmt.Printf(texto[indice:fim])\n\n\n    \n}\n",
+            "content": "@@ -53,22 +53,8 @@\n gs%22%0A\n-    %22strconv%22%0A\n )%0Afu\n@@ -73,12 +73,22 @@\n     \n-in\n+%0A    leitor\n :=\n+ \n bufi\n@@ -96,13 +96,12 @@\n .New\n-Scann\n+Read\n er(o\n@@ -113,210 +113,232 @@\n in)%0A\n-%0A\n     \n-in.Scan()%0A    string:= in.Text()%0A%0A    in.Scan()%0A    indice, _:= strconv.Atoi(in.Text())%0A%0A    in.Scan()%0A    fim, _ := strconv.Atoi(in.Text())%0A%0A    if indice%3Elen(\n+leitor.ReadString('%5Cn')%0A    texto, _:= leitor.ReadString('%5Cn')%0A    %0A    texto= strings.TrimSpace(texto)%0A    %0A    var indice, tam_substring int%0A    fmt.Scan(&indice, &tam_sub\n string)\n-%7B\n+%0A\n %0A    \n-    return%0A    %7D\n+fim:= indice+tam_substring\n %0A    if \n indi\n@@ -337,23 +337,16 @@\n  if \n-indice+\n fim%3Elen(\n stri\n@@ -341,22 +341,21 @@\n fim%3Elen(\n-string\n+texto\n )%7B%0A     \n@@ -365,32 +365,26 @@\n fim=\n- \n len(\n-string)-fim\n+texto)\n %0A    %7D%0A%0A\n %0A   \n@@ -379,17 +379,16 @@\n %0A    %7D%0A%0A\n-%0A\n     %0A   \n",
             "lines": "30"
+        },
+        {
+            "label": "2026-07-05_23-20-56",
+            "content": "@@ -397,22 +397,21 @@\n .Printf(\n-string\n+texto\n %5Bindice:\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-07-05_23-21-04",
+            "content": "@@ -38,16 +38,27 @@\n %22%0A%09%22os%22%0A\n+%09%22strings%22%0A\n     %22str\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-07-05_23-21-24",
+            "content": "@@ -388,10 +388,9 @@\n rint\n-ln\n+f\n (str\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-05_23-21-40",
+            "content": "@@ -384,17 +384,18 @@\n mt.Print\n-f\n+ln\n (string%5B\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-05_23-21-49",
+            "content": "@@ -122,21 +122,22 @@\n n()%0A    \n-texto\n+string\n := in.Te\n@@ -264,29 +264,30 @@\n  indice%3Elen(\n-texto\n+string\n )%7B%0A        r\n@@ -320,21 +320,22 @@\n fim%3Elen(\n-texto\n+string\n )%7B%0A     \n@@ -346,21 +346,22 @@\n im= len(\n-texto\n+string\n )-fim%0A  \n@@ -390,13 +390,14 @@\n ntf(\n-texto\n+string\n %5Bind\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-05_23-22-59",
+            "content": "@@ -314,17 +314,16 @@\n ice+fim%3E\n-=\n len(text\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-05_23-23-20",
+            "content": "@@ -263,17 +263,16 @@\n  indice%3E\n-=\n len(text\n@@ -350,16 +350,20 @@\n n(texto)\n+-fim\n %0A    %7D%0A%0A\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-05_23-24-33",
+            "content": "@@ -214,18 +214,18 @@\n n()%0A    \n-ta\n+fi\n m, _ := \n@@ -253,29 +253,8 @@\n ))%0A%0A\n-    fim:= tam+indice%0A\n     \n@@ -315,10 +315,10 @@\n ice+\n-ta\n+fi\n m%3E=l\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-05_23-28-04",
+            "content": "@@ -430,22 +430,7 @@\n     \n-fmt.Println(%22%22)\n %0A%7D%0A\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-07-05_23-28-27",
+            "content": "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n    \"strconv\"\n)\nfunc main() {\n    in:=bufio.NewScanner(os.Stdin)\n\n    in.Scan()\n    texto:= in.Text()\n\n    in.Scan()\n    indice, _:= strconv.Atoi(in.Text())\n\n    in.Scan()\n    tam, _ := strconv.Atoi(in.Text())\n\n    fim:= tam+indice\n    if indice>=len(texto){\n        return\n    }\n    if indice+tam>=len(texto){\n        fim= len(texto)\n    }\n\n\n    \n    fmt.Printf(texto[indice:fim])\n\n\n    fmt.Println(\"\")\n}\n",
+            "lines": "35"
         }
     ]
 }

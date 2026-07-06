@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_00-32-08",
+            "content": "@@ -17,417 +17,59 @@\n ort \n-(%0A    %22os%22%0A    %22fmt%22%0A    %22bufio%22%0A    %22strings%22%0A%0A)%0Afunc main() %7B%0A    leitor:= bufio.NewReader(os.Stdin)%0A    frase, _:= leitor.ReadString('%5Cn')%0A    runes:= %5B%5Drune(frase)%0A%0A    for i:=0; i%3Clen(frase); i++%7B%0A        if (frase%5Bi%5D%3E='a' && frase%5Bi%5D%3C='z')%7B%0A            frase%5Bi%5D-32%0A        %7D else if (frase%5Bi%5D%3E='A' && frase%5Bi%5D%3C='Z')%7B%0A            frase%5Bi%5D+32%0A        %7D%0A    %7D%0A    frase= string(runes)%0A    fmt.Println(frase\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_00-48-35",
+            "content": "@@ -45,16 +45,30 @@\n  %22bufio%22\n+%0A    %22strings%22\n %0A%0A)%0Afunc\n@@ -272,21 +272,21 @@\n         \n-runes\n+frase\n %5Bi%5D-32%0A \n@@ -348,21 +348,21 @@\n         \n-runes\n+frase\n %5Bi%5D+32%0A \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-06_00-49-09",
+            "content": "@@ -209,29 +209,29 @@\n         if (\n-runes\n+frase\n %5Bi%5D%3E='a' && \n@@ -226,29 +226,29 @@\n %5Bi%5D%3E='a' && \n-runes\n+frase\n %5Bi%5D%3C='z')%7B%0A \n@@ -289,21 +289,21 @@\n lse if (\n-runes\n+frase\n %5Bi%5D%3E='A'\n@@ -306,21 +306,21 @@\n ='A' && \n-runes\n+frase\n %5Bi%5D%3C='Z'\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-06_00-49-57",
+            "content": "@@ -188,21 +188,21 @@\n ; i%3Clen(\n-runes\n+frase\n ); i++%7B%0A\n@@ -267,17 +267,16 @@\n unes%5Bi%5D-\n-=\n 32%0A     \n@@ -318,24 +318,24 @@\n s%5Bi%5D%3C='Z')%7B%0A\n+\n             \n@@ -343,17 +343,16 @@\n unes%5Bi%5D+\n-=\n 32%0A     \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-06_00-50-45",
+            "content": "@@ -402,17 +402,18 @@\n mt.Print\n-f\n+ln\n (frase)%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-06_00-52-36",
+            "content": "package main\nimport (\n    \"os\"\n    \"fmt\"\n    \"bufio\"\n\n)\nfunc main() {\n    leitor:= bufio.NewReader(os.Stdin)\n    frase, _:= leitor.ReadString('\\n')\n    runes:= []rune(frase)\n\n    for i:=0; i<len(runes); i++{\n        if (runes[i]>='a' && runes[i]<='z'){\n            runes[i]-=32\n        } else if (runes[i]>='A' && runes[i]<='Z'){\n            runes[i]+=32\n        }\n    }\n    frase= string(runes)\n    fmt.Printf(frase)\n}\n",
+            "lines": "22"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-05_23-49-43",
+            "content": "@@ -76,9 +76,9 @@\n %22%25%5B%5E\n-%5C\n+/\n n%5D%22,\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-07-05_23-50-32",
+            "content": "@@ -17,32 +17,14 @@\n ort \n-%0A(%0A%22bufio%22%0A%22os%22%0A\n %22fmt%22%0A\n-)%0A\n func\n@@ -41,449 +41,78 @@\n     \n-leitor:= bufio.NewReader(os.Stdin)\n+var frase string\n %0A    f\n-rase, _:= leitor.ReadString('%5Cn')%0A    var vogais%5B%5D, conso%5B%5D string%0A    for i:=0; i%3Clen(frase); i++%7B%0A        if frase%5Bi%5D=='a'%7C%7Cfrase%5Bi%5D=='e'%7C%7Cfrase%5Bi%5D=='i'%7C%7Cfrase%5Bi%5D=='o'%7C%7Cfrase%5Bi%5D=='u'%7C%7Cfrase%5Bi%5D=='A'%7C%7Cfrase%5Bi%5D=='E'%7C%7Cfrase%5Bi%5D=='I'%7C%7Cfrase%5Bi%5D=='O'%7C%7Cfrase%5Bi%5D=='U'%7B%0A            vogais%5Bi%5D=frase%5Bi%5D%0A        %7D else %7B%0A            conso%5Bi%5D==frase%5Bi%5D%0A        %7D%0A    %7D%0A    fmt.Println(vogais)%0A    fmt.Println(conso\n+mt.Scanf(%22%25%5B%5E%5Cn%5D%22, &frase)%0A    fmt.Println(frase\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-07-06_00-13-27",
+            "content": "@@ -149,21 +149,9 @@\n is%5B%5D\n- rune%0A    var\n+,\n  con\n@@ -159,13 +159,14 @@\n o%5B%5D \n-rune%0A\n+string\n %0A   \n@@ -199,39 +199,8 @@\n ++%7B%0A\n-        letra:= rune(frase%5Bi%5D)%0A\n     \n@@ -391,42 +391,8 @@\n %5Bi%5D%0A\n-            append(vogais, letra)%0A\n     \n@@ -421,24 +421,25 @@\n    conso%5Bi%5D=\n+=\n frase%5Bi%5D%0A   \n@@ -439,41 +439,8 @@\n %5Bi%5D%0A\n-            append(conso, letra)%0A\n     \n@@ -471,23 +471,15 @@\n tln(\n-string(\n vogais)\n-)\n %0A   \n@@ -495,21 +495,13 @@\n tln(\n-string(\n conso)\n-)\n %0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-06_00-23-04",
+            "content": "@@ -402,32 +402,50 @@\n U'%7B%0A            \n+vogais%5Bi%5D=frase%5Bi%5D\n %0A            vog\n@@ -444,16 +444,8 @@\n     \n- vogais=\n  app\n@@ -492,16 +492,33 @@\n         \n+conso%5Bi%5D=frase%5Bi%5D\n %0A       \n@@ -525,15 +525,8 @@\n     \n- conso=\n  app\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-07-06_00-24-37",
+            "content": "@@ -472,24 +472,8 @@\n lse \n-if frase%5Bi%5D!=' '\n %7B%0A  \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-07-06_00-25-56",
+            "content": "@@ -622,28 +622,6 @@\n o))%0A\n-    fmt.Println(%22%5Cn%22)%0A\n %7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-07-06_00-26-34",
+            "content": "@@ -631,17 +631,18 @@\n mt.Print\n-f\n+ln\n (%22%5Cn%22)%0A%7D\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-06_00-26-43",
+            "content": "@@ -618,11 +618,31 @@\n conso))%0A\n+    fmt.Printf(%22%5Cn%22)\n %0A%7D%0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-06_00-27-46",
+            "content": "@@ -483,52 +483,12 @@\n e%5Bi%5D\n-%3E='a'&&frase%3C='z' %7C%7Cfrase%5Bi%5D%3E='A'&&frase%3C='Z\n+!=' \n '%7B%0A \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-06_00-29-36",
+            "content": "@@ -491,19 +491,16 @@\n '&&frase\n-%5Bi%5D\n %3C='z' %7C%7C\n@@ -519,19 +519,16 @@\n '&&frase\n-%5Bi%5D\n %3C='Z'%7B%0A \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-06_00-30-00",
+            "content": "package main\nimport \n(\n\"bufio\"\n\"os\"\n\"fmt\"\n)\nfunc main() {\n    leitor:= bufio.NewReader(os.Stdin)\n    frase, _:= leitor.ReadString('\\n')\n    var vogais[] rune\n    var conso[] rune\n\n    for i:=0; i<len(frase); i++{\n        letra:= rune(frase[i])\n        if frase[i]=='a'||frase[i]=='e'||frase[i]=='i'||frase[i]=='o'||frase[i]=='u'||frase[i]=='A'||frase[i]=='E'||frase[i]=='I'||frase[i]=='O'||frase[i]=='U'{\n            \n            vogais= append(vogais, letra)\n        } else if frase[i]>='a'&&frase[i]<='z' ||frase[i]>='A'&&frase[i]<='Z'{\n            \n            conso= append(conso, letra)\n        }\n    }\n    fmt.Println(string(vogais))\n    fmt.Println(string(conso))\n\n}\n",
+            "lines": "27"
+        }
+    ]
+}

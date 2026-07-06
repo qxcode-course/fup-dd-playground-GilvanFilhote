@@ -4,27 +4,32 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"strings"
+    "strconv"
 )
 func main() {
-    
-    leitor:= bufio.NewReader(os.Stdin)
-    leitor.ReadString('\n')
-    texto, _:= leitor.ReadString('\n')
-    
-    texto= strings.TrimSpace(texto)
-    
-    var indice, tam_substring int
-    fmt.Scan(&indice, &tam_substring)
+    in:=bufio.NewScanner(os.Stdin)
 
-    fim:= indice+tam_substring
-    if fim>len(texto){
-        fim=len(texto)
+    in.Scan()
+    texto:= in.Text()
+
+    in.Scan()
+    indice, _:= strconv.Atoi(in.Text())
+
+    in.Scan()
+    tam, _ := strconv.Atoi(in.Text())
+
+    fim:= tam+indice
+    if indice>=len(texto){
+        return
     }
+    if indice+tam>=len(texto){
+        fim= len(texto)
+    }
+
 
     
     fmt.Printf(texto[indice:fim])
 
 
-    
+    fmt.Println("")
 }

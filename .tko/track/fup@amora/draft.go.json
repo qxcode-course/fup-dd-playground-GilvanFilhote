@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_01-05-02",
+            "content": "@@ -17,317 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22os%22%0A    %22bufio%22%0A    )%0A%0Afunc main() %7B%0A    leitor:= bufio.NewReader(os.Stdin)%0A    frase, _:= leitor.ReadString('%5Cn')%0A    subfrase, _:= leitor.ReadString('%5Cn')%0A    cont:=0%0A    for i:=0; i%3Clen(frase); i++%7B%0A        if frase==subfrase%7B%0A            cont++%0A        %7D%0A    %7D%0A    fmt.Printf(%22%25d%5Cn%22, cont\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_01-11-46",
+            "content": "@@ -195,76 +195,75 @@\n     \n-frase=string.TrimSpace(frase)%0A    subfrase=string.TrimSpace(\n+cont:=0%0A    for i:=0; i%3Clen(frase); i++%7B%0A        if frase==\n subfrase\n )%0A  \n@@ -262,50 +262,44 @@\n rase\n-)\n+%7B\n %0A    \n-cont:= string.Count(frase, subfrase)\n+        cont++%0A        %7D%0A    %7D\n %0A   \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-06_01-15-50",
+            "content": "@@ -50,22 +50,8 @@\n io%22%0A\n-    %22strings%22%0A\n     \n@@ -187,17 +187,16 @@\n g('%5Cn')%0A\n-%0A\n     fras\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-07-06_01-16-12",
+            "content": "@@ -218,17 +218,16 @@\n e=string\n-s\n .TrimSpa\n@@ -259,15 +259,8 @@\n ring\n-s.Clone\n .Tri\n@@ -293,17 +293,16 @@\n = string\n-s\n .Count(f\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_01-16-24",
+            "content": "@@ -250,32 +250,38 @@\n ubfrase=strings.\n+Clone.\n TrimSpace(subfra\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-06_01-16-30",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n    \"strings\"\n    )\n\nfunc main() {\n    leitor:= bufio.NewReader(os.Stdin)\n    frase, _:= leitor.ReadString('\\n')\n    subfrase, _:= leitor.ReadString('\\n')\n\n    frase=strings.TrimSpace(frase)\n    subfrase=strings.TrimSpace(subfrase)\n    cont:= strings.Count(frase, subfrase)\n    fmt.Printf(\"%d\\n\", cont)\n}\n",
+            "lines": "18"
+        }
+    ]
+}
