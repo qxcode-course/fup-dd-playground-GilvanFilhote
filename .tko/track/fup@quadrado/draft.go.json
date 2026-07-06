@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_19-39-45",
+            "content": "@@ -41,550 +41,35 @@\n     \n-matriz:= %5B3%5D%5B3%5Dint%7B%7D%0A    for i:=0; i%3C3; i++%7B%0A        for j:=0; j%3C3; j++%7B%0A        fmt.Scan(&matriz%5Bi%5D%5Bj%5D)%0A%0A    %7D%0A%7D%0Aalvo:= matriz%5B0%5D%5B0%5D+matriz%5B0%5D%5B1%5D+matriz%5B0%5D%5B2%5D%0Amagico:=true%0A    for i:=0; i%3C3; i++%7B%0A        linha, coluna:= 0, 0%0A        for j:=0; j%3C3; j++%7B%0A            linha+= matriz%5Bi%5D%5Bj%5D%0A            coluna= matriz%5Bj%5D%5Bi%5D%0A        %7D%0A        if linha!=alvo%7C%7Ccoluna!==alvo%7B%0A            magico=false%0A        %7D%0A        d1+=matriz%5Bi%5D%5Bi%5D%0A        d2+=matriz%5Bi%5D%5B2-i%5D%0A        if d1!=alvo%7C%7Cd2!==alvo%7B%0A            magico=false%0A        %7D%0A    %7D%0A    if magico%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_20-14-35",
+            "content": "@@ -583,41 +583,8 @@\n gico\n-==false%7B%0Afmt.Println(%22nao%22)%0A    %7D\n %0A%0A%7D%0A\n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-07-06_20-14-43",
+            "content": "@@ -399,16 +399,17 @@\n coluna!=\n+=\n alvo%7B%0A  \n@@ -616,47 +616,8 @@\n    %7D\n- else%7B%0A        fmt.Println(%22sim%22)%0A    %7D\n %0A%0A%7D%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-07-06_20-15-01",
+            "content": "@@ -201,13 +201,8 @@\n %5B2%5D%0A\n-d1, %0A\n magi\n@@ -517,16 +517,17 @@\n vo%7C%7Cd2!=\n+=\n alvo%7B%0A  \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-06_20-16-01",
+            "content": "@@ -205,17 +205,9 @@\n d1, \n-d2:=0, 0\n %0A\n+\n magi\n@@ -347,17 +347,16 @@\n   coluna\n-+\n = matriz\n@@ -501,36 +501,8 @@\n -i%5D%0A\n-    %7D%0A    if magico==false%7B%0A\n     \n@@ -563,20 +563,44 @@\n       %7D%0A\n-\n     \n+%7D%0A    if magico==false%7B%0A\n fmt.Prin\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-07-06_20-21-07",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    matriz:= [3][3]int{}\n    for i:=0; i<3; i++{\n        for j:=0; j<3; j++{\n        fmt.Scan(&matriz[i][j])\n\n    }\n}\nalvo:= matriz[0][0]+matriz[0][1]+matriz[0][2]\nd1, d2:=0, 0\nmagico:=true\n    for i:=0; i<3; i++{\n        linha, coluna:= 0, 0\n        for j:=0; j<3; j++{\n            linha+= matriz[i][j]\n            coluna+= matriz[j][i]\n        }\n        if linha!=alvo||coluna!=alvo{\n            magico=false\n        }\n        d1+=matriz[i][i]\n        d2+=matriz[i][2-i]\n    }\n    if magico==false{\n        if d1!=alvo||d2!=alvo{\n            magico=false\n        }\n    fmt.Println(\"nao\")\n    } else{\n        fmt.Println(\"sim\")\n    }\n\n}\n",
+            "lines": "35"
+        }
+    ]
+}

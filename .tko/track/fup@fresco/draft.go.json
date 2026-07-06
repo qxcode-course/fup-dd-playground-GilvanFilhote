@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2026-07-06_01-46-57",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -17,141 +17,27 @@\n ort \n-(%0A    %22fmt%22%0A    %22os%22%0A    %22bufio%22%0A%0A%0A)%0Afunc main() %7B%0A    leitor:= bufio.NewReader(os.Stdin)%0A    frase, _:= leitor.ReadString('%5Cn')%0A    \n+%22fmt%22%0Afunc main() %7B\n %0A   \n",
             "lines": "5"
+        },
+        {
+            "label": "2026-07-06_22-10-56",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n\n\n)\nfunc main() {\n    leitor:= bufio.NewReader(os.Stdin)\n    frase, _:= leitor.ReadString('\\n')\n    \n    fmt.Println(\"Hello, World!\")\n}\n",
+            "lines": "14"
         }
     ]
 }

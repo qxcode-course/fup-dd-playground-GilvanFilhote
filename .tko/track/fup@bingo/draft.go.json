@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_17-54-24",
+            "content": "@@ -41,394 +41,35 @@\n     \n-vet:= make(%5B%5Dint, 6)%0A    for i:=0; i%3C6; i++%7B%0A        fmt.Scan(&vet%5Bi%5D)%0A    %7D   %0A    matriz:=%5B4%5D%5B4%5Dint%7B%0A        %7B1, 9, 27, 23%7D,%0A        %7B34, 20, 37, 47%7D,%0A        %7B30, 87, 55, 69%7D,%0A        %7B13, 60, 99, 66%7D,%0A    %7D%0A    cont:=0%0A    for i:=0; i%3C3; i++%7B%0A        for j:=0; j%3C3; j++%7B%0A            if matriz%5Bi%5D%5Bj%5D==vet%5Bi%5D%7B%0A                cont+=1%0A            %7D%0A        %7D%0A    %7D%0A    fmt.Println(cont\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_18-16-18",
+            "content": "@@ -276,17 +276,16 @@\n i:=0; i%3C\n-=\n 3; i++%7B%0A\n@@ -308,17 +308,16 @@\n ; j%3C\n-=\n 3; j++%7B%0A\n     \n@@ -316,44 +316,8 @@\n ++%7B%0A\n-            for k:=0; k%3C6; k++%7B%0A    \n     \n@@ -345,17 +345,17 @@\n j%5D==vet%5B\n-k\n+i\n %5D%7B%0A     \n@@ -369,20 +369,16 @@\n     \n-    \n cont+=1%0A\n     \n@@ -377,53 +377,8 @@\n +=1%0A\n-                    break%0A                %7D%0A%0A\n     \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-06_18-18-39",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    vet:= make([]int, 6)\n    for i:=0; i<6; i++{\n        fmt.Scan(&vet[i])\n    }   \n    matriz:=[4][4]int{\n        {1, 9, 27, 23},\n        {34, 20, 37, 47},\n        {30, 87, 55, 69},\n        {13, 60, 99, 66},\n    }\n    cont:=0\n    for i:=0; i<=3; i++{\n        for j:=0; j<=3; j++{\n            for k:=0; k<6; k++{\n                if matriz[i][j]==vet[k]{\n                    cont+=1\n                    break\n                }\n\n            }\n        }\n    }\n    fmt.Println(cont)\n}\n",
+            "lines": "27"
+        }
+    ]
+}

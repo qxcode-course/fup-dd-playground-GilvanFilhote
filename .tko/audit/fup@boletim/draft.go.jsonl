@@ -1,0 +1,11 @@
+{"ts":1783366214,"hash":"efbe7e7996d2abde61918b8a889b43849353c02debb01dfe1da88dfdc41a112d","mode":"full","content":"H4sIAEYCTGoC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAEFuYklRZpWVLVctFwBCKPPiNwAAAA=="}
+{"ts":1783366314,"hash":"74a17ad010ff58dfe77cb2cd2af7aac5f504b0cc7bae7ca41564e014d8f971cd","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    matriz:=[2]\n"}]}
+{"ts":1783366345,"hash":"6bd8ebb9c693cc0e43a9bcff7874f8224042f3fd393405555da7863c9b6173f1","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    matriz:=[2][3]int\n    for i:=\n"}]}
+{"ts":1783366370,"hash":"1ff335a47eb182739063fc4327afee2135aceecea10e5b95cc7621c954b9e63e","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    for i:=0; i<\n"}]}
+{"ts":1783366413,"hash":"a8311c33b5bfae46b7376cbd674c66f7db3d8c3b3146241d6aa1df8443a62755","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    for i:=0; i<2; i++{\n        for j:=\n    }\n"}]}
+{"ts":1783366445,"hash":"c5726fb9c66964a94a57efad9ccb38ecd95f246c6c736403b064c517d1f9793e","mode":"diff","ops":[{"tag":"replace","a1":5,"a2":6,"text":"        for j:=0; j<3; j++{\n            fmt.Scan(matriz[i][j])\n        }\n"}]}
+{"ts":1783366478,"hash":"975165a91b1bb4c7206df8d2ac92c0c377d5814f2fde6ffd94abf76a4d5d36aa","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    matriz:=[2][3]int{}\n"}]}
+{"ts":1783366565,"hash":"20bc2c70860d93db055ecd495c0c51cdd3c9029492ece542e7e1762734f1c731","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"            fmt.Scan(&matriz[i][j])\n"}]}
+{"ts":1783366592,"hash":"bb9a42e812c94622c019b849ffe7a540b93f2a0e04893c7dd53f91c4c8eb2e2b","mode":"diff","ops":[{"tag":"insert","a1":9,"a2":9,"text":"    soma\n    for \n"}]}
+{"ts":1783366612,"hash":"13d089dc7f2373c91c693d4acdcb8372ef9382bdc054f83a32682aa0451fac03","mode":"diff","ops":[{"tag":"replace","a1":9,"a2":11,"text":"    soma:=0\n    for i:=0; i<2; i++{\n        for j:=0; j<3; j++{\n            matriz[i][j])\n        }\n    }\n"}]}
+{"ts":1783366644,"hash":"7373a19f463d6ee643b1379b813d4f5025c7a4b0552c71423318e268534302e0","mode":"full","content":"H4sIAP4DTGoC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAEFuYklRZpWVbbRRbLRxbGZeSXUtWDwtv0gh08rWwFoh08YISGhrQ9TD5LLAclk2xkACWQ4sn1uiF5ycmKehBjE9OjM2OitWE64GYgOELM7PTQQaRamdIGO0bRWQ7cNqHchpAUVAb+bkaYD0aHLVcgEA4zFszy8BAAA="}

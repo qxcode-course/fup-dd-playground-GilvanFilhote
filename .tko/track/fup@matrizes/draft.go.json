@@ -1,0 +1,64 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_21-23-29",
+            "content": "@@ -41,303 +41,35 @@\n     \n-var a, b int%0A    fmt.Scan(&a, &b)%0A    mat1:= make (%5B%5D%5B%5Dint, a)%0A    mat2:= make (%5B%5D%5B%5Dint, a)%0A    soma_mats:= %5B%5D%5B%5Dint%7B%7D%0A%0A    for i:=0; i%3Ca; i++%7B%0A        mat1%5Bi%5D= make (%5B%5Dint, b)%0A        mat2%5Bi%5D= make (%5B%5Dint, b)%0A    %7D%0A    for i:=0; i%3Ca; i++%7B%0A        for j:=0; j%3Cb; j++%7B%0A            %0A        %7D%0A    %7D%0A%7D%0A\n+fmt.Println(%22Hello, World!%22)%0A%7D\n %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_21-39-25",
+            "content": "@@ -320,46 +320,8 @@\n     \n-soma_mats %5Bi%5D%5Bj%5D=mat1%5Bi%5D%5Bj%5D+mat2%5Bi%5D%5Bj%5D\n %0A   \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-07-06_21-40-58",
+            "content": "@@ -375,34 +375,7 @@\n   %7D%0A\n-    fmt.Println(soma_mats)%0A\n %7D%0A%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-07-06_21-41-26",
+            "content": "@@ -308,212 +308,8 @@\n ++%7B%0A\n-            fmt.Scan(&mat1%5Bi%5D%5Bj%5D)%0A        %7D%0A    %7D%0A    for i:=0; i%3Ca; i++%7B%0A        for j:=0; j%3Cb; j++%7B%0A            fmt.Scan(&mat2%5Bi%5D%5Bj%5D)%0A        %7D%0A    %7D%0A    for i:=0; i%3Ca; i++%7B%0A        for j:=0; j%3Cb; j++%7B%0A\n     \n@@ -325,16 +325,17 @@\n oma_mats\n+ \n %5Bi%5D%5Bj%5D=m\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-06_21-42-56",
+            "content": "@@ -141,33 +141,25 @@\n soma\n-:= make (%5B%5D%5B%5Dint, a)%0A    \n+_mats:= %5B%5D%5B%5Dint%7B%7D\n %0A%0A  \n@@ -250,41 +250,8 @@\n  b)%0A\n-        soma%5Bi%5D= make (%5B%5Dint, b)%0A\n     \n@@ -524,16 +524,21 @@\n     soma\n+_mats\n %5Bi%5D%5Bj%5D=m\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-07-06_21-46-25",
+            "content": "@@ -630,13 +630,18 @@\n tln(soma\n+_mats\n )%0A%7D%0A%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-06_21-47-16",
+            "content": "@@ -614,135 +614,29 @@\n   %7D%0A\n-%0A    for i:=0; i%3Ca; i++%7B%0A        fmt.Println(%22%5B%22)%0A    for j:=0; j%3Cb; j++%7B%0A            %0A        %7D%0A        fmt.Println(%22%5D%22)%0A    %7D\n+    fmt.Println(soma)\n %0A%7D%0A%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-06_22-04-46",
+            "content": "@@ -697,34 +697,8 @@\n     \n-fmt.Print(soma%5Bi%5D%5Bj%5D, %22 %22)\n    %0A\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-06_22-06-25",
+            "content": "@@ -652,16 +652,18 @@\n mt.Print\n+ln\n (%22%5B%22)%0A  \n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-06_22-06-44",
+            "content": "@@ -714,16 +714,17 @@\n i%5D%5Bj%5D, %22\n+ \n %22)   %0A  \n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-06_22-07-25",
+            "content": "@@ -655,17 +655,16 @@\n Print(%22%5B\n- \n %22)%0A    f\n@@ -714,17 +714,16 @@\n i%5D%5Bj%5D, %22\n- \n %22)   %0A  \n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-06_22-07-37",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b int\n    fmt.Scan(&a, &b)\n    mat1:= make ([][]int, a)\n    mat2:= make ([][]int, a)\n    soma:= make ([][]int, a)\n    \n\n    for i:=0; i<a; i++{\n        mat1[i]= make ([]int, b)\n        mat2[i]= make ([]int, b)\n        soma[i]= make ([]int, b)\n    }\n    for i:=0; i<a; i++{\n        for j:=0; j<b; j++{\n            fmt.Scan(&mat1[i][j])\n        }\n    }\n    for i:=0; i<a; i++{\n        for j:=0; j<b; j++{\n            fmt.Scan(&mat2[i][j])\n        }\n    }\n    for i:=0; i<a; i++{\n        for j:=0; j<b; j++{\n            soma[i][j]=mat1[i][j]+mat2[i][j]\n        }\n    }\n\n    for i:=0; i<a; i++{\n        fmt.Print(\"[ \")\n    for j:=0; j<b; j++{\n         fmt.Print(soma[i][j], \" \")   \n        }\n        fmt.Println(\"]\")\n    }\n}\n\n",
+            "lines": "40"
+        }
+    ]
+}
