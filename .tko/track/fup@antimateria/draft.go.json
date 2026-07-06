@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_03-52-10",
+            "content": "@@ -41,273 +41,35 @@\n     \n-var palavra1, palavra2 string%0A    fmt.Scan(&palavra1, &palavra2)%0A    n:=len(palavra1)%0A    if n%3Elen(palavra2)%7B%0A        n=len(palavra2)%0A    %7D%0A    k:=0%0A    for i:=0; i%3Cn; i++%7B%0A        if palavra1%5Blen(a)-i:%5D==b%5B:i%5D%7B%0A            k=i%0A        %7D%0A    %7D%0A    fmt.Print(a+b%5Bk:%5D\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_04-04-25",
+            "content": "@@ -238,31 +238,17 @@\n len(\n-palavra1)-i:%5D==palavra2\n+a)-i:%5D==b\n %5B:i%5D\n@@ -299,25 +299,11 @@\n int(\n-palavra1+palavra2\n+a+b\n %5Bk:%5D\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-06_04-04-50",
+            "content": "@@ -321,26 +321,8 @@\n vra1\n-%5Blen(:palavra1)+k%5D\n +pal\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-06_04-12-45",
+            "content": "@@ -197,17 +197,17 @@\n  for i:=\n-1\n+0\n ; i%3Cn; i\n@@ -322,13 +322,13 @@\n ra1%5B\n-:\n len(\n+:\n pala\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-06_04-13-56",
+            "content": "@@ -332,17 +332,17 @@\n alavra1)\n--\n++\n k%5D+palav\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-06_04-18-49",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var palavra1, palavra2 string\n    fmt.Scan(&palavra1, &palavra2)\n    n:=len(palavra1)\n    if n>len(palavra2){\n        n=len(palavra2)\n    }\n    k:=0\n    for i:=1; i<n; i++{\n        if palavra1[len(palavra1)-i:]==palavra2[:i]{\n            k=i\n        }\n    }\n    fmt.Print(palavra1[:len(palavra1)-k]+palavra2[k:])\n}\n",
+            "lines": "17"
+        }
+    ]
+}

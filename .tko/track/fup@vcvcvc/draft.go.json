@@ -1,0 +1,74 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_03-28-54",
+            "content": "@@ -17,406 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22os%22%0A    %22bufio%22%0A%0A)%0Afunc main() %7B%0A        leitor:= bufio.NewReader(os.Stdin)%0A    frase, _:= leitor.ReadString('%5Cn')%0A    runes:= %5B%5Drune(frase)%0A%0A    for i:=0; i%3Clen(runes); i++%7B%0A        if (runes%5Bi%5D%3E='a' && runes%5Bi%5D%3C='z')%7B%0A            runes%5Bi%5D=%0A        %7D else if (runes%5Bi%5D%3E='A' && runes%5Bi%5D%3C='Z')%7B%0A            runes%5Bi%5D+=32%0A        %7D%0A    %7D%0A    frase= string(runes)%0A    fmt.Printf(frase)%0A\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_03-34-43",
+            "content": "@@ -275,11 +275,8 @@\n %5Bi%5D=\n-'c'\n %0A   \n@@ -348,12 +348,12 @@\n s%5Bi%5D\n-='v'\n++=32\n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-06_03-35-21",
+            "content": "@@ -312,131 +312,19 @@\n 'A' \n-%7C%7C runes%5Bi%5D%3E='E' %7C%7Crunes%5Bi%5D%3E='I' %7C%7Crunes%5Bi%5D%3E='O' %7C%7Crunes%5Bi%5D%3E='U' %7C%7Crunes%5Bi%5D%3E='a' %7C%7Crunes%5Bi%5D%3E='e' %7C%7Crunes%5Bi%5D%3E='i' %7C%7C\n+&& \n runes%5Bi%5D\n %3E='o\n@@ -323,32 +323,14 @@\n s%5Bi%5D\n-%3E='o' %7C%7Crunes%5Bi%5D%3E='u' %7C%7C\n+%3C='Z')\n %7B%0A  \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-06_03-38-24",
+            "content": "@@ -453,16 +453,18 @@\n i%5D%3E='u' \n+%7C%7C\n %7B%0A      \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-06_03-38-34",
+            "content": "@@ -452,17 +452,17 @@\n %5Bi%5D%3E='u'\n-)\n+ \n %7B%0A      \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-06_03-38-48",
+            "content": "@@ -272,17 +272,17 @@\n nes%5Bi%5D='\n- \n+c\n '%0A      \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-06_03-39-30",
+            "content": "@@ -213,24 +213,92 @@\n         \n-%0A       \n+if (runes%5Bi%5D%3E='a' && runes%5Bi%5D%3C='z')%7B%0A            runes%5Bi%5D=' '%0A        %7D else\n  if (run\n@@ -493,86 +493,8 @@\n    %7D\n- else if (runes%5Bi%5D%3E='a' && runes%5Bi%5D%3C='z')%7B%0A            runes%5Bi%5D='c'%0A        %7D%0A\n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-06_03-40-52",
+            "content": "@@ -442,17 +442,17 @@\n es%5Bi%5D%3E='\n-b\n+a\n ' && run\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-07-06_03-41-18",
+            "content": "@@ -225,16 +225,17 @@\n      if \n+(\n runes%5Bi%5D\n@@ -384,16 +384,17 @@\n %5Bi%5D%3E='u'\n+)\n %7B%0A      \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-07-06_03-43-08",
+            "content": "@@ -424,24 +424,25 @@\n   %7D else if \n+(\n runes%5Bi%5D%3E='b\n@@ -459,16 +459,17 @@\n %5Bi%5D%3C='z'\n+)\n %7B%0A      \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-07-06_03-43-17",
+            "content": "@@ -233,17 +233,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='A' %7C%7C \n@@ -250,17 +250,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='E' %7C%7Cr\n@@ -266,17 +266,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='I' %7C%7Cr\n@@ -282,17 +282,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='O' %7C%7Cr\n@@ -298,17 +298,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='U' %7C%7Cr\n@@ -314,17 +314,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='a' %7C%7Cr\n@@ -330,17 +330,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='e' %7C%7Cr\n@@ -346,17 +346,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='i' %7C%7Cr\n@@ -362,17 +362,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='o' %7C%7Cr\n@@ -378,17 +378,17 @@\n runes%5Bi%5D\n-=\n+%3E\n ='u'%7B%0A  \n@@ -428,17 +428,16 @@\n else if \n-(\n runes%5Bi%5D\n@@ -462,13 +462,8 @@\n ='z'\n-) %7C%7C \n %7B%0A  \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-07-06_03-49-31",
+            "content": "@@ -468,41 +468,8 @@\n  %7C%7C \n-(runes%5Bi%5D%3E='B' && runes%5Bi%5D%3C='Z'))\n %7B%0A  \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-07-06_03-49-57",
+            "content": "@@ -496,16 +496,17 @@\n i%5D%3C='Z')\n+)\n %7B%0A      \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-07-06_03-50-08",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n\n)\nfunc main() {\n        leitor:= bufio.NewReader(os.Stdin)\n    frase, _:= leitor.ReadString('\\n')\n    runes:= []rune(frase)\n\n    for i:=0; i<len(runes); i++{\n        \n        if runes[i]=='A' || runes[i]=='E' ||runes[i]=='I' ||runes[i]=='O' ||runes[i]=='U' ||runes[i]=='a' ||runes[i]=='e' ||runes[i]=='i' ||runes[i]=='o' ||runes[i]=='u'{\n            runes[i]='v'\n        } else if (runes[i]>='b' && runes[i]<='z') || (runes[i]>='B' && runes[i]<='Z'){\n            runes[i]='c'\n        }\n\n    }\n    frase= string(runes)\n    fmt.Printf(frase)\n\n}\n",
+            "lines": "25"
+        }
+    ]
+}

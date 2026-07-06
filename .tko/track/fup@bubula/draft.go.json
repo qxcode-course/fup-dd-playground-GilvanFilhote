@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_04-48-44",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"bufio\"\n    \"os\"\n    \"strings\"\n)\nfunc main() {\n    lei:= bufio.NewReader(os.Stdin)\n    frase, _:= lei.ReadString('\\n')\n    palavra:=strings.Fields(frase)\n    for i, p:= range palavra{\n        for j:=0; j<len(p)-1; j++{\n        if strings.Contains(\"AEIOUaeiou\", string(p[j])) && !strings.Contains(\"AEIOUaeiou\", string(p[j+1])){\n            s:= p[:j+1]\n            palavra[i]= s + s + p\n            break\n        }\n        \n    }\n\n    }\n\n\n    fmt.Println(strings.Join (palavra, \" \"))\n}\n",
+            "lines": "26"
+        }
+    ]
+}
