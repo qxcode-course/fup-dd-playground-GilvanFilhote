@@ -11,9 +11,14 @@ import (
 func main() {
     leitor:= bufio.NewReader(os.Stdin)
     frase, _:= leitor.ReadString('\n')
-    codigo, _:= leitor.ReadString('\n')
-    subst, _:= leitor.ReadString('\n')
-    verdadeira:= strings.Replaceall
+    frase= strings.TrimSpace(frase)
 
-    fmt.Println("Hello, World!")
+    codigo, _:= leitor.ReadString('\n')
+    codigo= strings.TrimSpace(codigo)
+    subst, _:= leitor.ReadString('\n')
+    subst= strings.TrimSpace(subst)
+
+    verdadeira:= strings.ReplaceAll(frase, codigo, subst)
+
+    fmt.Println(verdadeira)
 }

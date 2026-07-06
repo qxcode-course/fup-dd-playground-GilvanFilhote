@@ -7,8 +7,28 @@
         },
         {
             "label": "2026-07-06_01-37-13",
-            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n    \"strings\"\n\n\n\n)\nfunc main() {\n    leitor:= bufio.NewReader(os.Stdin)\n    frase, _:= leitor.ReadString('\\n')\n    codigo, _:= leitor.ReadString('\\n')\n    subst, _:= leitor.ReadString('\\n')\n    verdadeira:= strings.Replaceall\n\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -275,30 +275,8 @@\n eall\n-(frase, codigo, subst)\n %0A%0A  \n@@ -289,22 +289,27 @@\n Println(\n-verdadeira\n+%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "19"
+        },
+        {
+            "label": "2026-07-06_01-38-15",
+            "content": "@@ -236,17 +236,16 @@\n g('%5Cn')%0A\n-%0A\n     verd\n@@ -272,9 +272,9 @@\n lace\n-A\n+a\n ll(f\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-06_01-38-28",
+            "content": "@@ -161,44 +161,8 @@\n n')%0A\n-    frase= string.TrimSpace(frase)%0A%0A\n     \n@@ -205,113 +205,41 @@\n     \n-codigo= string.TrimSpace(codigo)%0A    subst, _:= leitor.ReadString('%5Cn')%0A    subst= string.TrimSpace(subst\n+subst, _:= leitor.ReadString('%5Cn'\n )%0A%0A \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-07-06_01-39-56",
+            "content": "@@ -166,33 +166,32 @@\n    frase= string\n-s\n .TrimSpace(frase\n@@ -192,16 +192,16 @@\n (frase)%0A\n+\n %0A    cod\n@@ -243,33 +243,32 @@\n   codigo= string\n-s\n .TrimSpace(codig\n@@ -305,24 +305,24 @@\n tring('%5Cn')%0A\n+\n     subst= s\n@@ -326,17 +326,16 @@\n = string\n-s\n .TrimSpa\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-06_01-40-44",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n    \"strings\"\n\n\n\n)\nfunc main() {\n    leitor:= bufio.NewReader(os.Stdin)\n    frase, _:= leitor.ReadString('\\n')\n    frase= strings.TrimSpace(frase)\n\n    codigo, _:= leitor.ReadString('\\n')\n    codigo= strings.TrimSpace(codigo)\n    subst, _:= leitor.ReadString('\\n')\n    subst= strings.TrimSpace(subst)\n\n    verdadeira:= strings.ReplaceAll(frase, codigo, subst)\n\n    fmt.Println(verdadeira)\n}\n",
+            "lines": "24"
         }
     ]
 }

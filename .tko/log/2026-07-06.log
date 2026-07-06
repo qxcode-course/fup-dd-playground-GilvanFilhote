@@ -84,3 +84,14 @@
 2026-07-06 01:36:17, EXEC, v:1, k:fup@traficantes, mode:FULL, size:19, fail:COMP
 2026-07-06 01:37:13, EXEC, v:1, k:fup@traficantes, mode:FULL, size:19, fail:COMP
 2026-07-06 01:37:14, EXEC, v:1, k:fup@traficantes, mode:FULL, fail:COMP
+2026-07-06 01:38:15, EXEC, v:1, k:fup@traficantes, mode:FULL, size:19, fail:COMP
+2026-07-06 01:38:28, EXEC, v:1, k:fup@traficantes, mode:FULL, rate:0, size:20
+2026-07-06 01:39:39, MOVE, v:1, k:fup@traficantes, mode:EDIT
+2026-07-06 01:38:28, MOVE, v:1, k:fup@traficantes, mode:EDIT
+2026-07-06 01:39:56, EXEC, v:1, k:fup@traficantes, mode:FULL, size:24, fail:COMP
+2026-07-06 01:40:44, EXEC, v:1, k:fup@traficantes, mode:FULL, rate:100, size:24
+2026-07-06 01:40:47, MOVE, v:1, k:fup@traficantes, mode:BACK
+2026-07-06 01:40:52, SELF, v:1, k:fup@traficantes, self:1, rate:100
+2026-07-06 01:40:52, MOVE, v:1, k:fup@traficantes, mode:PICK
+2026-07-06 01:40:54, EXEC, v:1, k:fup@traficantes, mode:FULL, rate:100
+2026-07-06 01:40:55, MOVE, v:1, k:fup@traficantes, mode:BACK
