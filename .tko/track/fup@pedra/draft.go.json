@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-07_04-07-14",
+            "content": "@@ -41,498 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A    vet:= make(%5B%5D%5B2%5Dint, n)%0A%0A    for i:=0; i%3Cn; i++%7B%0A        for j:=0; j%3C2; j++%7B%0A            fmt.Scan(&vet%5Bi%5D%5Bj%5D)%0A        %7D%0A    %7D%0A    vence:=0%0A    indice:=0%0A    for i:=0; i%3Cn; i++%7B%0A        for j:=0; j%3C2; j++%7B%0A            if vet%5Bi%5D%5Bj%5D%3E=10%7B%0A                if (vet%5Bi%5D%5Bj%5D+vet%5Bi%5D%5Bj+1%5D)%3C(vet%5Bi+1%5D%5Bj%5D+vet%5Bi+1%5D%5Bj+1%5D%7B%0A                    vence=vet%5Bi%5D%5Bj%5D+vet%5Bi%5D%5Bj+1%5D%0A                    indice=i%0A                %7D%0A            %7D%0A            %0A        %7D%0A    %7D%0A    fmt.Print(i\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-07_04-26-09",
+            "content": "@@ -372,17 +372,16 @@\n +1%5D%5Bj+1%5D\n-)\n %7B%0A      \n@@ -400,17 +400,16 @@\n   vence=\n-(\n vet%5Bi%5D%5Bj\n@@ -421,17 +421,16 @@\n %5Bi%5D%5Bj+1%5D\n-)\n %0A       \n@@ -473,73 +473,8 @@\n   %7D%0A\n-            %7D else %7B%0A                fmt.Println(%22sem ganhador%22)%0A\n     \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-07_04-28-41",
+            "content": "@@ -595,17 +595,12 @@\n .Print(i\n-ndice\n )%0A%7D%0A\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-07-07_04-28-56",
+            "content": "@@ -194,24 +194,32 @@\n %7D%0A    %7D%0A    \n+vence:=0\n %0A    indice:\n@@ -398,18 +398,14 @@\n     \n- //\n  vence\n-:\n =(ve\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-07-07_04-29-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n    vet:= make([][2]int, n)\n\n    for i:=0; i<n; i++{\n        for j:=0; j<2; j++{\n            fmt.Scan(&vet[i][j])\n        }\n    }\n    \n    indice:=0\n    for i:=0; i<n; i++{\n        for j:=0; j<2; j++{\n            if vet[i][j]>=10{\n                if (vet[i][j]+vet[i][j+1])<(vet[i+1][j]+vet[i+1][j+1]){\n                    // vence:=(vet[i][j]+vet[i][j+1])\n                    indice=i\n                }\n            } else {\n                fmt.Println(\"sem ganhador\")\n            }\n            \n        }\n    }\n    fmt.Print(indice)\n}\n",
+            "lines": "29"
+        }
+    ]
+}
